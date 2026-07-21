@@ -90,7 +90,11 @@ def master(path, pitch=None):
     tmp = path + ".warm.mp3"
     pre = ""
     if pitch:
-        pre = f"asetrate=44100*{pitch},aresample=44100,atempo={1/pitch:.6f},"
+        probe = subprocess.run(["ffmpeg", "-hide_banner", "-filters"], capture_output=True, text=True)
+        if "rubberband" in probe.stdout:
+            pre = f"rubberband=pitch={pitch},"
+        else:
+            pre = f"asetrate=44100*{pitch},aresample=44100,atempo={1/pitch:.6f},"
     af = (pre + "highpass=f=70,"
           "equalizer=f=180:t=q:w=1.0:g=3,"
           "equalizer=f=3300:t=q:w=1.3:g=-3,"

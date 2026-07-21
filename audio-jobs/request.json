@@ -1,9 +1,9 @@
 {
  "voice_name": "Steve H",
- "run": 11,
+ "run": 12,
  "items": [
   {
-   "output": "warm_p3.mp3",
+   "output": "iso_A_native.mp3",
    "model_id": "eleven_turbo_v2_5",
    "text": "The detail lived elsewhere \u2014 and its lineage matters. D-o-E Circular 24 of 73 established the national policy for agricultural and forestry dwellings. Functional need, tied to financial viability, with the standard occupancy condition. P-P-G 7, Annex E, in 1997 \u2014 and then P-P-S 7, Annex A, in 2004 \u2014 carried the approach forward, each more or less repeating the last. Until the whole structure was swept away, in March 2012, when the first Framework replaced around a thousand pages of guidance with one short document. The detail did not survive the change. The expectations of decision-makers, in large part, did.",
    "voice_settings": {
@@ -11,24 +11,35 @@
     "similarity_boost": 0.65,
     "style": 0.08,
     "use_speaker_boost": false,
-    "speed": 0.95
+    "speed": 1.0
+   }
+  },
+  {
+   "output": "iso_B_tone.mp3",
+   "model_id": "eleven_turbo_v2_5",
+   "text": "The detail lived elsewhere \u2014 and its lineage matters. D-o-E Circular 24 of 73 established the national policy for agricultural and forestry dwellings. Functional need, tied to financial viability, with the standard occupancy condition. P-P-G 7, Annex E, in 1997 \u2014 and then P-P-S 7, Annex A, in 2004 \u2014 carried the approach forward, each more or less repeating the last. Until the whole structure was swept away, in March 2012, when the first Framework replaced around a thousand pages of guidance with one short document. The detail did not survive the change. The expectations of decision-makers, in large part, did.",
+   "voice_settings": {
+    "stability": 0.48,
+    "similarity_boost": 0.65,
+    "style": 0.08,
+    "use_speaker_boost": false,
+    "speed": 1.0
+   },
+   "post": "warm"
+  },
+  {
+   "output": "iso_C_pitch.mp3",
+   "model_id": "eleven_turbo_v2_5",
+   "text": "The detail lived elsewhere \u2014 and its lineage matters. D-o-E Circular 24 of 73 established the national policy for agricultural and forestry dwellings. Functional need, tied to financial viability, with the standard occupancy condition. P-P-G 7, Annex E, in 1997 \u2014 and then P-P-S 7, Annex A, in 2004 \u2014 carried the approach forward, each more or less repeating the last. Until the whole structure was swept away, in March 2012, when the first Framework replaced around a thousand pages of guidance with one short document. The detail did not survive the change. The expectations of decision-makers, in large part, did.",
+   "voice_settings": {
+    "stability": 0.48,
+    "similarity_boost": 0.65,
+    "style": 0.08,
+    "use_speaker_boost": false,
+    "speed": 1.0
    },
    "post": "warm",
    "pitch": 0.97
-  },
-  {
-   "output": "warm_p5.mp3",
-   "model_id": "eleven_turbo_v2_5",
-   "text": "The detail lived elsewhere \u2014 and its lineage matters. D-o-E Circular 24 of 73 established the national policy for agricultural and forestry dwellings. Functional need, tied to financial viability, with the standard occupancy condition. P-P-G 7, Annex E, in 1997 \u2014 and then P-P-S 7, Annex A, in 2004 \u2014 carried the approach forward, each more or less repeating the last. Until the whole structure was swept away, in March 2012, when the first Framework replaced around a thousand pages of guidance with one short document. The detail did not survive the change. The expectations of decision-makers, in large part, did.",
-   "voice_settings": {
-    "stability": 0.48,
-    "similarity_boost": 0.65,
-    "style": 0.08,
-    "use_speaker_boost": false,
-    "speed": 0.95
-   },
-   "post": "warm",
-   "pitch": 0.955
   }
  ]
 }
