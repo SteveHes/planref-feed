@@ -1,27 +1,42 @@
 {
  "voice_name": "Steve H",
- "run": 3,
+ "run": 4,
+ "list_models": true,
  "items": [
   {
-   "output": "sample_standard.mp3",
-   "model_id": "eleven_multilingual_v2",
-   "text": "Class Q grants planning permission for the change of use of certain agricultural and former agricultural buildings, with land within their curtilage, to Class C3 dwellinghouses, together with the building operations reasonably necessary to convert \u2014 and, since 21 May 2024, limited single-storey rear extensions. It exists to release redundant farm buildings for housing without testing the merits of countryside residential use against the development plan, and it is the most litigated and most technically demanding of the Part 3 rights: it generates a disproportionate share of prior approval appeals, and it rewards forensic preparation more than any other permitted development right, because eligibility turns on history, fact and structure that must be evidenced rather than asserted.",
-   "voice_settings": {
-    "stability": 0.45,
-    "similarity_boost": 0.6,
-    "style": 0.3,
-    "use_speaker_boost": true
-   }
-  },
-  {
-   "output": "sample_turbo.mp3",
+   "output": "variant_A_natural.mp3",
    "model_id": "eleven_turbo_v2_5",
    "text": "Class Q grants planning permission for the change of use of certain agricultural and former agricultural buildings, with land within their curtilage, to Class C3 dwellinghouses, together with the building operations reasonably necessary to convert \u2014 and, since 21 May 2024, limited single-storey rear extensions. It exists to release redundant farm buildings for housing without testing the merits of countryside residential use against the development plan, and it is the most litigated and most technically demanding of the Part 3 rights: it generates a disproportionate share of prior approval appeals, and it rewards forensic preparation more than any other permitted development right, because eligibility turns on history, fact and structure that must be evidenced rather than asserted.",
    "voice_settings": {
-    "stability": 0.45,
-    "similarity_boost": 0.6,
-    "style": 0.3,
-    "use_speaker_boost": true
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.05,
+    "use_speaker_boost": true,
+    "speed": 0.95
+   }
+  },
+  {
+   "output": "variant_B_balanced.mp3",
+   "model_id": "eleven_turbo_v2_5",
+   "text": "Class Q grants planning permission for the change of use of certain agricultural and former agricultural buildings, with land within their curtilage, to Class C3 dwellinghouses, together with the building operations reasonably necessary to convert \u2014 and, since 21 May 2024, limited single-storey rear extensions. It exists to release redundant farm buildings for housing without testing the merits of countryside residential use against the development plan, and it is the most litigated and most technically demanding of the Part 3 rights: it generates a disproportionate share of prior approval appeals, and it rewards forensic preparation more than any other permitted development right, because eligibility turns on history, fact and structure that must be evidenced rather than asserted.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0.15,
+    "use_speaker_boost": true,
+    "speed": 1.0
+   }
+  },
+  {
+   "output": "variant_C_steady.mp3",
+   "model_id": "eleven_turbo_v2_5",
+   "text": "Class Q grants planning permission for the change of use of certain agricultural and former agricultural buildings, with land within their curtilage, to Class C3 dwellinghouses, together with the building operations reasonably necessary to convert \u2014 and, since 21 May 2024, limited single-storey rear extensions. It exists to release redundant farm buildings for housing without testing the merits of countryside residential use against the development plan, and it is the most litigated and most technically demanding of the Part 3 rights: it generates a disproportionate share of prior approval appeals, and it rewards forensic preparation more than any other permitted development right, because eligibility turns on history, fact and structure that must be evidenced rather than asserted.",
+   "voice_settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.85,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 0.92
    }
   }
  ]

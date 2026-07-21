@@ -75,6 +75,17 @@ if voice is None:
     fail("voice_lookup", f"No voice matching '{request.get('voice_name')}' found. See voices list in result.json")
 result["voice_used"] = {"id": voice["voice_id"], "name": voice["name"]}
 
+# 2b. Models (optional)
+if request.get("list_models"):
+    try:
+        models = api("/v1/models")
+        result["models"] = [{"id": m.get("model_id"), "name": m.get("name"),
+                             "cost_multiplier": m.get("cost_multiplier") or m.get("token_cost_factor")}
+                            for m in models]
+        result["steps"].append("models ok")
+    except Exception as e:
+        result["models_error"] = str(e)[:500]
+
 # 3. Generate clips (one per item)
 chars_before = result.get("subscription", {}).get("character_count")
 for item in request.get("items", []):
