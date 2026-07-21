@@ -1,0 +1,6 @@
+{
+ "status": "error",
+ "steps": [],
+ "failed_step": "env",
+ "error": "XI_KEY secret is missing or empty"
+}
