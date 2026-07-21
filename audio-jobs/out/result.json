@@ -3,11 +3,12 @@
  "steps": [
   "subscription ok",
   "voices ok",
-  "generated test.mp3 (24285 bytes, model eleven_multilingual_v2, 19 chars)"
+  "generated sample_standard.mp3 (966365 bytes, model eleven_multilingual_v2, 792 chars)",
+  "generated sample_turbo.mp3 (943377 bytes, model eleven_turbo_v2_5, 792 chars)"
  ],
  "subscription": {
   "tier": "creator",
-  "character_count": 0,
+  "character_count": 10,
   "character_limit": 235483,
   "next_character_count_reset_unix": 1787242547
  },
@@ -127,6 +128,6 @@
   "id": "gvwF323vg5NhP8NbkrNo",
   "name": "Steve H"
  },
- "credits_after": 0,
+ "credits_after": 10,
  "credits_spent_this_run": 0
 }
