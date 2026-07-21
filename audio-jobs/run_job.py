@@ -88,13 +88,15 @@ if request.get("list_models"):
 
 def master(path):
     tmp = path + ".warm.mp3"
-    af = ("highpass=f=70,"
-          "equalizer=f=230:t=q:w=1.0:g=2.5,"
-          "equalizer=f=3300:t=q:w=1.3:g=-3,"
-          "treble=g=-1.5:f=7500,"
-          "loudnorm=I=-16:TP=-1.5:LRA=11")
+    af = ("highpass=f=60,"
+          "equalizer=f=200:t=q:w=1.0:g=3,"
+          "equalizer=f=3400:t=q:w=1.4:g=-3,"
+          "equalizer=f=5800:t=q:w=2:g=-1.5,"
+          "treble=g=-1:f=9000,"
+          "acompressor=threshold=-22dB:ratio=2:attack=12:release=220:makeup=1.5,"
+          "loudnorm=I=-16:TP=-1.5:LRA=9")
     subprocess.run(["ffmpeg", "-y", "-i", path, "-af", af, "-ar", "44100",
-                    "-codec:a", "libmp3lame", "-b:a", "128k", tmp],
+                    "-codec:a", "libmp3lame", "-b:a", "160k", tmp],
                    check=True, capture_output=True)
     os.replace(tmp, path)
 
@@ -119,7 +121,11 @@ for item in request.get("items", []):
         else:
             result["steps"].append(f"generated {name} ({len(audio)} bytes, model {model}, {len(text)} chars)")
     except Exception as e:
-        fail(f"tts:{name}", e)
+        msg = str(e)[:400]
+        if isinstance(e, urllib.error.HTTPError):
+            try: msg += " | " + e.read().decode()[:400]
+            except Exception: pass
+        result["steps"].append(f"FAILED {name}: {msg}")
 
 # 4. Credits after
 try:

@@ -1,42 +1,27 @@
 {
  "voice_name": "Steve H",
- "run": 7,
+ "run": 8,
  "items": [
   {
-   "output": "rw_C_raw.mp3",
+   "output": "podcast_turbo.mp3",
    "model_id": "eleven_turbo_v2_5",
-   "text": "Class Q grants planning permission to change the use of certain agricultural buildings \u2014 and some former agricultural buildings \u2014 into dwellinghouses, along with the building work that's reasonably necessary to convert them. And since the 21st of May, 2024, that includes limited single-storey rear extensions. The right exists to release redundant farm buildings for housing, without testing the merits of a home in the countryside against the development plan. Now, Class Q is the most litigated, and the most technically demanding, of all the Part 3 rights. It generates far more than its share of prior approval appeals. And it rewards forensic preparation more than any other permitted development right \u2014 because eligibility turns on history, fact, and structure. Those things have to be evidenced, not asserted.",
-   "voice_settings": {
-    "stability": 0.75,
-    "similarity_boost": 0.85,
-    "style": 0.0,
-    "use_speaker_boost": true,
-    "speed": 0.92
-   }
-  },
-  {
-   "output": "rw_C_warm.mp3",
-   "model_id": "eleven_turbo_v2_5",
-   "text": "Class Q grants planning permission to change the use of certain agricultural buildings \u2014 and some former agricultural buildings \u2014 into dwellinghouses, along with the building work that's reasonably necessary to convert them. And since the 21st of May, 2024, that includes limited single-storey rear extensions. The right exists to release redundant farm buildings for housing, without testing the merits of a home in the countryside against the development plan. Now, Class Q is the most litigated, and the most technically demanding, of all the Part 3 rights. It generates far more than its share of prior approval appeals. And it rewards forensic preparation more than any other permitted development right \u2014 because eligibility turns on history, fact, and structure. Those things have to be evidenced, not asserted.",
-   "voice_settings": {
-    "stability": 0.75,
-    "similarity_boost": 0.85,
-    "style": 0.0,
-    "use_speaker_boost": true,
-    "speed": 0.92
-   },
-   "post": "warm"
-  },
-  {
-   "output": "rw_soft_warm.mp3",
-   "model_id": "eleven_turbo_v2_5",
-   "text": "Class Q grants planning permission to change the use of certain agricultural buildings \u2014 and some former agricultural buildings \u2014 into dwellinghouses, along with the building work that's reasonably necessary to convert them. And since the 21st of May, 2024, that includes limited single-storey rear extensions. The right exists to release redundant farm buildings for housing, without testing the merits of a home in the countryside against the development plan. Now, Class Q is the most litigated, and the most technically demanding, of all the Part 3 rights. It generates far more than its share of prior approval appeals. And it rewards forensic preparation more than any other permitted development right \u2014 because eligibility turns on history, fact, and structure. Those things have to be evidenced, not asserted.",
+   "text": "Welcome to PlanRef. This is the full guide to Class Q \u2014 the permitted development right that turns farm buildings into homes. <break time=\"0.7s\" /> So \u2014 what exactly does Class Q do? <break time=\"0.4s\" /> In essence, it grants planning permission to change the use of certain agricultural buildings into dwellinghouses... together with the building work that's reasonably necessary to convert them. And since the 21st of May, 2024, it also allows limited, single-storey rear extensions. <break time=\"0.6s\" /> Why does it exist? <break time=\"0.4s\" /> The purpose is simple: to release redundant farm buildings for housing \u2014 without testing the merits of a home in the countryside against the development plan. <break time=\"0.7s\" /> But here's the thing every practitioner learns \u2014 usually the hard way. Class Q is the most litigated, and the most technically demanding, of all the Part 3 rights. It attracts far more than its share of prior approval appeals. And more than any other permitted development right... it rewards forensic preparation. Because eligibility turns on history. On fact. On structure. And those things have to be evidenced \u2014 not asserted.",
    "voice_settings": {
     "stability": 0.7,
     "similarity_boost": 0.62,
     "style": 0.0,
     "use_speaker_boost": false,
-    "speed": 0.92
+    "speed": 0.89
+   },
+   "post": "warm"
+  },
+  {
+   "output": "podcast_v3.mp3",
+   "model_id": "eleven_v3",
+   "text": "Welcome to PlanRef. This is the full guide to Class Q \u2014 the permitted development right that turns farm buildings into homes.\n\nSo \u2014 what exactly does Class Q do?\n\nIn essence, it grants planning permission to change the use of certain agricultural buildings into dwellinghouses... together with the building work that's reasonably necessary to convert them. And since the 21st of May, 2024, it also allows limited, single-storey rear extensions.\n\nWhy does it exist?\n\nThe purpose is simple: to release redundant farm buildings for housing \u2014 without testing the merits of a home in the countryside against the development plan.\n\nBut here's the thing every practitioner learns \u2014 usually the hard way. Class Q is the most litigated, and the most technically demanding, of all the Part 3 rights. It attracts far more than its share of prior approval appeals. And more than any other permitted development right... it rewards forensic preparation. Because eligibility turns on history. On fact. On structure. And those things have to be evidenced \u2014 not asserted.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75
    },
    "post": "warm"
   }
