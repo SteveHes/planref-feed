@@ -3,12 +3,12 @@
  "steps": [
   "subscription ok",
   "voices ok",
-  "generated+mastered human_v1.mp3 (model eleven_turbo_v2_5, 916 chars)",
-  "generated+mastered human_v2.mp3 (model eleven_turbo_v2_5, 916 chars)"
+  "generated+mastered warm_p3.mp3 (model eleven_turbo_v2_5, 616 chars)",
+  "generated+mastered warm_p5.mp3 (model eleven_turbo_v2_5, 616 chars)"
  ],
  "subscription": {
   "tier": "creator",
-  "character_count": 4024,
+  "character_count": 4528,
   "character_limit": 235483,
   "next_character_count_reset_unix": 1787242547
  },
@@ -128,6 +128,6 @@
   "id": "gvwF323vg5NhP8NbkrNo",
   "name": "Steve H"
  },
- "credits_after": 4024,
+ "credits_after": 4528,
  "credits_spent_this_run": 0
 }
