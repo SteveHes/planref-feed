@@ -1,16 +1,13 @@
 {
- "status": "ok",
+ "status": "error",
  "steps": [
   "subscription ok",
   "voices ok",
-  "models ok",
-  "generated variant_A_natural.mp3 (1005653 bytes, model eleven_turbo_v2_5, 792 chars)",
-  "generated variant_B_balanced.mp3 (943377 bytes, model eleven_turbo_v2_5, 792 chars)",
-  "generated variant_C_steady.mp3 (1043688 bytes, model eleven_turbo_v2_5, 792 chars)"
+  "generated rw_C_raw.mp3 (1019028 bytes, model eleven_turbo_v2_5, 818 chars)"
  ],
  "subscription": {
   "tier": "creator",
-  "character_count": 664,
+  "character_count": 1318,
   "character_limit": 235483,
   "next_character_count_reset_unix": 1787242547
  },
@@ -130,48 +127,6 @@
   "id": "gvwF323vg5NhP8NbkrNo",
   "name": "Steve H"
  },
- "models": [
-  {
-   "id": "eleven_v3",
-   "name": "Eleven v3",
-   "cost_multiplier": 1.0
-  },
-  {
-   "id": "eleven_multilingual_v2",
-   "name": "Eleven Multilingual v2",
-   "cost_multiplier": 1.0
-  },
-  {
-   "id": "eleven_flash_v2_5",
-   "name": "Eleven Flash v2.5",
-   "cost_multiplier": 1.0
-  },
-  {
-   "id": "eleven_turbo_v2_5",
-   "name": "Eleven Turbo v2.5",
-   "cost_multiplier": 1.0
-  },
-  {
-   "id": "eleven_turbo_v2",
-   "name": "Eleven Turbo v2",
-   "cost_multiplier": 1.0
-  },
-  {
-   "id": "eleven_flash_v2",
-   "name": "Eleven Flash v2",
-   "cost_multiplier": 1.0
-  },
-  {
-   "id": "eleven_english_sts_v2",
-   "name": "Eleven English v2",
-   "cost_multiplier": 1.0
-  },
-  {
-   "id": "eleven_multilingual_sts_v2",
-   "name": "Eleven Multilingual v2",
-   "cost_multiplier": 1.0
-  }
- ],
- "credits_after": 664,
- "credits_spent_this_run": 0
+ "failed_step": "tts:rw_C_warm.mp3",
+ "error": "name 'master' is not defined"
 }
