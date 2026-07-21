@@ -1,0 +1,33 @@
+name: PlanRef Audio
+
+on:
+  push:
+    paths:
+      - 'audio-jobs/request.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: planref-audio
+  cancel-in-progress: false
+
+jobs:
+  audio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run audio job
+        env:
+          XI_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: python3 audio-jobs/run_job.py
+
+      - name: Commit results
+        run: |
+          git config user.name "planref-audio-bot"
+          git config user.email "audio-bot@planref.co.uk"
+          git add -A audio-jobs/out
+          git commit -m "Audio job results [skip ci]" || echo "nothing to commit"
+          git pull --rebase origin main
+          git push
