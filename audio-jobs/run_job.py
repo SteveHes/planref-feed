@@ -86,6 +86,18 @@ if request.get("list_models"):
     except Exception as e:
         result["models_error"] = str(e)[:500]
 
+def master(path):
+    tmp = path + ".warm.mp3"
+    af = ("highpass=f=70,"
+          "equalizer=f=230:t=q:w=1.0:g=2.5,"
+          "equalizer=f=3300:t=q:w=1.3:g=-3,"
+          "treble=g=-1.5:f=7500,"
+          "loudnorm=I=-16:TP=-1.5:LRA=11")
+    subprocess.run(["ffmpeg", "-y", "-i", path, "-af", af, "-ar", "44100",
+                    "-codec:a", "libmp3lame", "-b:a", "128k", tmp],
+                   check=True, capture_output=True)
+    os.replace(tmp, path)
+
 # 3. Generate clips (one per item)
 chars_before = result.get("subscription", {}).get("character_count")
 for item in request.get("items", []):
@@ -108,18 +120,6 @@ for item in request.get("items", []):
             result["steps"].append(f"generated {name} ({len(audio)} bytes, model {model}, {len(text)} chars)")
     except Exception as e:
         fail(f"tts:{name}", e)
-
-def master(path):
-    tmp = path + ".warm.mp3"
-    af = ("highpass=f=70,"
-          "equalizer=f=230:t=q:w=1.0:g=2.5,"
-          "equalizer=f=3300:t=q:w=1.3:g=-3,"
-          "treble=g=-1.5:f=7500,"
-          "loudnorm=I=-16:TP=-1.5:LRA=11")
-    subprocess.run(["ffmpeg", "-y", "-i", path, "-af", af, "-ar", "44100",
-                    "-codec:a", "libmp3lame", "-b:a", "128k", tmp],
-                   check=True, capture_output=True)
-    os.replace(tmp, path)
 
 # 4. Credits after
 try:
