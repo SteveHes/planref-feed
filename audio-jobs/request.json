@@ -1,36 +1,11 @@
 {
  "voice_name": "Steve H",
- "run": 4,
- "list_models": true,
+ "run": 5,
  "items": [
   {
-   "output": "variant_A_natural.mp3",
+   "output": "rw_C_raw.mp3",
    "model_id": "eleven_turbo_v2_5",
-   "text": "Class Q grants planning permission for the change of use of certain agricultural and former agricultural buildings, with land within their curtilage, to Class C3 dwellinghouses, together with the building operations reasonably necessary to convert \u2014 and, since 21 May 2024, limited single-storey rear extensions. It exists to release redundant farm buildings for housing without testing the merits of countryside residential use against the development plan, and it is the most litigated and most technically demanding of the Part 3 rights: it generates a disproportionate share of prior approval appeals, and it rewards forensic preparation more than any other permitted development right, because eligibility turns on history, fact and structure that must be evidenced rather than asserted.",
-   "voice_settings": {
-    "stability": 0.6,
-    "similarity_boost": 0.8,
-    "style": 0.05,
-    "use_speaker_boost": true,
-    "speed": 0.95
-   }
-  },
-  {
-   "output": "variant_B_balanced.mp3",
-   "model_id": "eleven_turbo_v2_5",
-   "text": "Class Q grants planning permission for the change of use of certain agricultural and former agricultural buildings, with land within their curtilage, to Class C3 dwellinghouses, together with the building operations reasonably necessary to convert \u2014 and, since 21 May 2024, limited single-storey rear extensions. It exists to release redundant farm buildings for housing without testing the merits of countryside residential use against the development plan, and it is the most litigated and most technically demanding of the Part 3 rights: it generates a disproportionate share of prior approval appeals, and it rewards forensic preparation more than any other permitted development right, because eligibility turns on history, fact and structure that must be evidenced rather than asserted.",
-   "voice_settings": {
-    "stability": 0.5,
-    "similarity_boost": 0.75,
-    "style": 0.15,
-    "use_speaker_boost": true,
-    "speed": 1.0
-   }
-  },
-  {
-   "output": "variant_C_steady.mp3",
-   "model_id": "eleven_turbo_v2_5",
-   "text": "Class Q grants planning permission for the change of use of certain agricultural and former agricultural buildings, with land within their curtilage, to Class C3 dwellinghouses, together with the building operations reasonably necessary to convert \u2014 and, since 21 May 2024, limited single-storey rear extensions. It exists to release redundant farm buildings for housing without testing the merits of countryside residential use against the development plan, and it is the most litigated and most technically demanding of the Part 3 rights: it generates a disproportionate share of prior approval appeals, and it rewards forensic preparation more than any other permitted development right, because eligibility turns on history, fact and structure that must be evidenced rather than asserted.",
+   "text": "Class Q grants planning permission to change the use of certain agricultural buildings \u2014 and some former agricultural buildings \u2014 into dwellinghouses, along with the building work that's reasonably necessary to convert them. And since the 21st of May, 2024, that includes limited single-storey rear extensions. The right exists to release redundant farm buildings for housing, without testing the merits of a home in the countryside against the development plan. Now, Class Q is the most litigated, and the most technically demanding, of all the Part 3 rights. It generates far more than its share of prior approval appeals. And it rewards forensic preparation more than any other permitted development right \u2014 because eligibility turns on history, fact, and structure. Those things have to be evidenced, not asserted.",
    "voice_settings": {
     "stability": 0.75,
     "similarity_boost": 0.85,
@@ -38,6 +13,32 @@
     "use_speaker_boost": true,
     "speed": 0.92
    }
+  },
+  {
+   "output": "rw_C_warm.mp3",
+   "model_id": "eleven_turbo_v2_5",
+   "text": "Class Q grants planning permission to change the use of certain agricultural buildings \u2014 and some former agricultural buildings \u2014 into dwellinghouses, along with the building work that's reasonably necessary to convert them. And since the 21st of May, 2024, that includes limited single-storey rear extensions. The right exists to release redundant farm buildings for housing, without testing the merits of a home in the countryside against the development plan. Now, Class Q is the most litigated, and the most technically demanding, of all the Part 3 rights. It generates far more than its share of prior approval appeals. And it rewards forensic preparation more than any other permitted development right \u2014 because eligibility turns on history, fact, and structure. Those things have to be evidenced, not asserted.",
+   "voice_settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.85,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 0.92
+   },
+   "post": "warm"
+  },
+  {
+   "output": "rw_soft_warm.mp3",
+   "model_id": "eleven_turbo_v2_5",
+   "text": "Class Q grants planning permission to change the use of certain agricultural buildings \u2014 and some former agricultural buildings \u2014 into dwellinghouses, along with the building work that's reasonably necessary to convert them. And since the 21st of May, 2024, that includes limited single-storey rear extensions. The right exists to release redundant farm buildings for housing, without testing the merits of a home in the countryside against the development plan. Now, Class Q is the most litigated, and the most technically demanding, of all the Part 3 rights. It generates far more than its share of prior approval appeals. And it rewards forensic preparation more than any other permitted development right \u2014 because eligibility turns on history, fact, and structure. Those things have to be evidenced, not asserted.",
+   "voice_settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.62,
+    "style": 0.0,
+    "use_speaker_boost": false,
+    "speed": 0.92
+   },
+   "post": "warm"
   }
  ]
 }

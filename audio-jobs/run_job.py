@@ -3,7 +3,7 @@
 Reads audio-jobs/request.json, talks to ElevenLabs, writes results to audio-jobs/out/.
 The API key comes from the XI_KEY environment variable (GitHub secret) and is never written to output.
 """
-import json, os, sys, urllib.request, urllib.error
+import json, os, sys, subprocess, urllib.request, urllib.error
 
 BASE = "https://api.elevenlabs.io"
 KEY = os.environ.get("XI_KEY", "")
@@ -101,9 +101,25 @@ for item in request.get("items", []):
         )
         with open(os.path.join(OUT, name), "wb") as f:
             f.write(audio)
-        result["steps"].append(f"generated {name} ({len(audio)} bytes, model {model}, {len(text)} chars)")
+        if item.get("post") == "warm":
+            master(os.path.join(OUT, name))
+            result["steps"].append(f"generated+mastered {name} (model {model}, {len(text)} chars)")
+        else:
+            result["steps"].append(f"generated {name} ({len(audio)} bytes, model {model}, {len(text)} chars)")
     except Exception as e:
         fail(f"tts:{name}", e)
+
+def master(path):
+    tmp = path + ".warm.mp3"
+    af = ("highpass=f=70,"
+          "equalizer=f=230:t=q:w=1.0:g=2.5,"
+          "equalizer=f=3300:t=q:w=1.3:g=-3,"
+          "treble=g=-1.5:f=7500,"
+          "loudnorm=I=-16:TP=-1.5:LRA=11")
+    subprocess.run(["ffmpeg", "-y", "-i", path, "-af", af, "-ar", "44100",
+                    "-codec:a", "libmp3lame", "-b:a", "128k", tmp],
+                   check=True, capture_output=True)
+    os.replace(tmp, path)
 
 # 4. Credits after
 try:
