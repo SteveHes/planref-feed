@@ -1,0 +1,5961 @@
+{
+  "updated": "21 July 2026",
+  "schema_note": "PlanRef unified employer directory (public + private). Weekly bot sweeps shared portals once, then rotates name-search/direct-url employers in weekly batches, capturing facts + link-out only.",
+  "counts": {
+    "total": 594,
+    "by_sector": {
+      "public": 468,
+      "private": 126
+    },
+    "by_portal": {
+      "myjobscotland": 32,
+      "civilservicejobs": 14,
+      "name-search": 436,
+      "nics": 1,
+      "direct-url": 109,
+      "work-for-scotland": 2
+    }
+  },
+  "employers": [
+    {
+      "name": "Aberdeen City Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "Aberdeenshire Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "Active Travel England",
+      "category": "Government Agency",
+      "tier": 2,
+      "sector": "public",
+      "url": "https://www.civilservicejobs.service.gov.uk",
+      "portal": "civilservicejobs",
+      "reorg": "",
+      "notes": "Statutory consultee on planning applications; recruits via Civil Service Jobs"
+    },
+    {
+      "name": "Adur District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Amber Valley Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Angus Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "Antrim and Newtownabbey Borough Council",
+      "category": "Northern Ireland Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "NI councils recruit via their own websites; planning powers transferred to councils in 2015"
+    },
+    {
+      "name": "Ards and North Down Borough Council",
+      "category": "Northern Ireland Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "NI councils recruit via their own websites; planning powers transferred to councils in 2015"
+    },
+    {
+      "name": "Argyll and Bute Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "Armagh City, Banbridge and Craigavon Borough Council",
+      "category": "Northern Ireland Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "NI councils recruit via their own websites; planning powers transferred to councils in 2015"
+    },
+    {
+      "name": "Arun District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Ashfield District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Ashford Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Babergh District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Bannau Brycheiniog (Brecon Beacons) National Park Authority",
+      "category": "National Park Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Barnsley Metropolitan Borough Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Basildon Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Basingstoke and Deane Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Bassetlaw District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Bath and North East Somerset Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Bedford Borough Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Belfast City Council",
+      "category": "Northern Ireland Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "NI councils recruit via their own websites; planning powers transferred to councils in 2015"
+    },
+    {
+      "name": "Birmingham City Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Blaby District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Blackburn with Darwen Borough Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Blackpool Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Blaenau Gwent County Borough Council",
+      "category": "Welsh Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Bolsover District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Bolton Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Borough Council of King's Lynn and West Norfolk",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Boston Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Bournemouth, Christchurch and Poole Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Bracknell Forest Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Braintree District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Breckland District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Brentwood Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Bridgend County Borough Council",
+      "category": "Welsh Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Brighton and Hove City Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Bristol City Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Broadland District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Broads Authority",
+      "category": "National Park Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Bromsgrove District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Broxbourne Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Broxtowe Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Buckinghamshire Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Burnley Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Bury Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Cadw",
+      "category": "National Agency",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "Part of Welsh Government; recruits via Welsh Government careers"
+    },
+    {
+      "name": "Caerphilly County Borough Council",
+      "category": "Welsh Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Cairngorms National Park Authority",
+      "category": "National Park Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Calderdale Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Cambridge City Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Cambridgeshire and Peterborough Combined Authority",
+      "category": "Combined / Strategic Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Cambridgeshire County Council",
+      "category": "County Council (Minerals & Waste / Transport Planning)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Canal & River Trust",
+      "category": "Environment / Land Body",
+      "tier": 2,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "Charitable trust; regular planning and heritage roles"
+    },
+    {
+      "name": "Cannock Chase District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Canterbury City Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Cardiff Council",
+      "category": "Welsh Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Carmarthenshire County Council",
+      "category": "Welsh Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Castle Point Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Causeway Coast and Glens Borough Council",
+      "category": "Northern Ireland Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "NI councils recruit via their own websites; planning powers transferred to councils in 2015"
+    },
+    {
+      "name": "Central Bedfordshire Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Ceredigion County Council",
+      "category": "Welsh Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Charnwood Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Chelmsford City Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Cheltenham Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Cherwell District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Cheshire East Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Cheshire West and Chester Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Chesterfield Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Chichester District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Chorley Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "City of Bradford Metropolitan District Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "City of Doncaster Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "City of Edinburgh Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "City of Lincoln Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "City of London Corporation",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "City of Wolverhampton Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "City of York Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Clackmannanshire Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "Colchester City Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Comhairle nan Eilean Siar",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "Conwy County Borough Council",
+      "category": "Welsh Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Cornwall Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Cotswold District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Council of the Isles of Scilly",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Coventry City Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Crawley Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Crown Estate Scotland",
+      "category": "Environment / Land Body",
+      "tier": 2,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Cumberland Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Cyngor Gwynedd",
+      "category": "Welsh Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Dacorum Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Darlington Borough Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Dartford Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Dartmoor National Park Authority",
+      "category": "National Park Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Defence Infrastructure Organisation",
+      "category": "Government Estate Body",
+      "tier": 2,
+      "sector": "public",
+      "url": "https://www.civilservicejobs.service.gov.uk",
+      "portal": "civilservicejobs",
+      "reorg": "",
+      "notes": "Part of the Ministry of Defence; recruits via Civil Service Jobs"
+    },
+    {
+      "name": "Denbighshire County Council",
+      "category": "Welsh Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Department for Energy Security and Net Zero",
+      "category": "Government Department",
+      "tier": 3,
+      "sector": "public",
+      "url": "https://www.civilservicejobs.service.gov.uk",
+      "portal": "civilservicejobs",
+      "reorg": "",
+      "notes": "NSIP / energy consenting posts; recruits via Civil Service Jobs"
+    },
+    {
+      "name": "Department for Environment, Food and Rural Affairs",
+      "category": "Government Department",
+      "tier": 3,
+      "sector": "public",
+      "url": "https://www.civilservicejobs.service.gov.uk",
+      "portal": "civilservicejobs",
+      "reorg": "",
+      "notes": "Recruits via Civil Service Jobs"
+    },
+    {
+      "name": "Department for Infrastructure (Northern Ireland)",
+      "category": "National Planning Body",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.nicsrecruitment.org.uk",
+      "portal": "nics",
+      "reorg": "",
+      "notes": "Regional planning functions in NI; NICS recruitment"
+    },
+    {
+      "name": "Department for Transport",
+      "category": "Government Department",
+      "tier": 3,
+      "sector": "public",
+      "url": "https://www.civilservicejobs.service.gov.uk",
+      "portal": "civilservicejobs",
+      "reorg": "",
+      "notes": "Recruits via Civil Service Jobs"
+    },
+    {
+      "name": "Derby City Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Derbyshire County Council",
+      "category": "County Council (Minerals & Waste / Transport Planning)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Derbyshire Dales District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Derry City and Strabane District Council",
+      "category": "Northern Ireland Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "NI councils recruit via their own websites; planning powers transferred to councils in 2015"
+    },
+    {
+      "name": "Design Council",
+      "category": "Sector Body",
+      "tier": 3,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Devon and Torbay Combined County Authority",
+      "category": "Combined / Strategic Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Devon County Council",
+      "category": "County Council (Minerals & Waste / Transport Planning)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Dorset Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Dover District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Dudley Metropolitan Borough Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Dumfries and Galloway Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "Dundee City Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "Durham County Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "East Ayrshire Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "East Cambridgeshire District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "East Devon District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "East Dunbartonshire Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "East Hampshire District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "East Hertfordshire District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "East Lindsey District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "East Lothian Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "East Midlands Combined County Authority",
+      "category": "Combined / Strategic Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "East Renfrewshire Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "East Riding of Yorkshire Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "East Staffordshire Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "East Suffolk Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "East Sussex County Council",
+      "category": "County Council (Minerals & Waste / Transport Planning)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "East West Railway Company",
+      "category": "Transport / Infrastructure Body",
+      "tier": 2,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Eastbourne Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Eastleigh Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Ebbsfleet Development Corporation",
+      "category": "Development Corporation",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Elmbridge Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2027",
+      "notes": "Due to be abolished April 2027, replaced by East Surrey and West Surrey unitary councils"
+    },
+    {
+      "name": "England's Economic Heartland",
+      "category": "Transport / Infrastructure Body",
+      "tier": 2,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "Sub-national transport body"
+    },
+    {
+      "name": "Environment Agency",
+      "category": "National Agency",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.civilservicejobs.service.gov.uk",
+      "portal": "civilservicejobs",
+      "reorg": "",
+      "notes": "Recruits via Civil Service Jobs"
+    },
+    {
+      "name": "Epping Forest District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Epsom and Ewell Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2027",
+      "notes": "Due to be abolished April 2027, replaced by East Surrey and West Surrey unitary councils"
+    },
+    {
+      "name": "Erewash Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Eryri (Snowdonia) National Park Authority",
+      "category": "National Park Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Essex County Council",
+      "category": "County Council (Minerals & Waste / Transport Planning)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Exeter City Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Exmoor National Park Authority",
+      "category": "National Park Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Falkirk Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "Fareham Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Fenland District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Fermanagh and Omagh District Council",
+      "category": "Northern Ireland Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "NI councils recruit via their own websites; planning powers transferred to councils in 2015"
+    },
+    {
+      "name": "Fife Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "Flintshire County Council",
+      "category": "Welsh Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Folkestone and Hythe District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Forest of Dean District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Forestry and Land Scotland",
+      "category": "Environment / Land Body",
+      "tier": 2,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Forestry England",
+      "category": "Environment / Land Body",
+      "tier": 2,
+      "sector": "public",
+      "url": "https://www.civilservicejobs.service.gov.uk",
+      "portal": "civilservicejobs",
+      "reorg": "",
+      "notes": "Part of the Forestry Commission; recruits via Civil Service Jobs"
+    },
+    {
+      "name": "Fylde Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Gateshead Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Gedling Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Glasgow City Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "Gloucester City Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Gloucestershire County Council",
+      "category": "County Council (Minerals & Waste / Transport Planning)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Gosport Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Gravesham Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Great Yarmouth Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Greater Essex Combined County Authority",
+      "category": "Combined / Strategic Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "Established 2026; recruitment building up ahead of first mayoral election"
+    },
+    {
+      "name": "Greater Lincolnshire Combined Authority",
+      "category": "Combined / Strategic Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Greater London Authority",
+      "category": "Strategic Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Greater Manchester Combined Authority",
+      "category": "Combined / Strategic Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Guildford Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2027",
+      "notes": "Due to be abolished April 2027, replaced by East Surrey and West Surrey unitary councils"
+    },
+    {
+      "name": "Halton Borough Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Hampshire and the Solent Combined County Authority",
+      "category": "Combined / Strategic Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "Established 2026; recruitment building up ahead of first mayoral election"
+    },
+    {
+      "name": "Hampshire County Council",
+      "category": "County Council (Minerals & Waste / Transport Planning)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Harborough District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Harlow District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Hart District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Hartlepool Borough Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Hartlepool Development Corporation",
+      "category": "Development Corporation",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Hastings Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Havant Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Herefordshire Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Hertfordshire County Council",
+      "category": "County Council (Minerals & Waste / Transport Planning)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Hertsmere Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "High Peak Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Highland Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "Hinckley and Bosworth Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Historic England",
+      "category": "National Agency",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://historicengland.org.uk/about/jobs/",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Historic Environment Scotland",
+      "category": "National Agency",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Homes England",
+      "category": "National Agency",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.civilservicejobs.service.gov.uk",
+      "portal": "civilservicejobs",
+      "reorg": "",
+      "notes": "Recruits via Civil Service Jobs"
+    },
+    {
+      "name": "Horsham District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "HS2 Ltd",
+      "category": "Transport / Infrastructure Body",
+      "tier": 2,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Hull and East Yorkshire Combined Authority",
+      "category": "Combined / Strategic Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Hull City Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Huntingdonshire District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Hyndburn Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Inverclyde Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "Ipswich Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Isle of Anglesey County Council",
+      "category": "Welsh Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Isle of Wight Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Kent County Council",
+      "category": "County Council (Minerals & Waste / Transport Planning)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Kirklees Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Knowsley Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Lake District National Park Authority",
+      "category": "National Park Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Lancashire Combined County Authority",
+      "category": "Combined / Strategic Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Lancashire County Council",
+      "category": "County Council (Minerals & Waste / Transport Planning)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Lancaster City Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Leeds City Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Leicester City Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Leicestershire County Council",
+      "category": "County Council (Minerals & Waste / Transport Planning)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Lewes District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Lichfield District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Lincolnshire County Council",
+      "category": "County Council (Minerals & Waste / Transport Planning)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Lisburn and Castlereagh City Council",
+      "category": "Northern Ireland Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "NI councils recruit via their own websites; planning powers transferred to councils in 2015"
+    },
+    {
+      "name": "Liverpool City Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Liverpool City Region Combined Authority",
+      "category": "Combined / Strategic Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Local Government Association",
+      "category": "Sector Body",
+      "tier": 3,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "Includes the Planning Advisory Service"
+    },
+    {
+      "name": "Loch Lomond and The Trossachs National Park Authority",
+      "category": "National Park Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Barking and Dagenham",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Barnet",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Bexley",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Brent",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Bromley",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Camden",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Croydon",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Ealing",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Enfield",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Hackney",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Hammersmith and Fulham",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Haringey",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Harrow",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Havering",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Hillingdon",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Hounslow",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Islington",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Lambeth",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Lewisham",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Merton",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Newham",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Redbridge",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Richmond upon Thames",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Southwark",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Sutton",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Tower Hamlets",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Waltham Forest",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Borough of Wandsworth",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "London Legacy Development Corporation",
+      "category": "Development Corporation",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Luton Borough Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Maidstone Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Maldon District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Malvern Hills District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Manchester City Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Mansfield District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Marine Management Organisation",
+      "category": "Environment / Land Body",
+      "tier": 2,
+      "sector": "public",
+      "url": "https://www.civilservicejobs.service.gov.uk",
+      "portal": "civilservicejobs",
+      "reorg": "",
+      "notes": "Marine planning; recruits via Civil Service Jobs"
+    },
+    {
+      "name": "Medway Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Melton Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Merthyr Tydfil County Borough Council",
+      "category": "Welsh Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Mid and East Antrim Borough Council",
+      "category": "Northern Ireland Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "NI councils recruit via their own websites; planning powers transferred to councils in 2015"
+    },
+    {
+      "name": "Mid Devon District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Mid Suffolk District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Mid Sussex District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Mid Ulster District Council",
+      "category": "Northern Ireland Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "NI councils recruit via their own websites; planning powers transferred to councils in 2015"
+    },
+    {
+      "name": "Middlesbrough Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Middlesbrough Development Corporation",
+      "category": "Development Corporation",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Midlands Connect",
+      "category": "Transport / Infrastructure Body",
+      "tier": 2,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "Sub-national transport body"
+    },
+    {
+      "name": "Midlothian Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "Milton Keynes City Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Mining Remediation Authority",
+      "category": "Government Agency",
+      "tier": 2,
+      "sector": "public",
+      "url": "https://www.civilservicejobs.service.gov.uk",
+      "portal": "civilservicejobs",
+      "reorg": "",
+      "notes": "Formerly the Coal Authority (renamed 2025); recruits via Civil Service Jobs"
+    },
+    {
+      "name": "Ministry of Housing, Communities and Local Government",
+      "category": "Government Department",
+      "tier": 3,
+      "sector": "public",
+      "url": "https://www.civilservicejobs.service.gov.uk",
+      "portal": "civilservicejobs",
+      "reorg": "",
+      "notes": "Planning policy posts; recruits via Civil Service Jobs"
+    },
+    {
+      "name": "Mole Valley District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2027",
+      "notes": "Due to be abolished April 2027, replaced by East Surrey and West Surrey unitary councils"
+    },
+    {
+      "name": "Monmouthshire County Council",
+      "category": "Welsh Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Moray Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "National Highways",
+      "category": "Transport / Infrastructure Body",
+      "tier": 2,
+      "sector": "public",
+      "url": "https://careers.nationalhighways.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "National Infrastructure and Service Transformation Authority (NISTA)",
+      "category": "Government Body",
+      "tier": 3,
+      "sector": "public",
+      "url": "https://www.civilservicejobs.service.gov.uk",
+      "portal": "civilservicejobs",
+      "reorg": "",
+      "notes": "Successor to the National Infrastructure Commission and IPA (2025)"
+    },
+    {
+      "name": "Natural England",
+      "category": "National Agency",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.civilservicejobs.service.gov.uk",
+      "portal": "civilservicejobs",
+      "reorg": "",
+      "notes": "Recruits via Civil Service Jobs"
+    },
+    {
+      "name": "Natural Resources Wales",
+      "category": "National Agency",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "NatureScot",
+      "category": "National Agency",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Neath Port Talbot Council",
+      "category": "Welsh Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Network Rail",
+      "category": "Transport / Infrastructure Body",
+      "tier": 2,
+      "sector": "public",
+      "url": "https://careers.networkrail.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "New Forest District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "New Forest National Park Authority",
+      "category": "National Park Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Newark and Sherwood District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Newcastle City Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Newcastle-under-Lyme Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Newport City Council",
+      "category": "Welsh Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Newry, Mourne and Down District Council",
+      "category": "Northern Ireland Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "NI councils recruit via their own websites; planning powers transferred to councils in 2015"
+    },
+    {
+      "name": "Norfolk County Council",
+      "category": "County Council (Minerals & Waste / Transport Planning)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "North Ayrshire Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "North Devon Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "North East Combined Authority",
+      "category": "Combined / Strategic Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "North East Derbyshire District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "North East Lincolnshire Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "North Hertfordshire District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "North Kesteven District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "North Lanarkshire Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "North Lincolnshire Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "North Norfolk District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "North Northamptonshire Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "North Somerset Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "North Tyneside Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "North Warwickshire Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "North West Leicestershire District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "North York Moors National Park Authority",
+      "category": "National Park Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "North Yorkshire Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Northumberland County Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Northumberland National Park Authority",
+      "category": "National Park Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Norwich City Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Nottingham City Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Nottinghamshire County Council",
+      "category": "County Council (Minerals & Waste / Transport Planning)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Nuneaton and Bedworth Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Oadby and Wigston Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Old Oak and Park Royal Development Corporation",
+      "category": "Development Corporation",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Oldham Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Orkney Islands Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "Oxford City Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Oxfordshire County Council",
+      "category": "County Council (Minerals & Waste / Transport Planning)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Peak District National Park Authority",
+      "category": "National Park Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Pembrokeshire Coast National Park Authority",
+      "category": "National Park Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Pembrokeshire County Council",
+      "category": "Welsh Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Pendle Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Perth and Kinross Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "Peterborough City Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Planning and Environment Decisions Wales (PEDW)",
+      "category": "National Planning Body",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "Part of Welsh Government; recruits via Welsh Government careers"
+    },
+    {
+      "name": "Planning Inspectorate",
+      "category": "National Planning Body",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.civilservicejobs.service.gov.uk",
+      "portal": "civilservicejobs",
+      "reorg": "",
+      "notes": "England; recruits via Civil Service Jobs"
+    },
+    {
+      "name": "Plymouth City Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Portsmouth City Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Powys County Council",
+      "category": "Welsh Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Preston City Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Reading Borough Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Redcar and Cleveland Borough Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Redditch Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Reigate and Banstead Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2027",
+      "notes": "Due to be abolished April 2027, replaced by East Surrey and West Surrey unitary councils"
+    },
+    {
+      "name": "Renfrewshire Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "Rhondda Cynon Taf County Borough Council",
+      "category": "Welsh Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Ribble Valley Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Rochdale Borough Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Rochford District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Rossendale Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Rother District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Rotherham Metropolitan Borough Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Royal Borough of Greenwich",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Royal Borough of Kensington and Chelsea",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Royal Borough of Kingston upon Thames",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Royal Borough of Windsor and Maidenhead",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Royal Town Planning Institute (RTPI)",
+      "category": "Professional / Membership Body",
+      "tier": 3,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Rugby Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Runnymede Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2027",
+      "notes": "Due to be abolished April 2027, replaced by East Surrey and West Surrey unitary councils"
+    },
+    {
+      "name": "Rushcliffe Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Rushmoor Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Rutland County Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Salford City Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Sandwell Metropolitan Borough Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Scottish Borders Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "Scottish Canals",
+      "category": "Environment / Land Body",
+      "tier": 2,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Scottish Environment Protection Agency (SEPA)",
+      "category": "National Agency",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Scottish Forestry",
+      "category": "Environment / Land Body",
+      "tier": 2,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Scottish Government (Planning and Architecture Division)",
+      "category": "Government Department",
+      "tier": 3,
+      "sector": "public",
+      "url": "https://www.work-for-scotland.org",
+      "portal": "work-for-scotland",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Scottish Government Planning and Environmental Appeals Division (DPEA)",
+      "category": "National Planning Body",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.work-for-scotland.org",
+      "portal": "work-for-scotland",
+      "reorg": "",
+      "notes": "Part of Scottish Government"
+    },
+    {
+      "name": "Sefton Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Sevenoaks District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Sheffield City Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Shetland Islands Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "Shropshire Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Slough Borough Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Solihull Metropolitan Borough Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Somerset Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "South Ayrshire Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "South Cambridgeshire District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "South Derbyshire District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "South Downs National Park Authority",
+      "category": "National Park Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "South Gloucestershire Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "South Hams District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "South Holland District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "South Kesteven District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "South Lanarkshire Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "South Norfolk District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "South Oxfordshire District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "South Ribble Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "South Staffordshire District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "South Tees Development Corporation",
+      "category": "Development Corporation",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "South Tyneside Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "South Yorkshire Mayoral Combined Authority",
+      "category": "Combined / Strategic Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Southampton City Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Southend-on-Sea City Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Spelthorne Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2027",
+      "notes": "Due to be abolished April 2027, replaced by East Surrey and West Surrey unitary councils"
+    },
+    {
+      "name": "Sport England",
+      "category": "Government Agency",
+      "tier": 2,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "Statutory consultee on playing field applications; employs planners"
+    },
+    {
+      "name": "St Albans City and District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "St Helens Borough Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Stafford Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Staffordshire County Council",
+      "category": "County Council (Minerals & Waste / Transport Planning)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Staffordshire Moorlands District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Stevenage Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Stirling Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "Stockport Metropolitan Borough Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Stockton-on-Tees Borough Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Stoke-on-Trent City Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Stratford-on-Avon District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Stroud District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Suffolk County Council",
+      "category": "County Council (Minerals & Waste / Transport Planning)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Sunderland City Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Surrey County Council",
+      "category": "County Council (Minerals & Waste / Transport Planning)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2027",
+      "notes": "Due to be abolished April 2027, replaced by East Surrey and West Surrey unitary councils"
+    },
+    {
+      "name": "Surrey Heath Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2027",
+      "notes": "Due to be abolished April 2027, replaced by East Surrey and West Surrey unitary councils"
+    },
+    {
+      "name": "Swale Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Swansea Council",
+      "category": "Welsh Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Swindon Borough Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Tameside Metropolitan Borough Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Tamworth Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Tandridge District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2027",
+      "notes": "Due to be abolished April 2027, replaced by East Surrey and West Surrey unitary councils"
+    },
+    {
+      "name": "Tees Valley Combined Authority",
+      "category": "Combined / Strategic Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Teignbridge District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Telford and Wrekin Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Tendring District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Test Valley Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Tewkesbury Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Thanet District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "The Crown Estate",
+      "category": "Environment / Land Body",
+      "tier": 2,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Three Rivers District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Thurrock Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Tonbridge and Malling Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Torbay Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Torfaen County Borough Council",
+      "category": "Welsh Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Torridge District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Town and Country Planning Association",
+      "category": "Sector Body",
+      "tier": 3,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Trafford Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Transport for Greater Manchester",
+      "category": "Transport / Infrastructure Body",
+      "tier": 2,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Transport for London",
+      "category": "Transport / Infrastructure Body",
+      "tier": 2,
+      "sector": "public",
+      "url": "https://tfl.gov.uk/corporate/careers/",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Transport for the North",
+      "category": "Transport / Infrastructure Body",
+      "tier": 2,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Transport for Wales",
+      "category": "Transport / Infrastructure Body",
+      "tier": 2,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Transport for West Midlands",
+      "category": "Transport / Infrastructure Body",
+      "tier": 2,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "Executive body of the West Midlands Combined Authority"
+    },
+    {
+      "name": "Tunbridge Wells Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Uttlesford District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Vale of Glamorgan Council",
+      "category": "Welsh Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Vale of White Horse District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Wakefield Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Walsall Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Warrington Borough Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Warwick District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Warwickshire County Council",
+      "category": "County Council (Minerals & Waste / Transport Planning)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Watford Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Waverley Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2027",
+      "notes": "Due to be abolished April 2027, replaced by East Surrey and West Surrey unitary councils"
+    },
+    {
+      "name": "Wealden District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Welsh Government (Planning Directorate)",
+      "category": "Government Department",
+      "tier": 3,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Welwyn Hatfield Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "West Berkshire Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "West Devon Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "West Dunbartonshire Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "West Lancashire Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "West Lindsey District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "West Lothian Council",
+      "category": "Scottish Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "https://www.myjobscotland.gov.uk",
+      "portal": "myjobscotland",
+      "reorg": "",
+      "notes": "Recruits via myjobscotland, the official shared portal for Scottish councils"
+    },
+    {
+      "name": "West Midlands Combined Authority",
+      "category": "Combined / Strategic Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "West Northamptonshire Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "West of England Combined Authority",
+      "category": "Combined / Strategic Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "West Oxfordshire District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "West Suffolk Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "West Sussex County Council",
+      "category": "County Council (Minerals & Waste / Transport Planning)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "West Yorkshire Combined Authority",
+      "category": "Combined / Strategic Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Westminster City Council",
+      "category": "London Borough / City",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Westmorland and Furness Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Wigan Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Wiltshire Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Winchester City Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Wirral Council",
+      "category": "Metropolitan Borough Council",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Woking Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2027",
+      "notes": "Due to be abolished April 2027, replaced by East Surrey and West Surrey unitary councils"
+    },
+    {
+      "name": "Wokingham Borough Council",
+      "category": "Unitary Authority (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Worcester City Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Worcestershire County Council",
+      "category": "County Council (Minerals & Waste / Transport Planning)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Worthing Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Wrexham County Borough Council",
+      "category": "Welsh Local Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Wychavon District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Wyre Borough Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "Wyre Forest District Council",
+      "category": "District / Borough Council (England)",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "2028",
+      "notes": "Area subject to local government reorganisation; new unitary councils expected from April 2028"
+    },
+    {
+      "name": "York and North Yorkshire Combined Authority",
+      "category": "Combined / Strategic Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Yorkshire Dales National Park Authority",
+      "category": "National Park Authority",
+      "tier": 1,
+      "sector": "public",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Acorus Rural Property Services",
+      "category": "Rural Land Agent / Surveyor with Planning Team",
+      "tier": 1,
+      "sector": "private",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "Agricultural planning specialist"
+    },
+    {
+      "name": "Addleshaw Goddard",
+      "category": "Planning Law Firm",
+      "tier": 3,
+      "sector": "private",
+      "url": "https://www.addleshawgoddard.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "AECOM",
+      "category": "Engineering / Environmental Multidisciplinary",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://aecom.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Aldi UK",
+      "category": "Commercial Developer / Investor / Operator",
+      "tier": 3,
+      "sector": "private",
+      "url": "https://www.aldirecruitment.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "In-house property and planning acquisition roles"
+    },
+    {
+      "name": "Anglian Water",
+      "category": "Renewables, Energy & Utilities",
+      "tier": 3,
+      "sector": "private",
+      "url": "https://www.anglianwater.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Arup",
+      "category": "Engineering / Environmental Multidisciplinary",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.arup.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "AtkinsRealis",
+      "category": "Engineering / Environmental Multidisciplinary",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.atkinsrealis.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Avant Homes",
+      "category": "Housebuilder (Land & Planning)",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.avanthomes.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Avison Young",
+      "category": "Property Consultancy with Planning Division",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.avisonyoung.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Incorporates legacy GVA planning business"
+    },
+    {
+      "name": "Ballymore",
+      "category": "Commercial Developer / Investor / Operator",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.ballymoregroup.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Barratt Redrow",
+      "category": "Housebuilder (Land & Planning)",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.barrattredrow.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Merged October 2024; largest UK housebuilder"
+    },
+    {
+      "name": "Barton Willmore",
+      "category": "Planning Consultancy (national / large)",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.stantec.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Now part of Stantec (2022) - no longer a separate employer; listed to redirect searches"
+    },
+    {
+      "name": "Bell Cornwell",
+      "category": "Planning Consultancy (national / large)",
+      "tier": 1,
+      "sector": "private",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Bellway",
+      "category": "Housebuilder (Land & Planning)",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.bellway.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Berkeley Group",
+      "category": "Housebuilder (Land & Planning)",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.berkeleygroup.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Includes St George, St James, St William"
+    },
+    {
+      "name": "Berrys",
+      "category": "Rural Land Agent / Surveyor with Planning Team",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://berrys.uk.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Consistently ranked in the top 50 planning consultancies"
+    },
+    {
+      "name": "Bidwells",
+      "category": "Property Consultancy with Planning Division",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.bidwells.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Strong in eastern England, rural and science parks"
+    },
+    {
+      "name": "Bloor Homes",
+      "category": "Housebuilder (Land & Planning)",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.bloorhomes.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Boyer",
+      "category": "Planning Consultancy (national / large)",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.boyerplanning.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Part of Leaders Romans Group"
+    },
+    {
+      "name": "British Land",
+      "category": "Commercial Developer / Investor / Operator",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.britishland.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Brown & Co",
+      "category": "Rural Land Agent / Surveyor with Planning Team",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.brown-co.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Bruntwood",
+      "category": "Commercial Developer / Investor / Operator",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://bruntwood.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "North West and Midlands"
+    },
+    {
+      "name": "Bruton Knowles",
+      "category": "Rural Land Agent / Surveyor with Planning Team",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.brutonknowles.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Burges Salmon",
+      "category": "Planning Law Firm",
+      "tier": 3,
+      "sector": "private",
+      "url": "https://www.burges-salmon.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Cala Group",
+      "category": "Housebuilder (Land & Planning)",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.cala.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Canary Wharf Group",
+      "category": "Commercial Developer / Investor / Operator",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://canarywharf.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Carter Jonas",
+      "category": "Property Consultancy with Planning Division",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.carterjonas.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Strong rural and estates planning practice"
+    },
+    {
+      "name": "Catesby Estates",
+      "category": "Strategic Land Promoter / Regeneration Developer",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.catesbyestates.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Part of Urban&Civic"
+    },
+    {
+      "name": "CBRE",
+      "category": "Property Consultancy with Planning Division",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.cbre.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "CEG",
+      "category": "Strategic Land Promoter / Regeneration Developer",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.ceg.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Clarion Housing Group",
+      "category": "Housing Association / Registered Provider",
+      "tier": 2,
+      "sector": "private",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "Largest UK housing association; in-house development and planning"
+    },
+    {
+      "name": "Crest Nicholson",
+      "category": "Housebuilder (Land & Planning)",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.crestnicholson.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Davidson & Robertson",
+      "category": "Rural Land Agent / Surveyor with Planning Team",
+      "tier": 2,
+      "sector": "private",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "Scotland and northern England"
+    },
+    {
+      "name": "DLP Planning",
+      "category": "Planning Consultancy (national / large)",
+      "tier": 1,
+      "sector": "private",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "DP9",
+      "category": "Planning Consultancy (national / large)",
+      "tier": 1,
+      "sector": "private",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "London major-projects specialist"
+    },
+    {
+      "name": "EDF (nuclear)",
+      "category": "Renewables, Energy & Utilities",
+      "tier": 3,
+      "sector": "private",
+      "url": "https://www.edfenergy.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Nuclear new build consenting"
+    },
+    {
+      "name": "EDF Renewables UK",
+      "category": "Renewables, Energy & Utilities",
+      "tier": 2,
+      "sector": "private",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Edwin Thompson",
+      "category": "Rural Land Agent / Surveyor with Planning Team",
+      "tier": 2,
+      "sector": "private",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "Borders, Cumbria and North East"
+    },
+    {
+      "name": "Firstplan",
+      "category": "Planning Consultancy (national / large)",
+      "tier": 1,
+      "sector": "private",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Fisher German",
+      "category": "Property Consultancy with Planning Division",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.fishergerman.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Rural, utilities and development planning"
+    },
+    {
+      "name": "FPCR",
+      "category": "Specialist Consultancy (Transport / Landscape / Ecology)",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.fpcr.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Environment and design"
+    },
+    {
+      "name": "Freeths",
+      "category": "Planning Law Firm",
+      "tier": 3,
+      "sector": "private",
+      "url": "https://www.freeths.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Galbraith",
+      "category": "Rural Land Agent / Surveyor with Planning Team",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.galbraithgroup.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Scotland's largest rural consultancy"
+    },
+    {
+      "name": "George F White",
+      "category": "Rural Land Agent / Surveyor with Planning Team",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.georgefwhite.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "North of England rural practice"
+    },
+    {
+      "name": "Gladman",
+      "category": "Strategic Land Promoter / Regeneration Developer",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.gladman.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Part of Barratt Redrow; the most prolific land promoter and appeal generator"
+    },
+    {
+      "name": "Grosvenor",
+      "category": "Commercial Developer / Investor / Operator",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.grosvenor.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Hallam Land Management",
+      "category": "Strategic Land Promoter / Regeneration Developer",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.hallamland.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Henry Boot's land promotion arm"
+    },
+    {
+      "name": "Harworth Group",
+      "category": "Strategic Land Promoter / Regeneration Developer",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.harworthgroup.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Brownfield and former coalfield regeneration"
+    },
+    {
+      "name": "Hill Group",
+      "category": "Housebuilder (Land & Planning)",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.hill.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Home Group",
+      "category": "Housing Association / Registered Provider",
+      "tier": 3,
+      "sector": "private",
+      "url": "https://www.homegroup.org.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "North East based"
+    },
+    {
+      "name": "i-Transport",
+      "category": "Specialist Consultancy (Transport / Landscape / Ecology)",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.i-transport.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Transport planning"
+    },
+    {
+      "name": "Iceni Projects",
+      "category": "Planning Consultancy (national / large)",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://iceniprojects.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Jacobs",
+      "category": "Engineering / Environmental Multidisciplinary",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.jacobs.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "JLL",
+      "category": "Property Consultancy with Planning Division",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.jll.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Keepmoat",
+      "category": "Housebuilder (Land & Planning)",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.keepmoat.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Knight Frank",
+      "category": "Property Consultancy with Planning Division",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.knightfrank.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "L&Q",
+      "category": "Housing Association / Registered Provider",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.lqgroup.org.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Lambert Smith Hampton",
+      "category": "Property Consultancy with Planning Division",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.lsh.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Landsec",
+      "category": "Commercial Developer / Investor / Operator",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://landsec.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "LandTech",
+      "category": "PlanTech / Planning Data",
+      "tier": 3,
+      "sector": "private",
+      "url": "https://land.tech",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "LandInsight site-sourcing platform"
+    },
+    {
+      "name": "Lanpro",
+      "category": "Planning Consultancy (national / large)",
+      "tier": 1,
+      "sector": "private",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Lichfields",
+      "category": "Planning Consultancy (national / large)",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://lichfields.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Lidl GB",
+      "category": "Commercial Developer / Investor / Operator",
+      "tier": 3,
+      "sector": "private",
+      "url": "https://careers.lidl.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "In-house property and planning acquisition roles"
+    },
+    {
+      "name": "LUC (Land Use Consultants)",
+      "category": "Engineering / Environmental Multidisciplinary",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://landuse.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Planning, landscape and environment"
+    },
+    {
+      "name": "Marrons",
+      "category": "Planning Consultancy (national / large)",
+      "tier": 1,
+      "sector": "private",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "Planning and design arm of the Ampa legal group"
+    },
+    {
+      "name": "McCarthy Stone",
+      "category": "Housebuilder (Land & Planning)",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.mccarthystone.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Retirement living specialist"
+    },
+    {
+      "name": "Miller Homes",
+      "category": "Housebuilder (Land & Planning)",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.millerhomes.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "MJ Gleeson",
+      "category": "Housebuilder (Land & Planning)",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.mjgleesonplc.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Mode Transport Planning",
+      "category": "Specialist Consultancy (Transport / Landscape / Ecology)",
+      "tier": 2,
+      "sector": "private",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Montagu Evans",
+      "category": "Property Consultancy with Planning Division",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.montagu-evans.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Planning, heritage and CPO strength"
+    },
+    {
+      "name": "Mott MacDonald",
+      "category": "Engineering / Environmental Multidisciplinary",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.mottmac.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "National Grid",
+      "category": "Renewables, Energy & Utilities",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.nationalgrid.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Grid infrastructure consenting; major recruiter for the Great Grid Upgrade"
+    },
+    {
+      "name": "Newmark (formerly Gerald Eve)",
+      "category": "Property Consultancy with Planning Division",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.nmrk.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Gerald Eve rebranded as Newmark, January 2025; planning team retained"
+    },
+    {
+      "name": "Nexus Planning",
+      "category": "Planning Consultancy (national / large)",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.nexusplanning.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Nimbus",
+      "category": "PlanTech / Planning Data",
+      "tier": 3,
+      "sector": "private",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "Site appraisal platform"
+    },
+    {
+      "name": "Orsted",
+      "category": "Renewables, Energy & Utilities",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://orsted.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Offshore wind"
+    },
+    {
+      "name": "Osborne Clarke",
+      "category": "Planning Law Firm",
+      "tier": 3,
+      "sector": "private",
+      "url": "https://www.osborneclarke.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Peabody",
+      "category": "Housing Association / Registered Provider",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.peabody.org.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Pegasus Group",
+      "category": "Planning Consultancy (national / large)",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.pegasusgroup.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Persimmon",
+      "category": "Housebuilder (Land & Planning)",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.persimmonhomes.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Pinsent Masons",
+      "category": "Planning Law Firm",
+      "tier": 3,
+      "sector": "private",
+      "url": "https://www.pinsentmasons.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Places for People",
+      "category": "Housing Association / Registered Provider",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.placesforpeople.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Prologis UK",
+      "category": "Commercial Developer / Investor / Operator",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.prologis.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Logistics"
+    },
+    {
+      "name": "Quod",
+      "category": "Planning Consultancy (national / large)",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.quod.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Rapleys",
+      "category": "Property Consultancy with Planning Division",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://rapleys.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Related Argent",
+      "category": "Commercial Developer / Investor / Operator",
+      "tier": 2,
+      "sector": "private",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "RES",
+      "category": "Renewables, Energy & Utilities",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.res-group.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "World's largest independent renewables developer"
+    },
+    {
+      "name": "Ricardo",
+      "category": "Engineering / Environmental Multidisciplinary",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.ricardo.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Richborough",
+      "category": "Strategic Land Promoter / Regeneration Developer",
+      "tier": 1,
+      "sector": "private",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Rolfe Judd Planning",
+      "category": "Planning Consultancy (national / large)",
+      "tier": 1,
+      "sector": "private",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "RSK Group",
+      "category": "Engineering / Environmental Multidisciplinary",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://rskgroup.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Large environmental group; planning roles across member companies"
+    },
+    {
+      "name": "RWE",
+      "category": "Renewables, Energy & Utilities",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.rwe.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Major UK onshore/offshore renewables developer"
+    },
+    {
+      "name": "Sanctuary",
+      "category": "Housing Association / Registered Provider",
+      "tier": 3,
+      "sector": "private",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Sanderson Weatherall",
+      "category": "Rural Land Agent / Surveyor with Planning Team",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.sw.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Savills",
+      "category": "Property Consultancy with Planning Division",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.savills.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Largest employer of chartered town planners in the UK (Planning magazine survey)"
+    },
+    {
+      "name": "ScottishPower Renewables",
+      "category": "Renewables, Energy & Utilities",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.scottishpowerrenewables.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Searchland",
+      "category": "PlanTech / Planning Data",
+      "tier": 3,
+      "sector": "private",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "Site sourcing platform"
+    },
+    {
+      "name": "SEGRO",
+      "category": "Commercial Developer / Investor / Operator",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.segro.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Industrial and logistics"
+    },
+    {
+      "name": "Severn Trent",
+      "category": "Renewables, Energy & Utilities",
+      "tier": 3,
+      "sector": "private",
+      "url": "https://www.severntrent.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Shoosmiths",
+      "category": "Planning Law Firm",
+      "tier": 3,
+      "sector": "private",
+      "url": "https://www.shoosmiths.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "SLR Consulting",
+      "category": "Engineering / Environmental Multidisciplinary",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.slrconsulting.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Incorporates Wardell Armstrong and Vectos"
+    },
+    {
+      "name": "SSE",
+      "category": "Renewables, Energy & Utilities",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.sse.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Renewables and networks consenting teams"
+    },
+    {
+      "name": "St Modwen",
+      "category": "Strategic Land Promoter / Regeneration Developer",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.stmodwen.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Stantec",
+      "category": "Engineering / Environmental Multidisciplinary",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.stantec.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Absorbed Barton Willmore and Peter Brett Associates; one of the largest UK planning teams"
+    },
+    {
+      "name": "Statkraft",
+      "category": "Renewables, Energy & Utilities",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.statkraft.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Story Homes",
+      "category": "Housebuilder (Land & Planning)",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.storyhomes.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "North of England"
+    },
+    {
+      "name": "Strutt & Parker",
+      "category": "Rural Land Agent / Surveyor with Planning Team",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.struttandparker.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Part of BNP Paribas Real Estate; national rural planning team"
+    },
+    {
+      "name": "Taylor Wimpey",
+      "category": "Housebuilder (Land & Planning)",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.taylorwimpey.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Includes a substantial in-house strategic land team"
+    },
+    {
+      "name": "Temple Group",
+      "category": "Engineering / Environmental Multidisciplinary",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.templegroup.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "TerraQuest",
+      "category": "PlanTech / Planning Data",
+      "tier": 3,
+      "sector": "private",
+      "url": "https://www.terraquest.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Operates the Planning Portal"
+    },
+    {
+      "name": "Tetra Tech",
+      "category": "Engineering / Environmental Multidisciplinary",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.tetratech.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Incorporates legacy RPS and WYG planning businesses"
+    },
+    {
+      "name": "The Environmental Dimension Partnership (EDP)",
+      "category": "Specialist Consultancy (Transport / Landscape / Ecology)",
+      "tier": 2,
+      "sector": "private",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Town Legal",
+      "category": "Planning Law Firm",
+      "tier": 3,
+      "sector": "private",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "Specialist planning-only law firm; also employs planners in support roles"
+    },
+    {
+      "name": "Turley",
+      "category": "Planning Consultancy (national / large)",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.turley.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Tyler Grange",
+      "category": "Specialist Consultancy (Transport / Landscape / Ecology)",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://tylergrange.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Landscape, ecology, arboriculture"
+    },
+    {
+      "name": "United Utilities",
+      "category": "Renewables, Energy & Utilities",
+      "tier": 3,
+      "sector": "private",
+      "url": "https://www.unitedutilities.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Urban Intelligence",
+      "category": "PlanTech / Planning Data",
+      "tier": 3,
+      "sector": "private",
+      "url": "",
+      "portal": "name-search",
+      "reorg": "",
+      "notes": "Planning data and policy mapping"
+    },
+    {
+      "name": "Urban&Civic",
+      "category": "Strategic Land Promoter / Regeneration Developer",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.urbanandcivic.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Master developer of large sites"
+    },
+    {
+      "name": "Vail Williams",
+      "category": "Property Consultancy with Planning Division",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.vailwilliams.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Vattenfall",
+      "category": "Renewables, Energy & Utilities",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.vattenfall.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Vistry Group",
+      "category": "Housebuilder (Land & Planning)",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.vistrygroup.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Includes Countryside, Bovis and Linden brands; partnerships model"
+    },
+    {
+      "name": "Wates Developments",
+      "category": "Strategic Land Promoter / Regeneration Developer",
+      "tier": 2,
+      "sector": "private",
+      "url": "https://www.wates.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Winckworth Sherwood",
+      "category": "Planning Law Firm",
+      "tier": 3,
+      "sector": "private",
+      "url": "https://www.wslaw.co.uk",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "WSP",
+      "category": "Engineering / Environmental Multidisciplinary",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.wsp.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "Incorporates legacy Indigo planning business"
+    },
+    {
+      "name": "Yorkshire Water",
+      "category": "Renewables, Energy & Utilities",
+      "tier": 3,
+      "sector": "private",
+      "url": "https://www.yorkshirewater.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": ""
+    },
+    {
+      "name": "Youngs RPS",
+      "category": "Rural Land Agent / Surveyor with Planning Team",
+      "tier": 1,
+      "sector": "private",
+      "url": "https://www.youngsrps.com",
+      "portal": "direct-url",
+      "reorg": "",
+      "notes": "North East and North Yorkshire"
+    }
+  ]
+}
