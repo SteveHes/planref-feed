@@ -1,0 +1,474 @@
+{
+ "version": "July 2026 edition",
+ "updated": "21 July 2026",
+ "currency": "GBP",
+ "compiled": "Compiled July 2026 for PlanRef",
+ "methodology": "Two kinds of number appear. SOURCED figures are attributed to a named source and date. INDICATIVE ranges are synthesised from recruiter salary guides (Hays, Carrington West, Penguin, Oyster), advertised vacancies and job-board data for 2025-26 - a considered market view, not a measurement. There is no central published database of UK planning salaries by grade, region, sector and specialism, so precise figures for every combination cannot be evidenced. Use this as a compass, not a contract: all figures are gross annual salary in pounds unless stated, and should be checked against the live recruiter guides, RTPI research and ONS before being relied upon.",
+ "private": [
+  {
+   "id": "grad",
+   "grade": "Graduate / Assistant Planner",
+   "expLo": 0,
+   "expHi": 2,
+   "lo": 24000,
+   "hi": 30000,
+   "chartered": "No (working towards)"
+  },
+  {
+   "id": "planner",
+   "grade": "Planner",
+   "expLo": 2,
+   "expHi": 4,
+   "lo": 30000,
+   "hi": 38000,
+   "chartered": "Recently / approaching MRTPI"
+  },
+  {
+   "id": "senior",
+   "grade": "Senior Planner",
+   "expLo": 4,
+   "expHi": 7,
+   "lo": 38000,
+   "hi": 48000,
+   "chartered": "Yes"
+  },
+  {
+   "id": "principal",
+   "grade": "Principal Planner",
+   "expLo": 7,
+   "expHi": 10,
+   "lo": 46000,
+   "hi": 58000,
+   "chartered": "Yes"
+  },
+  {
+   "id": "associate",
+   "grade": "Associate",
+   "expLo": 9,
+   "expHi": 13,
+   "lo": 55000,
+   "hi": 72000,
+   "chartered": "Yes"
+  },
+  {
+   "id": "assocdir",
+   "grade": "Associate Director",
+   "expLo": 12,
+   "expHi": 16,
+   "lo": 68000,
+   "hi": 90000,
+   "chartered": "Yes"
+  },
+  {
+   "id": "director",
+   "grade": "Director / Partner",
+   "expLo": 15,
+   "expHi": 40,
+   "lo": 90000,
+   "hi": 130000,
+   "plus": true,
+   "chartered": "Yes"
+  }
+ ],
+ "public": [
+  {
+   "id": "assistant",
+   "grade": "Assistant / Trainee Planner",
+   "expLo": 0,
+   "expHi": 2,
+   "lo": 26000,
+   "hi": 32000,
+   "note": "Plus London weighting where applicable"
+  },
+  {
+   "id": "officer",
+   "grade": "Planner / Officer",
+   "expLo": 2,
+   "expHi": 4,
+   "lo": 30000,
+   "hi": 38000,
+   "note": "Development management or policy"
+  },
+  {
+   "id": "senior",
+   "grade": "Senior Planner",
+   "expLo": 4,
+   "expHi": 7,
+   "lo": 38000,
+   "hi": 47000,
+   "note": "Often MRTPI-required"
+  },
+  {
+   "id": "principal",
+   "grade": "Principal Planner",
+   "expLo": 7,
+   "expHi": 11,
+   "lo": 45000,
+   "hi": 56000,
+   "note": "Handling major / complex casework"
+  },
+  {
+   "id": "manager",
+   "grade": "Team Leader / Planning Manager",
+   "expLo": 10,
+   "expHi": 15,
+   "lo": 52000,
+   "hi": 66000,
+   "note": "Managing a team"
+  },
+  {
+   "id": "head",
+   "grade": "Head of Planning / Service",
+   "expLo": 15,
+   "expHi": 40,
+   "lo": 62000,
+   "hi": 90000,
+   "plus": true,
+   "note": "Varies widely with authority size"
+  }
+ ],
+ "interim": [
+  {
+   "grade": "Planner / Officer",
+   "hrLo": 24,
+   "hrHi": 32,
+   "dayLo": 190,
+   "dayHi": 250
+  },
+  {
+   "grade": "Senior Planner",
+   "hrLo": 32,
+   "hrHi": 40,
+   "dayLo": 250,
+   "dayHi": 320
+  },
+  {
+   "grade": "Principal Planner",
+   "hrLo": 38,
+   "hrHi": 45,
+   "dayLo": 300,
+   "dayHi": 360
+  },
+  {
+   "grade": "Specialist / major projects / EIA",
+   "hrLo": 45,
+   "hrHi": 65,
+   "dayLo": 360,
+   "dayHi": 520,
+   "plus": true
+  }
+ ],
+ "interimBasis": "Anchored to Carrington West advertised interim rates (2026, GBP35-42/hour for senior/principal development management); wider bands indicative. Rates vary with IR35 status, region and urgency.",
+ "regions": [
+  {
+   "name": "London",
+   "lo": 115,
+   "hi": 125,
+   "comment": "Highest nominal pay; highest living costs; London weighting in LA roles"
+  },
+  {
+   "name": "South East",
+   "lo": 105,
+   "hi": 115,
+   "comment": "Strong private market; commuter-belt pressure on pay"
+  },
+  {
+   "name": "East of England",
+   "lo": 100,
+   "hi": 108,
+   "comment": "Growth areas (Cambridge, corridors) pull pay up"
+  },
+  {
+   "name": "South West",
+   "lo": 98,
+   "hi": 105,
+   "comment": "Mixed; strong in Bristol, softer rurally"
+  },
+  {
+   "name": "West Midlands",
+   "lo": 95,
+   "hi": 102,
+   "comment": "Birmingham a regional hub"
+  },
+  {
+   "name": "East Midlands",
+   "lo": 93,
+   "hi": 100,
+   "comment": "Below national average nominally"
+  },
+  {
+   "name": "North West",
+   "lo": 95,
+   "hi": 103,
+   "comment": "Manchester a strong, rising market"
+  },
+  {
+   "name": "Yorkshire & the Humber",
+   "lo": 92,
+   "hi": 100,
+   "comment": "Leeds a regional centre"
+  },
+  {
+   "name": "North East",
+   "lo": 90,
+   "hi": 98,
+   "comment": "Lowest nominal English band; lower living costs"
+  },
+  {
+   "name": "Scotland",
+   "lo": 95,
+   "hi": 105,
+   "comment": "Own system; Edinburgh/Glasgow strongest"
+  },
+  {
+   "name": "Wales",
+   "lo": 90,
+   "hi": 100,
+   "comment": "Own system; Cardiff strongest"
+  },
+  {
+   "name": "Northern Ireland",
+   "lo": 85,
+   "hi": 98,
+   "comment": "Lower nominal pay; lower living costs; own system"
+  }
+ ],
+ "regionBasis": "Indicative index synthesised from recruiter guides and the direction of ONS regional earnings, 2025-26. UK = 100. Not a precise measurement; cost-of-living differences offset much of the nominal variation.",
+ "specialisms": [
+  {
+   "tier": "Premium",
+   "items": [
+    "Infrastructure / NSIPs",
+    "Energy & renewables",
+    "Environmental impact assessment",
+    "Strategic planning",
+    "Land & development promotion"
+   ],
+   "why": "Scarce expertise, major schemes, high fees and high commercial value",
+   "effect": "above"
+  },
+  {
+   "tier": "Strong",
+   "items": [
+    "Development management (private)",
+    "Development consultancy",
+    "Transport planning",
+    "Minerals & waste"
+   ],
+   "why": "Core fee-earning work; steady demand and commercial exposure",
+   "effect": "upper"
+  },
+  {
+   "tier": "Mid",
+   "items": [
+    "Heritage & conservation",
+    "Urban design",
+    "Rural planning",
+    "Environmental planning / ecology"
+   ],
+   "why": "Valued and often specialist, but rarely the top-paying niches",
+   "effect": "mid"
+  },
+  {
+   "tier": "Steady",
+   "items": [
+    "Development management (local authority)",
+    "Policy / plan-making",
+    "Enforcement",
+    "Appeals casework"
+   ],
+   "why": "Essential public-interest work; pay bound by public scales and generalist supply",
+   "effect": "base"
+  }
+ ],
+ "chartership": {
+  "upliftLo": 3000,
+  "upliftHi": 8000,
+  "note": "Direct uplift on qualifying is modest (indicatively GBP3,000-8,000). The real value is the GATEWAY effect: chartership (MRTPI) is in practice required for most senior and principal roles in both sectors, so it unlocks the grades where pay accelerates.",
+  "stages": [
+   {
+    "stage": "Graduate / pre-APC",
+    "lo": 24000,
+    "hi": 30000,
+    "comment": "Working towards chartership"
+   },
+   {
+    "stage": "Licentiate / approaching MRTPI",
+    "lo": 30000,
+    "hi": 36000,
+    "comment": "Experience building; APC in progress"
+   },
+   {
+    "stage": "Newly chartered (MRTPI)",
+    "lo": 34000,
+    "hi": 42000,
+    "comment": "Uplift on award; eligible for senior roles"
+   },
+   {
+    "stage": "Chartered, 3-5 years post-APC",
+    "lo": 42000,
+    "hi": 55000,
+    "comment": "Senior / principal grades open up"
+   }
+  ],
+  "gateGrades": [
+   "senior",
+   "principal",
+   "associate",
+   "assocdir",
+   "director",
+   "manager",
+   "head"
+  ]
+ },
+ "benefits": [
+  {
+   "benefit": "Pension",
+   "public": "LGPS defined benefit (high value)",
+   "private": "Defined contribution, ~4-8% employer"
+  },
+  {
+   "benefit": "Bonus",
+   "public": "Rare",
+   "private": "~5-20%+; profit share / equity at senior level"
+  },
+  {
+   "benefit": "Car allowance",
+   "public": "Rare",
+   "private": "Common at senior grades"
+  },
+  {
+   "benefit": "Private healthcare",
+   "public": "Rare",
+   "private": "Common, especially mid-senior"
+  },
+  {
+   "benefit": "Share / equity schemes",
+   "public": "No",
+   "private": "At associate/director level in some firms"
+  },
+  {
+   "benefit": "Professional subscriptions",
+   "public": "Often paid",
+   "private": "Usually paid"
+  },
+  {
+   "benefit": "Annual leave",
+   "public": "Generous, with long-service uplift",
+   "private": "Typically 25 days, rising modestly"
+  },
+  {
+   "benefit": "Life assurance",
+   "public": "Common",
+   "private": "Common"
+  },
+  {
+   "benefit": "Flexible / hybrid working",
+   "public": "Widespread",
+   "private": "Widespread"
+  },
+  {
+   "benefit": "Salary reviews",
+   "public": "Annual, scale-based",
+   "private": "Annual, performance-based; ad hoc counters"
+  }
+ ],
+ "employers": [
+  {
+   "type": "National housebuilders",
+   "pay": "High base + bonus; strong at senior levels",
+   "career": "Commercial, land-focused; fast progression for deliverers"
+  },
+  {
+   "type": "Regional housebuilders",
+   "pay": "Competitive base + bonus",
+   "career": "Broad role; strong local market knowledge"
+  },
+  {
+   "type": "Planning consultancies",
+   "pay": "Mid-high base; bonus; equity at director",
+   "career": "Fee-earning; client-facing; clear grade ladder"
+  },
+  {
+   "type": "Property consultancies (multidisciplinary)",
+   "pay": "Mid-high base; bonus",
+   "career": "Planning within a wider surveying business"
+  },
+  {
+   "type": "Law firms (planning)",
+   "pay": "High base for planning-law specialists",
+   "career": "Technical, litigation-adjacent; often solicitor-led"
+  },
+  {
+   "type": "Local authorities",
+   "pay": "Lower base; LGPS pension",
+   "career": "Decision-making craft; security; structured"
+  },
+  {
+   "type": "Government agencies / PINS",
+   "pay": "Public scales; pension",
+   "career": "Policy, appeals, national infrastructure"
+  },
+  {
+   "type": "Utilities / infrastructure companies",
+   "pay": "Competitive; sector premium",
+   "career": "In-house, project-focused, major consents"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Hays \u2014 UK Salary & Recruiting Trends Guide 2026",
+   "detail": "Recruiter benchmark bands by grade and sector.",
+   "url": "https://www.hays.co.uk/salary-guide",
+   "type": "Salary guide"
+  },
+  {
+   "name": "Carrington West \u2014 2026 Town Planning Salary Survey & Guide",
+   "detail": "Grade bands, public/private and interim rates; live vacancy rates cited for contractors.",
+   "url": "https://www.carringtonwest.com/salary-surveys",
+   "type": "Salary guide"
+  },
+  {
+   "name": "Penguin Recruitment \u2014 planning salary guidance",
+   "detail": "Specialist planning recruiter guidance.",
+   "url": "https://www.penguinrecruitment.co.uk",
+   "type": "Salary guide"
+  },
+  {
+   "name": "Oyster Partnership \u2014 salary guides",
+   "detail": "Built-environment and planning recruiter guidance.",
+   "url": "https://www.oysterpartnership.com",
+   "type": "Salary guide"
+  },
+  {
+   "name": "RTPI \u2014 State of the Profession 2025",
+   "detail": "Workforce, diversity and the long-run direction of pay (real median decline over 15 years).",
+   "url": "https://www.rtpi.org.uk/policy-and-research",
+   "type": "Professional body"
+  },
+  {
+   "name": "RTPI \u2014 Chartership (MRTPI) and APC guidance",
+   "detail": "The qualification underpinning the gateway effect.",
+   "url": "https://www.rtpi.org.uk",
+   "type": "Professional body"
+  },
+  {
+   "name": "ONS \u2014 Annual Survey of Hours and Earnings (ASHE)",
+   "detail": "Occupation 'town planning officers' (SOC 2432) and regional earnings; nationally representative, broad occupation only.",
+   "url": "https://www.ons.gov.uk",
+   "type": "Government data"
+  },
+  {
+   "name": "MHCLG \u2014 NPPF (Dec 2024) & Planning and Infrastructure Act 2025",
+   "detail": "Reform and housing-delivery context driving demand.",
+   "url": "https://www.gov.uk",
+   "type": "Government"
+  },
+  {
+   "name": "Self-reported platforms (cross-check only)",
+   "detail": "PayScale (UK town planner average ~GBP31,000, 2026), Glassdoor, Indeed, Reed, Check-a-Salary. Junior-weighted and inconsistent; use as a sense-check only.",
+   "url": "",
+   "type": "Self-reported"
+  }
+ ]
+}
