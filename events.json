@@ -106,6 +106,19 @@
       "checked": "2026-07-21"
     },
     {
+      "t": "Planning policy at pace (part two) - Policy exchange",
+      "org": "RTPI",
+      "date": "2026-11-04",
+      "dtext": "4 Nov 2026",
+      "mode": "In person",
+      "where": "Newcastle upon Tyne",
+      "cost": "From £47",
+      "cpd": "Up to 3 hrs",
+      "region": "North East",
+      "url": "https://www.rtpi.org.uk/events/planning-policy-at-pace-part-two-policy-exchange/",
+      "checked": "2026-07-21"
+    },
+    {
       "t": "Technicalities of Planning 2026",
       "org": "RTPI",
       "date": "2026-11-25",
@@ -116,6 +129,19 @@
       "cpd": "Up to 5 hrs",
       "region": "North East",
       "url": "https://www.rtpi.org.uk/events/technicalities-of-planning-2026/",
+      "checked": "2026-07-21"
+    },
+    {
+      "t": "RTPI APC webinar: Resubmissions December 2026",
+      "org": "RTPI",
+      "date": "2026-12-15",
+      "dtext": "15 Dec 2026",
+      "mode": "Online",
+      "where": "",
+      "cost": "Free",
+      "cpd": "",
+      "region": "Online",
+      "url": "https://www.rtpi.org.uk/events/rtpi-apc-webinar-resubmissions-december-2026/",
       "checked": "2026-07-21"
     }
   ]
