@@ -3,12 +3,11 @@
  "steps": [
   "subscription ok",
   "voices ok",
-  "generated+mastered podcast_turbo.mp3 (model eleven_turbo_v2_5, 1160 chars)",
-  "generated+mastered podcast_v3.mp3 (model eleven_v3, 1055 chars)"
+  "generated+mastered corrected.mp3 (model eleven_turbo_v2_5, 920 chars)"
  ],
  "subscription": {
   "tier": "creator",
-  "character_count": 2893,
+  "character_count": 3777,
   "character_limit": 235483,
   "next_character_count_reset_unix": 1787242547
  },
@@ -128,6 +127,6 @@
   "id": "gvwF323vg5NhP8NbkrNo",
   "name": "Steve H"
  },
- "credits_after": 3197,
- "credits_spent_this_run": 304
+ "credits_after": 3777,
+ "credits_spent_this_run": 0
 }
