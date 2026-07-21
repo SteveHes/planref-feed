@@ -1,17 +1,30 @@
 {
  "voice_name": "Steve H",
- "run": 9,
+ "run": 10,
  "items": [
   {
-   "output": "corrected.mp3",
+   "output": "human_v1.mp3",
    "model_id": "eleven_turbo_v2_5",
-   "text": "Class Q grants planning permission for the change of use of certain agricultural buildings \u2014 and some former agricultural buildings \u2014 together with land within their curtilage, to use as Class C3 dwellinghouses. It also covers the building operations reasonably necessary to convert the building... and, since the 21st of May, 2024, limited single-storey rear extensions. <break time=\"0.6s\" /> The right exists to release redundant farm buildings for housing \u2014 without testing the merits of residential use in the countryside against the development plan. <break time=\"0.6s\" /> And it is the most litigated, and the most technically demanding, of the Part 3 rights. It generates a disproportionate share of prior approval appeals. It rewards forensic preparation more than any other permitted development right \u2014 because eligibility turns on history, fact, and structure... which must be evidenced, rather than asserted.",
+   "text": "Class Q grants planning permission for a change of use, from certain agricultural buildings \u2014 including some former agricultural buildings, and the land within their curtilage \u2014 to Class C3 dwellinghouses. It covers the building operations that are reasonably necessary to convert the building. And since the 21st of May 2024, it covers limited, single-storey rear extensions too. Now, the right exists for a simple reason. It's there to release redundant farm buildings for housing, without testing the merits of living in the countryside against the development plan. But it's also the most litigated, and the most technically demanding, of the Part 3 rights. It picks up far more than its share of prior approval appeals. And it rewards forensic preparation, more than any other permitted development right. Because eligibility turns on history, fact, and structure \u2014 and those have to be evidenced, not asserted.",
    "voice_settings": {
-    "stability": 0.7,
-    "similarity_boost": 0.62,
-    "style": 0.0,
+    "stability": 0.48,
+    "similarity_boost": 0.65,
+    "style": 0.08,
     "use_speaker_boost": false,
-    "speed": 0.89
+    "speed": 0.95
+   },
+   "post": "warm"
+  },
+  {
+   "output": "human_v2.mp3",
+   "model_id": "eleven_turbo_v2_5",
+   "text": "Class Q grants planning permission for a change of use, from certain agricultural buildings \u2014 including some former agricultural buildings, and the land within their curtilage \u2014 to Class C3 dwellinghouses. It covers the building operations that are reasonably necessary to convert the building. And since the 21st of May 2024, it covers limited, single-storey rear extensions too. Now, the right exists for a simple reason. It's there to release redundant farm buildings for housing, without testing the merits of living in the countryside against the development plan. But it's also the most litigated, and the most technically demanding, of the Part 3 rights. It picks up far more than its share of prior approval appeals. And it rewards forensic preparation, more than any other permitted development right. Because eligibility turns on history, fact, and structure \u2014 and those have to be evidenced, not asserted.",
+   "voice_settings": {
+    "stability": 0.58,
+    "similarity_boost": 0.65,
+    "style": 0.12,
+    "use_speaker_boost": false,
+    "speed": 0.97
    },
    "post": "warm"
   }
