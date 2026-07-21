@@ -1,6 +1,132 @@
 {
- "status": "error",
- "steps": [],
- "failed_step": "env",
- "error": "XI_KEY secret is missing or empty"
+ "status": "ok",
+ "steps": [
+  "subscription ok",
+  "voices ok",
+  "generated test.mp3 (24285 bytes, model eleven_multilingual_v2, 19 chars)"
+ ],
+ "subscription": {
+  "tier": "creator",
+  "character_count": 0,
+  "character_limit": 235483,
+  "next_character_count_reset_unix": 1787242547
+ },
+ "voices": [
+  {
+   "id": "CwhRBWXzGAHq8TQ4Fs17",
+   "name": "Roger - Laid-Back, Casual, Resonant",
+   "category": "premade"
+  },
+  {
+   "id": "EXAVITQu4vr4xnSDxMaL",
+   "name": "Sarah - Mature, Reassuring, Confident",
+   "category": "premade"
+  },
+  {
+   "id": "FGY2WhTYpPnrIDTdsKH5",
+   "name": "Laura - Enthusiast, Quirky Attitude",
+   "category": "premade"
+  },
+  {
+   "id": "IKne3meq5aSn9XLyUdCD",
+   "name": "Charlie - Deep, Confident, Energetic",
+   "category": "premade"
+  },
+  {
+   "id": "JBFqnCBsd6RMkjVDRZzb",
+   "name": "George - Warm, Captivating Storyteller",
+   "category": "premade"
+  },
+  {
+   "id": "N2lVS1w4EtoT3dr4eOWO",
+   "name": "Callum - Husky Trickster",
+   "category": "premade"
+  },
+  {
+   "id": "SAz9YHcvj6GT2YYXdXww",
+   "name": "River - Relaxed, Neutral, Informative",
+   "category": "premade"
+  },
+  {
+   "id": "SOYHLrjzK2X1ezoPC6cr",
+   "name": "Harry - Fierce Warrior",
+   "category": "premade"
+  },
+  {
+   "id": "TX3LPaxmHKxFdv7VOQHJ",
+   "name": "Liam - Energetic, Social Media Creator",
+   "category": "premade"
+  },
+  {
+   "id": "Xb7hH8MSUJpSbSDYk0k2",
+   "name": "Alice - Clear, Engaging Educator",
+   "category": "premade"
+  },
+  {
+   "id": "XrExE9yKIg1WjnnlVkGX",
+   "name": "Matilda - Knowledgable, Professional",
+   "category": "premade"
+  },
+  {
+   "id": "bIHbv24MWmeRgasZH58o",
+   "name": "Will - Relaxed Optimist",
+   "category": "premade"
+  },
+  {
+   "id": "cgSgspJ2msm6clMCkdW9",
+   "name": "Jessica - Playful, Bright, Warm",
+   "category": "premade"
+  },
+  {
+   "id": "cjVigY5qzO86Huf0OWal",
+   "name": "Eric - Smooth, Trustworthy",
+   "category": "premade"
+  },
+  {
+   "id": "hpp4J3VqNfWAUOO0d1Us",
+   "name": "Bella - Professional, Bright, Warm",
+   "category": "premade"
+  },
+  {
+   "id": "iP95p4xoKVk53GoZ742B",
+   "name": "Chris - Charming, Down-to-Earth",
+   "category": "premade"
+  },
+  {
+   "id": "nPczCjzI2devNBz1zQrb",
+   "name": "Brian - Deep, Resonant and Comforting",
+   "category": "premade"
+  },
+  {
+   "id": "onwK4e9ZLuTAKqWW03F9",
+   "name": "Daniel - Steady Broadcaster",
+   "category": "premade"
+  },
+  {
+   "id": "pFZP5JQG7iQjIQuC4Bku",
+   "name": "Lily - Velvety Actress",
+   "category": "premade"
+  },
+  {
+   "id": "pNInz6obpgDQGcFmaJgB",
+   "name": "Adam - Dominant, Firm",
+   "category": "premade"
+  },
+  {
+   "id": "pqHfZKP75CvOlQylNhV4",
+   "name": "Bill - Wise, Mature, Balanced",
+   "category": "premade"
+  },
+  {
+   "id": "gvwF323vg5NhP8NbkrNo",
+   "name": "Steve H",
+   "category": "professional"
+  }
+ ],
+ "voice_used": {
+  "id": "gvwF323vg5NhP8NbkrNo",
+  "name": "Steve H"
+ },
+ "credits_after": 0,
+ "credits_spent_this_run": 0
 }
