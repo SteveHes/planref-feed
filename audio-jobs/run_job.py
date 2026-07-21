@@ -86,10 +86,13 @@ if request.get("list_models"):
     except Exception as e:
         result["models_error"] = str(e)[:500]
 
-def master(path):
+def master(path, pitch=None):
     tmp = path + ".warm.mp3"
-    af = ("highpass=f=70,"
-          "equalizer=f=230:t=q:w=1.0:g=2.5,"
+    pre = ""
+    if pitch:
+        pre = f"asetrate=44100*{pitch},aresample=44100,atempo={1/pitch:.6f},"
+    af = (pre + "highpass=f=70,"
+          "equalizer=f=180:t=q:w=1.0:g=3,"
           "equalizer=f=3300:t=q:w=1.3:g=-3,"
           "treble=g=-1.5:f=7500,"
           "loudnorm=I=-16:TP=-1.5:LRA=11")
@@ -114,7 +117,7 @@ for item in request.get("items", []):
         with open(os.path.join(OUT, name), "wb") as f:
             f.write(audio)
         if item.get("post") == "warm":
-            master(os.path.join(OUT, name))
+            master(os.path.join(OUT, name), item.get("pitch"))
             result["steps"].append(f"generated+mastered {name} (model {model}, {len(text)} chars)")
         else:
             result["steps"].append(f"generated {name} ({len(audio)} bytes, model {model}, {len(text)} chars)")

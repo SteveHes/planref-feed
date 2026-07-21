@@ -1,11 +1,11 @@
 {
  "voice_name": "Steve H",
- "run": 10,
+ "run": 11,
  "items": [
   {
-   "output": "human_v1.mp3",
+   "output": "warm_p3.mp3",
    "model_id": "eleven_turbo_v2_5",
-   "text": "Class Q grants planning permission for a change of use, from certain agricultural buildings \u2014 including some former agricultural buildings, and the land within their curtilage \u2014 to Class C3 dwellinghouses. It covers the building operations that are reasonably necessary to convert the building. And since the 21st of May 2024, it covers limited, single-storey rear extensions too. Now, the right exists for a simple reason. It's there to release redundant farm buildings for housing, without testing the merits of living in the countryside against the development plan. But it's also the most litigated, and the most technically demanding, of the Part 3 rights. It picks up far more than its share of prior approval appeals. And it rewards forensic preparation, more than any other permitted development right. Because eligibility turns on history, fact, and structure \u2014 and those have to be evidenced, not asserted.",
+   "text": "The detail lived elsewhere \u2014 and its lineage matters. D-o-E Circular 24 of 73 established the national policy for agricultural and forestry dwellings. Functional need, tied to financial viability, with the standard occupancy condition. P-P-G 7, Annex E, in 1997 \u2014 and then P-P-S 7, Annex A, in 2004 \u2014 carried the approach forward, each more or less repeating the last. Until the whole structure was swept away, in March 2012, when the first Framework replaced around a thousand pages of guidance with one short document. The detail did not survive the change. The expectations of decision-makers, in large part, did.",
    "voice_settings": {
     "stability": 0.48,
     "similarity_boost": 0.65,
@@ -13,20 +13,22 @@
     "use_speaker_boost": false,
     "speed": 0.95
    },
-   "post": "warm"
+   "post": "warm",
+   "pitch": 0.97
   },
   {
-   "output": "human_v2.mp3",
+   "output": "warm_p5.mp3",
    "model_id": "eleven_turbo_v2_5",
-   "text": "Class Q grants planning permission for a change of use, from certain agricultural buildings \u2014 including some former agricultural buildings, and the land within their curtilage \u2014 to Class C3 dwellinghouses. It covers the building operations that are reasonably necessary to convert the building. And since the 21st of May 2024, it covers limited, single-storey rear extensions too. Now, the right exists for a simple reason. It's there to release redundant farm buildings for housing, without testing the merits of living in the countryside against the development plan. But it's also the most litigated, and the most technically demanding, of the Part 3 rights. It picks up far more than its share of prior approval appeals. And it rewards forensic preparation, more than any other permitted development right. Because eligibility turns on history, fact, and structure \u2014 and those have to be evidenced, not asserted.",
+   "text": "The detail lived elsewhere \u2014 and its lineage matters. D-o-E Circular 24 of 73 established the national policy for agricultural and forestry dwellings. Functional need, tied to financial viability, with the standard occupancy condition. P-P-G 7, Annex E, in 1997 \u2014 and then P-P-S 7, Annex A, in 2004 \u2014 carried the approach forward, each more or less repeating the last. Until the whole structure was swept away, in March 2012, when the first Framework replaced around a thousand pages of guidance with one short document. The detail did not survive the change. The expectations of decision-makers, in large part, did.",
    "voice_settings": {
-    "stability": 0.58,
+    "stability": 0.48,
     "similarity_boost": 0.65,
-    "style": 0.12,
+    "style": 0.08,
     "use_speaker_boost": false,
-    "speed": 0.97
+    "speed": 0.95
    },
-   "post": "warm"
+   "post": "warm",
+   "pitch": 0.955
   }
  ]
 }
