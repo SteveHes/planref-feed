@@ -3,7 +3,7 @@
  "steps": [
   "subscription ok",
   "voices ok",
-  "generated rw_C_raw.mp3 (1019028 bytes, model eleven_turbo_v2_5, 818 chars)"
+  "generated rw_C_raw.mp3 (1043688 bytes, model eleven_turbo_v2_5, 818 chars)"
  ],
  "subscription": {
   "tier": "creator",
@@ -128,5 +128,5 @@
   "name": "Steve H"
  },
  "failed_step": "tts:rw_C_warm.mp3",
- "error": "name 'master' is not defined"
+ "error": "[Errno 2] No such file or directory: 'ffmpeg'"
 }
