@@ -1,14 +1,75 @@
 {
- "mode": "excerpts",
- "start": "600",
- "slugs": [
-  "decision-making",
-  "conditions",
-  "ldc",
-  "varying-permissions",
-  "householder-pd",
-  "caravans",
-  "adverts",
-  "reputation"
+ "mode": "guides",
+ "voice_name": "Steve H",
+ "public_base": "https://audio.planref.co.uk",
+ "guides": [
+  {
+   "slug": "applications-handled",
+   "title": "How Planning Applications Are Handled"
+  },
+  {
+   "slug": "nutrient-neutrality",
+   "title": "Nutrient Neutrality and the Habitats Regulations"
+  },
+  {
+   "slug": "first-principles",
+   "title": "First Principles"
+  },
+  {
+   "slug": "settlement-boundaries",
+   "title": "Settlement Boundaries"
+  },
+  {
+   "slug": "changing-climate",
+   "title": "Planning for a Changing Climate"
+  },
+  {
+   "slug": "annexes",
+   "title": "Annexes, Outbuildings and Curtilage"
+  },
+  {
+   "slug": "future-of-planning",
+   "title": "The Future of Planning"
+  },
+  {
+   "slug": "ai-in-planning",
+   "title": "Artificial Intelligence in Planning"
+  },
+  {
+   "slug": "planning-data",
+   "title": "Planning Data and Spatial Intelligence"
+  },
+  {
+   "slug": "submit-application",
+   "title": "How to Submit a Planning Application"
+  },
+  {
+   "slug": "become-chartered",
+   "title": "How to Become a Chartered Town Planner"
+  },
+  {
+   "slug": "delegated-reports",
+   "title": "How to Write a Delegated Officer Report"
+  },
+  {
+   "slug": "under-pressure",
+   "title": "Under Pressure"
+  },
+  {
+   "slug": "coping-under-pressure",
+   "title": "Coping Under Pressure"
+  },
+  {
+   "slug": "staying-in-control",
+   "title": "Staying in Control"
+  },
+  {
+   "slug": "youre-not-alone",
+   "title": "You're Not Alone"
+  },
+  {
+   "slug": "bus-stop-bike-store",
+   "title": "The Bus Stop and the Bike Store"
+  }
  ]
 }

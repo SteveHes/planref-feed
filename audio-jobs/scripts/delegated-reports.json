@@ -1,0 +1,102 @@
+[
+ {
+  "id": "dr1",
+  "title": "What a delegated report is, and why it carries the load",
+  "paras": [
+   "Let's start with what a delegated report is, and why it carries the load. A delegated report is the written record in which a planning officer sets out the assessment of an application, and the decision reached under delegated authority — that is, without the application going to the planning committee. Most authorities delegate the great majority of decisions to officers under a scheme of delegation, and reserve committee for the larger, more contentious or departure cases. For a delegated application there's no committee debate and no members' vote. The report — checked and signed off by a senior officer under the scheme — is where the reasoning lives. And it's the thing that will be scrutinised if the decision is challenged.",
+   "The report is a public and legal document. It's read by the applicant and the agent, by objectors and supporters, by councillors, by a planning inspector if the case goes to appeal — and, occasionally, by a judge. Write it as though each of them is looking over your shoulder, because they are. A report that reads well to a knowledgeable planner, records the right reasons, and would survive an inspector or a judge reading it critically — that's a good report. One that's vague, internally inconsistent, or silent on the issue that actually mattered is a liability, however sound the underlying decision.",
+   "Now, a reform to watch. Which decisions must be delegated, and which must go to committee, has historically been a matter for each authority's own scheme of delegation. That's changing. The Planning and Infrastructure Act 2025 provides for a National Scheme of Delegation, which will prescribe, nationally, which categories officers determine and which go to committee. The detail sits in regulations made under the Act, set out in a Written Ministerial Statement of the 26th of March 2026, and consulted on in spring 2026. As at July 2026 the scheme is not yet in force — the Government's stated intention is that the regulations take effect in autumn 2026 — so your authority's existing local scheme of delegation still governs for now. The shape proposed is this. A list of applications that must be officer-determined. A second list presumed delegated, unless a gateway test is met and a nominated officer and member agree to refer the case to committee. And authority-interest applications going to committee, with committees capped at thirteen members. Confirm the current position before you assume a given application is yours to determine. What doesn't change is the craft of the report itself — and that's the subject of this guide."
+  ]
+ },
+ {
+  "id": "dr2",
+  "title": "The legal frame you are writing inside",
+  "paras": [
+   "Next, the legal frame you're writing inside. Three legal points shape every report, and holding them in view keeps you out of trouble.",
+   "First, the statutory question. Every determination runs off section 38, subsection 6 of the Planning and Compulsory Purchase Act 2004: the application must be decided in accordance with the development plan, unless material considerations indicate otherwise. That's reinforced by section 70, subsection 2 of the Town and Country Planning Act 1990. So your report must do two things, in order. Establish the development plan position — does the proposal accord with the plan, taken as a whole — and then weigh the material considerations that might point the other way. A report that jumps to a conclusion without working through that structure is doing the wrong exercise. The point here is that your report has to show the section 38, subsection 6 reasoning — not just reach an answer.",
+   "Second, the duty to give reasons. For a refusal, and for any condition, the decision notice must state full, clear and precise reasons — that's article 35 of the Development Management Procedure Order — and those reasons come straight from your report, so they must flow logically from the assessment. A grant doesn't need full statutory reasons on the notice, but don't relax. The report is still the reasoning, it's public, it can be challenged, and a common-law duty to give reasons can arise in some circumstances. The safe discipline is to reason a grant as carefully as a refusal. As the courts put it in South Bucks District Council against Porter, number 2 — reported at 2004, U-K-H-L 33 — reasons must be intelligible and adequate, and must deal with the principal important controversial issues. And that's the standard your assessment should meet, whichever way it lands.",
+   "Third, how the report will be judged. If the decision is challenged, the court doesn't mark your report like an exam script. In R, on the application of Mansell, against Tonbridge and Malling Borough Council — reported at 2017, E-W-C-A Civ 1314 — the Court of Appeal, in a judgment of Lord Justice Lindblom, drew on the earlier case of Oxton Farms, Samuel Smith Old Brewery, Tadcaster, against Selby District Council, from 1997. It confirmed that officer reports are written for a knowledgeable readership, are not to be read hypercritically or construed like a statute, and will only be found unlawful where a defect has the effect of significantly misleading the decision-maker on a matter material to the decision. This is both liberating and a warning. Liberating, because your report doesn't have to be perfect, exhaustive or elegant, and a stray typo or a debatable phrase won't undo the decision. A warning, because a material misdirection — misstating a policy, misrepresenting a consultee, or ignoring a principal controversial issue — is exactly what will."
+  ]
+ },
+ {
+  "id": "dr3",
+  "title": "The anatomy of a report",
+  "paras": [
+   "Now, the anatomy of a report. Authorities use their own templates, but almost all follow the same logical order: facts first, then assessment, then a reasoned recommendation. A typical delegated report runs in this sequence.",
+   "It opens with the header block. Application reference, site address, a precise description of the development, applicant and agent, ward, case officer, the recommendation, and the date. The description of development matters most here, because it defines what is being decided, and it will appear on the notice.",
+   "Then site and surroundings. A short, factual description of the site and its context — enough for a reader who has never seen it to picture it, including the constraints that bear on the case: conservation area, listed building, flood zone, and so on.",
+   "Then the proposal. What is actually proposed, concisely, keyed to the submitted drawings by their numbers.",
+   "Relevant planning history. Only the history that bears on this decision — and say why it bears: an extant permission or a fallback, a previous refusal, a dismissed appeal on the site.",
+   "Consultation responses. The statutory and the non-statutory consultees, kept clearly separate, summarised rather than reproduced, with any silence explained.",
+   "Representations. Neighbour and public responses, summarised by theme, with the number noted — but not treated as if it were the measure of weight.",
+   "Policy and constraints. The development plan policies that actually matter, the relevant Framework and guidance, and any supplementary documents — identified and ranked, rather than simply listed.",
+   "Then the assessment. This is the heart of the report: the principle of the development, then each principal issue in turn — design and character, residential amenity, highways, heritage, ecology and biodiversity net gain, flood risk, trees, and the rest as the case requires — with the weight you give each, and why.",
+   "The planning balance and conclusion. The section 38, subsection 6 exercise drawn together: the plan position, the material considerations, whether the tilted balance is engaged, and a reasoned conclusion.",
+   "Other matters. Human rights, the Equality Act 2010 public sector equality duty, the Community Infrastructure Levy, and any environmental impact assessment or Habitats Regulations screening — each addressed where relevant, in clearly labelled terms.",
+   "And finally, the recommendation, and sign-off. Approve subject to conditions, with the conditions and their reasons — or refuse, with the reasons, specifying the policies — flowing directly from the assessment. Then the case officer and the authorising officer, as the scheme of delegation requires."
+  ]
+ },
+ {
+  "id": "dr4",
+  "title": "Writing each part well",
+  "paras": [
+   "So, how do you write each part well? Start by keeping the facts factual, and proportionate. The site, proposal and history sections are description, not argument. Keep them tight and accurate, and match the effort to the case: a householder extension doesn't need three pages of site description, and a strategic scheme does. Reports should be proportionate — short for the straightforward, thorough for the complex — and shouldn't drown the reader in irrelevant detail, such as counting every bedroom. And get the description of development exactly right, because an inaccurate description causes problems later, at any section 73 variation or in enforcement.",
+   "Handle representations by weight, not volume. Summarise objections and support by theme, not letter by letter. Record how many were received, but don't treat the number as the measure of weight: the planning merits of the points are material; their sheer volume is not. Separate the statutory consultees clearly, and don't brush aside a statutory consultee's objection without cogent and compelling reasons, set out in the report. Distinguish the material planning points from the non-material ones — loss of a private view, effect on property value, private disputes — and say, briefly, why the non-material ones carry no weight. Don't name individual objectors or reproduce their personal details, and never give a point more weight because of who made it.",
+   "Apply the policies — don't just list them. A wall of policy numbers is not analysis. Identify the policies that actually bear on the decision, establish which matter most, and then, in the assessment, apply them to the facts. Use the correct terms of art, especially for heritage: if there is harm to a designated asset, say whether it is substantial or less than substantial, give it considerable importance and weight under the statutory duty, and run the correct balance. Getting a policy label wrong is precisely the kind of material misdirection that undoes a decision.",
+   "Make the assessment answer the case. The assessment is where your professional judgement does its work, and it's the most important part of the report: it's where you assign weight to the competing considerations, and explain that weight. Work through the principal important controversial issues — the ones the case actually turns on — and deal with them properly, rather than spreading thin effort evenly across everything. Crucially, answer the objections' planning points; don't merely list them earlier and then ignore them. And if you're recommending approval despite a dismissed appeal on the site, explain specifically how the scheme now overcomes the inspector's reasons. Consistency in decision-making is itself a material consideration, and a decision-maker who departs from a relevant earlier decision must explain why — that's the principle in North Wiltshire District Council against the Secretary of State, from 1992.",
+   "Do the balance in the open. Bring it together as an explicit section 38, subsection 6 exercise. State the development plan position, taken as a whole. Then weigh the material considerations. Then say whether the presumption in favour of sustainable development is engaged — for example, because relevant policies are out of date — and reach a conclusion that a reader can follow from your reasoning, rather than one that simply appears. If a statutory duty or a hard test is in play — heritage under sections 66 and 72, or the Habitats Regulations — address it as a threshold before the ordinary balance, not as one more item on the scales.",
+   "And write conditions and reasons that stand up. Conditions must meet the six tests — necessary; relevant to planning; relevant to the development; enforceable; precise; and reasonable — and each needs a reason. Reasons for refusal must be clear and precise, must specify the policies, and must follow logically from the assessment you've just written. Don't bolt on boilerplate reasons that don't match what the report actually found."
+  ]
+ },
+ {
+  "id": "dr5",
+  "title": "The Mansell standard: how your report will be read",
+  "paras": [
+   "Which brings us to the Mansell standard — how your report will be read. Because the Mansell standard is what a challenge will be measured against, it's worth internalising what it does and doesn't require. It does not require perfection, completeness or fine writing. The court assumes an intelligent, informed reader, reads the report fairly and as a whole, and won't pounce on a loose phrase, an omitted detail or a minor error. A report can be workmanlike and still be lawful.",
+   "What it does require is that the report does not significantly mislead the decision-maker on something material. That's the line to stay the right side of, and the failures that cross it are predictable. Misstating a policy, or applying the wrong test. Misrepresenting a consultee's position — the classic is a stray \"not\": reporting that a consultee does not object when it does, or the reverse. Omitting a principal controversial issue altogether. Failing to address a material consideration the decision turned on, such as a real fallback, or a statutory heritage or habitats duty. Or carrying an error across from another report by cut-and-paste. None of these is about style. Each is a substantive defect that could have changed the decision, and that's exactly what the court looks for. Write to avoid those, and the Mansell standard is your friend rather than your enemy."
+  ]
+ },
+ {
+  "id": "dr6",
+  "title": "Common failings",
+  "paras": [
+   "Let's turn to the common failings — the mistakes that recur, and that a reviewing senior officer, or an inspector, will spot at once.",
+   "First, cut-and-paste carryover. The wrong site name, an out-of-date policy number, or a consultee response lifted from another case. Always read back what you've pasted.",
+   "Second, policies recited, not applied. A long policy list, followed by an assessment that never uses it.",
+   "Third, objections described, not answered. The representations summarised at length, then left hanging while the assessment talks about something else.",
+   "Fourth, no visible section 38, subsection 6. A conclusion that appears without the plan-first, then-material-considerations structure behind it.",
+   "Fifth, a statutory duty missed. Heritage — sections 66 and 72 — or the Habitats Regulations treated as an ordinary consideration, or not mentioned at all, when it operates as a threshold.",
+   "Sixth, weight given to volume or prominence. Counting objection letters, or leaning on who objected, instead of weighing the planning points.",
+   "Seventh, effort in the wrong place. Pages on the uncontroversial, and a paragraph on the issue that actually decides the case.",
+   "And eighth, conditions and reasons that don't match. Standard reasons bolted on that don't reflect what the report found, or conditions that fail the six tests."
+  ]
+ },
+ {
+  "id": "dr7",
+  "title": "A working skeleton",
+  "paras": [
+   "Now for a working skeleton — a compact structure to adapt to your authority's template. Fill each heading with only what the case needs, in proportion to what it turns on.",
+   "The header — reference, address, description of development, applicant and agent, ward, officer, recommendation, and date.",
+   "One — site and surroundings. The site and its context, and the constraints that bear on the case.",
+   "Two — the proposal. What is proposed, keyed to the drawing numbers.",
+   "Three — relevant history. Only what bears on the decision, and why: a fallback, a prior refusal, a dismissed appeal.",
+   "Four — consultations. Statutory and non-statutory, separated, summarised, silence explained.",
+   "Five — representations. Summarised by theme; the number noted; material versus non-material flagged.",
+   "Six — policy and constraints. The policies that matter, ranked; the Framework and guidance; and any supplementary planning documents.",
+   "Seven — the assessment. Principle first, then each principal issue, with weight and reasons — and answer the objections.",
+   "Eight — other matters. Human rights; the public sector equality duty; the Community Infrastructure Levy; and environmental impact assessment or Habitats Regulations screening, if relevant.",
+   "Nine — the planning balance. Section 38, subsection 6 drawn together; the tilted balance, if engaged; and a reasoned conclusion.",
+   "Ten — the recommendation. Approve with conditions and reasons, or refuse with reasons specifying the policies.",
+   "And the sign-off — case officer and authorising officer, as the scheme of delegation requires."
+  ]
+ },
+ {
+  "id": "dr8",
+  "title": "The habit that matters most",
+  "paras": [
+   "Finally, the habit that matters most. One discipline underpins everything above: the reasons are the decision. Writing the assessment isn't a chore you do after deciding; it is how you decide. If you can't articulate, in plain terms, why the benefits outweigh the harms, or why the harm is unacceptable, you haven't finished the assessment — and the answer you were about to give is not yet safe.",
+   "A junior officer who writes to that standard — working through section 38, subsection 6 in the open, answering the real issues, giving reasons that would satisfy an inspector — will produce decisions that hold up, and will learn the craft of judgement faster than any amount of reading. The report is where a planner's thinking becomes visible. Make yours worth reading.",
+   "This guide covers England, and is current to July 2026. There are related PlanRef guides you may find useful: Decision-Making and Material Considerations; Heritage — Significance and Harm; Planning Conditions and their Discharge; and How Planning Applications Are Handled. And do confirm the current position on the National Scheme of Delegation, being introduced under the Planning and Infrastructure Act 2025, before assuming an application falls to delegated determination."
+  ]
+ }
+]

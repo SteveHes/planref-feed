@@ -1,0 +1,114 @@
+[
+ {
+  "id": "ho1",
+  "title": "Before you touch a portal, get the principle right",
+  "paras": [
+   "Before you touch a portal, get the principle right. Uploading is the easy part. When applications fail, it's almost never the software. It's that they were assembled wrong, or the wrong thing was applied for. So before you open any portal, be sure of three things.",
+   "First, that you're applying for the right thing. A householder application, a full application, outline, reserved matters, a lawful development certificate, listed building consent, advertisement consent, prior approval, a section 73 variation — each of these is a different application type, with its own form, its own fee and its own requirements. Upload a householder application for something that needed a full application and you've wasted weeks. If you're in doubt, the portal's guidance and the authority's pre-application service will steer you.",
+   "Second, that you know your constraints. Pull the site's constraints before you design the submission, because they drive both what you must submit and whether the scheme is deliverable at all. Is the site in a conservation area? Does it contain, or affect, a listed building? Is it in a flood zone? Is it in a nutrient-sensitive catchment — and if it is, read the Nutrient Neutrality guide before you submit, because you may need secured mitigation in place first. Green Belt, a National Landscape, a Tree Preservation Order, protected species? Constraints decide the local document list, and they can be showstoppers. So find them first.",
+   "And third, that you've allowed time for the evidence. The single biggest cause of delay is supporting documents that weren't commissioned early enough. Ecological surveys have seasonal windows — you cannot do a bat emergence survey in December. A biodiversity net gain assessment takes time. And heritage, drainage, arboricultural and transport work all have lead-in. Scope the document list at the outset, not the week you want to submit."
+  ]
+ },
+ {
+  "id": "ho2",
+  "title": "Where to upload: the portals compared",
+  "paras": [
+   "Now, where to upload — the portals compared. In England you have more than one route, and they are not equivalent. The application ends up at the same place, the local planning authority. But how it gets there, and how much help you get on the way, differs.",
+   "Two practical points. First, each of the commercial portals charges its own service fee on top of the statutory planning fee. At the time of writing, the Planning Portal's charge is around seventy-five pounds plus V-A-T, and Planda's is a little under that — but these change, so check on the day. That service fee is separate from, and additional to, the planning application fee that goes to the council. Second, whichever route you use, the validation still happens at the authority's end. A portal that pre-checks, like Planda, reduces the chance of a bounce — but it's the council that decides your application is valid. The safe default is the Planning Portal, because every English authority accepts it. Only use an alternative once you've confirmed your target authority does."
+  ]
+ },
+ {
+  "id": "ho3",
+  "title": "What to have ready up front",
+  "paras": [
+   "So what should you have ready up front? Assemble all of this before you start the upload. Half-finishing an online form and then hunting for a document — that's how mistakes creep in.",
+   "The site, and who owns it. You need the precise site address and its U-P-R-N — that's the unique property reference the portal uses to find it — and a clear picture of ownership. If the applicant doesn't own the whole site, you'll need the right ownership certificate. Certificate A if the applicant owns it all; B, C or D where others have an interest. And you may have to serve notice on other owners, and on any agricultural tenants. Sort ownership out first. A wrong or unsigned certificate is a standard reason for rejection, and serving notice takes time.",
+   "The right plans. An up-to-date, Ordnance Survey-based location plan, and a site plan — a block plan — drawn to recognised scales; I'll come back to those in section 4. Buy the location plan from the Planning Portal's accredited supplier, from Planda, or from another O-S-licensed provider. A screenshot from a free mapping site will be rejected. You'll also need existing and proposed drawings as the proposal requires — elevations, floor plans, roof plans and sections — each to scale, and each with its own drawing number.",
+   "The supporting evidence. Whatever the local validation list for your authority and application type requires. Commonly that's a design and access statement — for major development and some heritage cases — a heritage statement, a preliminary ecological appraisal and a biodiversity net gain assessment, a flood risk assessment and drainage strategy, an arboricultural report, a transport statement or travel plan, and noise or contamination assessments. Check the authority's published list before you design the submission, and commission the slow items early.",
+   "The fee — and the money questions. Work out the exact planning fee using the portal's fee calculator, and check whether any exemption or reduction applies. For example, the reduced fee for certain resubmissions, or the exemptions for disabled adaptations. Note separately whether the Community Infrastructure Levy applies in the area, because you'll usually have to submit the CIL additional information form with the application — and CIL reliefs must be claimed and confirmed before you start work on site; see the Conditions and CIL material. The fee must be exactly right. Underpay by a pound, and the application is invalid.",
+   "And an account. A registered account on your chosen portal. Set it up in advance — you do not want to be creating a login while a client waits."
+  ]
+ },
+ {
+  "id": "ho4",
+  "title": "The documents: what a valid application contains",
+  "paras": [
+   "Now to the documents — what a valid application actually contains. Validity has two layers: the national requirements that every application must meet, and the local list that each authority publishes for each application type. Miss either, and the application is invalid.",
+   "Let's take the national requirements first.",
+   "You need the completed application form for the correct application type — that's the standard form, served through the portal.",
+   "You need a location plan, normally at one to one thousand two hundred and fifty, or one to two thousand five hundred, based on an up-to-date Ordnance Survey map. The application site edged in red, any other adjoining land in the applicant's ownership edged in blue, a north point, and enough named roads and buildings to locate the site.",
+   "You need a site or block plan, normally at one to five hundred, or one to two hundred, showing the development in detail — the buildings, the access, the parking, the boundaries — in its plot.",
+   "Then the other plans and drawings needed to describe the proposal. Typically that's existing and proposed elevations, floor plans, roof plans and sections at one to fifty, or one to one hundred. Each drawn to an identified scale, each showing north on plans, and each with a unique drawing number and revision.",
+   "You need the ownership certificate — A, B, C or D — and the agricultural holdings certificate, completed and signed.",
+   "A design and access statement where one is required. That means major development, and development affecting designated heritage assets in the circumstances the rules specify — and listed building consent has its own requirement.",
+   "Biodiversity net gain information where the mandatory net-gain regime applies — that's the metric calculation and the habitat plans — and a fire statement for the taller residential buildings that need one.",
+   "And the correct fee, paid in full through the portal, or as the authority directs.",
+   "Then there's the local list. On top of the national requirements, the authority may require further documents through its published local validation list, which varies by application type. Now, the authority can't demand just anything. A local requirement is only lawful where it's reasonable to think the information will be a material consideration for that kind of application, and where it's reasonable in scale. But within those limits the list is real, and an application that ignores it will be held invalid. Read the target authority's current local list before you assemble the submission — because it's the most common thing applicants get wrong."
+  ]
+ },
+ {
+  "id": "ho5",
+  "title": "Step by step: uploading on the Planning Portal",
+  "paras": [
+   "Right — step by step, uploading on the Planning Portal. The mechanics below describe the Planning Portal, but Planda and the council-direct services follow the same shape, with Planda adding validation checks as you go.",
+   "Step one: log in and start a new application. Sign into your account, and choose to create a new application.",
+   "Step two: find the site. Enter the postcode or address and select the property, or pick it on the map, so the site is correctly identified.",
+   "Step three: choose the application type. Select the correct type — householder, full, outline, reserved matters, listed building consent, prior approval, lawful development certificate, and so on. This drives the form and the fee, so get it right.",
+   "Step four: complete the online form. Work through the questions. Applicant and agent details, a precise description of the proposal, materials, trees, foul and surface-water drainage, access and parking, hours and employment where relevant, and the ownership certificate. Write the description of development carefully. It defines what you're applying for, and it will appear on the decision notice.",
+   "Step five: attach the documents. Upload the location plan, the site plan and the other drawings, the design and access statement and any supporting reports, the biodiversity net gain information, and the CIL form where it applies. Name your files clearly, and make sure the drawing numbers on the files match those referred to in the form.",
+   "Step six: calculate and pay the fee. Use the fee calculator, confirm the amount, and pay. The portal handles payment to the authority.",
+   "Step seven: sign the certificates and the declaration. Complete and sign the ownership and agricultural holdings certificates, and the declaration. If notice has to be served on other owners or tenants, do it — and record the dates.",
+   "And step eight: submit, and keep the reference. Submit the application. The portal gives you a reference — a number beginning P-P — and transmits everything to the authority. Download and keep a full copy of exactly what you submitted, including every plan and its revision."
+  ]
+ },
+ {
+  "id": "ho6",
+  "title": "How to make sure it proceeds (and is not rejected)",
+  "paras": [
+   "So how do you make sure it proceeds — and isn't rejected? An application that's not valid is not registered, and the clock does not start until it is. Councils return invalid applications, and in busy authorities that can cost weeks. Almost every rejection comes from the same short list, so work through it deliberately.",
+   "The fee wrong, or short. The fee must be exact. Use the calculator, and if you claim a reduction or exemption, make sure it genuinely applies. Underpayment is the classic invalidation.",
+   "The wrong application type. A householder form for something that needs a full application, or a full application where a certificate or prior approval was the right route — that will be bounced.",
+   "The location plan not to standard. No red line. No blue line where the applicant owns adjoining land. No north point, wrong scale, or a plan that isn't Ordnance Survey-based and current. This is one of the most common faults.",
+   "Drawings not scaled, or not numbered. Every plan needs an identified scale and a drawing number, and the numbers must match what the form cites. Drawings marked not to scale, and mismatched references, get rejected.",
+   "Certificates missing or unsigned. The ownership and agricultural holdings certificates must be completed and signed, and the right certificate used for the ownership position.",
+   "Local-list documents missing. The heritage statement, the ecology and biodiversity net gain information, the flood risk assessment, the arboricultural report, the transport statement and the rest — wherever the authority's list requires them. This is the biggest single cause of delay.",
+   "The CIL form missing. Where the levy applies, the additional information form is generally needed at submission.",
+   "And an inconsistent or vague description. The description of development must match the drawings and be accurate. An over-broad or misleading description invites problems later.",
+   "Two habits do most of the work here. Match the authority's validation checklist item by item before you submit — treat it as a tick-list. And when a validation query does come back, respond fast. Authorities give a limited window to put an invalid application right, and they will dispose of it if you don't. A quick, complete response keeps the application alive. A portal that pre-validates, such as Planda, helps here — but the responsibility is yours."
+  ]
+ },
+ {
+  "id": "ho7",
+  "title": "After you press submit",
+  "paras": [
+   "What happens after you press submit? Well, submission is not registration. The authority first validates the application against the national requirements and its local list. Only then does it register it, give it its own reference, and start the statutory clock. From that point the handling process takes over: publicity and consultation, the officer's assessment, and determination within the statutory period — eight weeks for most applications, thirteen for major development — subject to any agreed extension of time. That process, and how to influence it, is the subject of the How Planning Applications Are Handled guide.",
+   "While it runs, stay engaged. Watch for the validation decision, and answer any query at once. Keep an eye on the consultation responses as they appear on the authority's website, and be ready to offer amendments if a soluble objection emerges — remembering that a material change may trigger re-consultation. Keep your client informed about timescale. And don't assume silence means progress: a polite check-in with the case officer, at sensible intervals, is part of the job."
+  ]
+ },
+ {
+  "id": "ho8",
+  "title": "Pre-flight checklist",
+  "paras": [
+   "Finally, a pre-flight checklist — a quick tick-list to run immediately before you upload. If any box is empty, stop.",
+   "Is the right application type chosen, and does it match the proposal?",
+   "Have the constraints been checked — conservation area, listed building, flood zone, nutrient catchment, Tree Preservation Order, protected species, Green Belt, National Landscape — and dealt with?",
+   "Is ownership settled? The correct certificate — A, B, C or D — signed. Notice served on any other owners and agricultural tenants, with the dates recorded.",
+   "Is the location plan Ordnance Survey-based and current, at one to one thousand two hundred and fifty or one to two thousand five hundred, with the red line, the blue line where relevant, a north point and named roads?",
+   "Is the site plan at one to five hundred or one to two hundred, showing the development in its plot?",
+   "Are all the other drawings to scale, with north on plans, each with a unique drawing number and revision, matching the form?",
+   "Are the local-list documents assembled, per the authority's current published list for this application type?",
+   "Is the biodiversity net gain information included where required — and the fire statement where required?",
+   "Is the design and access statement included where required?",
+   "Is the fee calculated exactly, any reduction or exemption verified, and the CIL form ready where the levy applies?",
+   "And is a full copy of the complete submission saved for your records?"
+  ]
+ },
+ {
+  "id": "ho9",
+  "title": "About the How To series",
+  "paras": [
+   "A word about the How To series. This is guide 1. The How To series covers the practical tasks that sit alongside PlanRef's reference guides. Planned companions include: how to discharge conditions and use the deemed-discharge route. How to make a section 73 or section 96 A amendment. How to apply for a lawful development certificate and assemble the evidence. How to submit a prior approval — Class Q, Class M-A, or the larger householder route. How to lodge and run a section 78 appeal. How to respond to an enforcement notice. How to request and use pre-application advice. And how to calculate and manage CIL. Tell us which you want next.",
+   "This guide covers England, and it's current to July 2026. Portal names, service charges and validation lists change — so check your target authority's current local validation list, and confirm which submission route it accepts, before you upload."
+  ]
+ }
+]

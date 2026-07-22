@@ -1,0 +1,164 @@
+[
+ {
+  "id": "dp1",
+  "title": "A procedural code, not a policy",
+  "paras": [
+   "Let's begin with what the Order is — a procedural code, not a policy. The Town and Country Planning (Development Management Procedure) (England) Order 2015 — the D-M-P-O, or simply the Order — is the procedural rulebook for handling planning applications in England. It answers the how questions, not the whether ones. What must a valid application contain? How must it be publicised? Who must be consulted? How long does the authority have to decide? What must the decision notice say, and what goes on the public register? What it does not say is whether permission should be granted — that's for section 38, subsection 6 of the 2004 Act, section 70 of the 1990 Act, the development plan and national policy.",
+   "The Order is a statutory instrument, made under enabling powers in the 1990 Act — principally sections 59, 62, 65, 69, 71 and 74. As delegated legislation it can't exceed those powers, and it operates within the framework the primary Acts set. It replaced the 2010 Order of the same name, and it's been amended repeatedly since. Now, its companion instrument, the General Permitted Development Order 2015, does something quite different — it grants permission for certain classes of development — and the two should not be confused. The D-M-P-O is procedure; the G-P-D-O is a grant of rights. Keeping that line clear is the first discipline. Most of what practitioners argue about is substance, but a surprising amount of what goes wrong — and a good deal of what is challenged — is procedure."
+  ]
+ },
+ {
+  "id": "dp2",
+  "title": "Where it sits in the hierarchy",
+  "paras": [
+   "So where does the Order sit in the hierarchy? It interlocks with a cluster of other instruments, and a competent reading depends on holding the whole map in view. An application is made under the 1990 Act, but whether it's validly made, and how it's processed, is answered almost entirely by the Order and the Fees Regulations.",
+   "The 1990 Act supplies the substantive powers and duties. Section 62 covers form and content, and the power to require information. Section 65 deals with notice and ownership certificates. Section 70 is the power to grant or refuse, section 78 gives the right of appeal, and section 91 sets the standard duration of permissions. The Order gives all of these procedural flesh. The Fees Regulations 2012 set the fee that must accompany an application — a separate but essential ingredient of validity. The E-I-A Regulations 2017 overlay additional procedure on E-I-A development — screening, scoping, the environmental statement, and its own publicity and consultation. And the Listed Buildings Regulations govern the equivalent procedure where heritage assets are engaged — so the Order isn't the whole procedural story. National policy — the N-P-P-F and the P-P-G — isn't part of the Order, but it shapes how the Order's discretions are exercised. A planner who knows the policy but not the Order will still lose applications on validation, publicity and time."
+  ]
+ },
+ {
+  "id": "dp3",
+  "title": "Scope, and the amendment problem",
+  "paras": [
+   "Next, the Order's scope — and the amendment problem. The Order applies to England. Wales has its own equivalent, and Scotland and Northern Ireland run separate systems. Article 2 is the interpretation provision, and it repays reading before any close analysis. It defines, among much else, major development — the definition that drives the thirteen-week period and much of the publicity and consultation regime.",
+   "Major means ten or more dwellings, or a site of half a hectare or more where the number isn't known, or a thousand square metres or more of floorspace, or a site of one hectare or more — with corresponding thresholds for minerals and waste. So that single definition does a great deal of work. The amendment problem deserves emphasis. The Order has been amended so many times that citing it from memory, or from an old print-out, is hazardous. The 2018 amendment inserted the pre-commencement condition consultation machinery. The 2021 amendment adjusted validation detail. And the 2024 biodiversity net gain amendments threaded new requirements through articles 7, 35 and 40. The only safe source is the consolidated, in-force version on legislation gov dot U-K. Throughout this guide, the article numbers are those of the consolidated text as at July 2026 — so treat every article number as a fact to re-confirm against the live version, not a memory to trust."
+  ]
+ },
+ {
+  "id": "dp4",
+  "title": "Form and content (article 7)",
+  "paras": [
+   "Now to form and content — article 7. Article 7 sets the general requirements for an application for planning permission, including outline permission. An application must be made in writing, on the form published by the Secretary of State — in practice, the standard form served through the Planning Portal. It must give the particulars the form requires, and be accompanied by a plan identifying the land, plus any other plans and drawings necessary to describe the development — to an identified scale, and showing north.",
+   "Since the 2024 biodiversity net gain amendments, article 7 also requires applications — subject to exemptions — to be accompanied by information relating to the biodiversity gain condition. That means completed metric calculations, habitat descriptions, and plans identifying on-site and irreplaceable habitat, reflecting the mandatory net-gain regime under the Environment Act 2021 and Schedule 7A to the 1990 Act. These are the national requirements — the irreducible content every application must have to be capable of validation anywhere in England, so that an authority, a consultee and the public can understand what is proposed, and where. An application that lacks them isn't properly made, and the authority is entitled to decline to validate it."
+  ]
+ },
+ {
+  "id": "dp5",
+  "title": "National and local validation requirements",
+  "paras": [
+   "That brings us to national and local validation requirements. Beyond the national requirements, an authority may require additional information by a published local list, under section 62, subsection 3 of the 1990 Act. The power is real, but it's bounded. Section 62, subsection 4A permits a local requirement only where it's reasonable to think the information will be a material consideration for applications of that type — and the requirement must itself be reasonable to the nature and scale of the development.",
+   "An authority can't lawfully use its local list to demand disproportionate or irrelevant material as a precondition of validation, and the P-P-G presses authorities to keep local lists proportionate, and to avoid using them to delay valid applications. Now, there's no free-standing statutory right of appeal against a refusal to validate — a recognised structural gap. So where an authority declines to validate, the realistic options are these. First, supply what is demanded — often the pragmatic course. Second, invite reconsideration against the section 62 limits. Third, appeal for non-determination once the period has elapsed, on the footing that a valid application was made — though that carries its own risks if the Inspectorate disagrees. Or fourth, in a clear case, seek judicial review of an unreasonable demand.",
+   "Validation has become a front-line administrative gate, and the statutory clock doesn't start until a valid application is received. The date of validity — not submission — is the date from which the article 34 period runs. Which is why disputes about validation are, in truth, disputes about when the clock starts. Pre-application engagement is the cheapest way to establish what the authority will require to validate — and to determine."
+  ]
+ },
+ {
+  "id": "dp6",
+  "title": "Certificates, notices and design statements",
+  "paras": [
+   "Now for certificates, notices and design statements. Because an applicant need not own the land, the system builds in a notification mechanism, so those with an interest are told. Under section 65 and the Order, an application must be accompanied by the appropriate ownership certificate — Certificate A where the applicant owns the whole site, or B, C or D where others have an interest — and, where required, notice must be given to owners and to agricultural tenants.",
+   "A false certificate is a criminal matter, and a defective or dishonest certificate can undermine the resulting permission. So certificates are a genuine safeguard of third-party interests, not a box-ticking formality. A design and access statement is required by article 9 for major development, for development in a conservation area or affecting the setting of designated heritage assets in the circumstances the Order specifies, and for listed building consent under the parallel regime. It must explain the design principles and how access has been dealt with. It's a proportionate explanatory document, not a marketing brochure — and a thin or boilerplate statement signals that the design hasn't been thought through. Householder and minor applications generally don't require one."
+  ]
+ },
+ {
+  "id": "dp7",
+  "title": "Outline permission and reserved matters",
+  "paras": [
+   "Next, outline permission and reserved matters. The Order preserves the long-standing two-stage route. Articles 5 and 6 deal with applications for outline planning permission — that's permission granted subject to conditions requiring the subsequent approval of reserved matters, meaning access, appearance, landscaping, layout and scale — and with the later applications to approve those matters.",
+   "Outline permission establishes the principle of development while deferring detail. It's the standard vehicle for larger schemes, where a developer wants certainty of principle before investing in full design. The reserved-matters application is not a fresh grant of permission — it's an approval of details within the outline. It must be made within the section 92 time limits, and it can't reopen the principle settled by the outline. And don't confuse reserved matters — details left to be approved within an outline permission — with conditions on a full permission reserving details for later approval. They're different mechanisms, though both are discharged through the approval-of-details procedure."
+  ]
+ },
+ {
+  "id": "dp8",
+  "title": "Publicity (article 15)",
+  "paras": [
+   "Now, publicity — article 15. Article 15 is the publicity engine, and it calibrates the effort to the sensitivity of the proposal. There are three methods — a site notice near the land, neighbour notification by letter, and newspaper advertisement — and the requirement is tiered.",
+   "E-I-A development with an environmental statement, departures from the development plan, and development affecting a public right of way attract the fullest publicity — a site notice and a newspaper advertisement — with the longer periods: a minimum of thirty days for E-I-A, and twenty-one days for departures and rights of way. Major development requires a newspaper advertisement, together with either a site notice or neighbour notification. Other development — that's minor and householder — requires either a site notice or neighbour notification. And across the board, the Order now also requires the application and its key particulars to be published on the authority's website. Publicity where a listed building or conservation area is engaged is governed by the parallel Listed Buildings Regulations, which add their own notice requirements.",
+   "Publicity doesn't confer a veto, and it doesn't turn the decision into a referendum. Representations are material only so far as they raise planning considerations, and their number is not itself material. What publicity secures is the opportunity to be heard — the fair chance to put a planning point before the decision-maker. Which is why the Order specifies fixed periods — fourteen, twenty-one or thirty days — rather than leaving timing at large."
+  ]
+ },
+ {
+  "id": "dp9",
+  "title": "When publicity goes wrong",
+  "paras": [
+   "So what happens when publicity goes wrong? Because publicity is about fairness, a failure can be fatal — but not automatically. The leading modern illustration is R, on the application of Gerber, against Wiltshire Council, reported at 2016, E-W-C-A Civ 84. Permission for a large solar farm had been granted with inadequate publicity and an arguable E-I-A failing. A neighbour who had known nothing of it challenged long after the window — once the panels were being built.",
+   "The High Court had been willing to extend time and quash. The Court of Appeal reversed. Even accepting the procedural shortcomings, relief should be refused — because of the claimant's delay, and the serious prejudice to the developer, who had built out in reliance on an apparently valid permission. Gerber is the cautionary tale for both sides. For authorities, publicity must be got right, because the consequences are real. For objectors, a challenge must be brought with great promptness. The deeper principle, developed across the E-I-A cases, is that procedural failures are not all equal. Where a failure defeats the very purpose of a mandatory procedure — most starkly, a failure to carry out a required environmental impact assessment — the courts are reluctant to excuse it. That's Berkeley against the Secretary of State for the Environment, reported at 2001, 2 A-C 603. But where the breach is technical and no one is prejudiced, the courts won't quash for its own sake."
+  ]
+ },
+ {
+  "id": "dp10",
+  "title": "Consultation (article 18 and Schedule 4)",
+  "paras": [
+   "Now to consultation — article 18 and Schedule 4. Article 18 requires the authority, before granting permission, to consult the bodies specified in the table in Schedule 4, for the categories of development listed there — the statutory consultees. The table pairs a description of development with the body to be consulted. A highway, with the highway authority. A flood-risk area, with the Environment Agency and the lead local flood authority. A European site or protected species, with Natural England. And so on.",
+   "The authority must give the consultee notice, and must not determine the application until at least twenty-one days afterwards — longer for E-I-A — and it must take into account any representations received within the period. Consultation isn't required where the authority is itself the consultee, where the consultee has given standing advice — as Historic England and others do for defined categories — or where consultation has already taken place. And where an application is amended during its life, the authority must consider whether the change is such that those entitled to be consulted should be given a further opportunity to comment. The Wheatcroft principle is that an amendment may be accepted without a fresh application, provided it doesn't so change the proposal that consultees and objectors are deprived of the chance to comment on what is, in substance, a different scheme. It's a test of prejudice and degree."
+  ]
+ },
+ {
+  "id": "dp11",
+  "title": "The consequences of a consultation failure",
+  "paras": [
+   "What, then, are the consequences of a consultation failure? A failure to carry out a required consultation is a procedural error — but, as with publicity, whether it vitiates the permission depends on prejudice, and on the nature of the duty. Where the omitted consultee is one whose input goes to substance — the Environment Agency on flood risk, Natural England on a habitats issue — and the failure means a material consideration wasn't properly before the decision-maker, the permission is vulnerable.",
+   "Where the missing consultee could have added nothing that would have changed the outcome, a court is unlikely to quash. Separately, an authority that has created a legitimate expectation of consultation — for example, by adopting a Statement of Community Involvement promising to consult in a particular way — may be held to it. The courts have recognised that a departure from an adopted consultation practice can found such an expectation. So consultation failures are judged by whether a material input was really lost, or a real expectation defeated — not by the fact of the breach alone."
+  ]
+ },
+ {
+  "id": "dp12",
+  "title": "The time periods (article 34)",
+  "paras": [
+   "Now for the time periods — article 34. Article 34 fixes the period for determination — the time within which the authority must give notice of its decision. The core periods, each beginning with the day immediately following receipt of the valid application, are these. Thirteen weeks for major development. Eight weeks for all other development. Sixteen weeks for E-I-A development with an environmental statement. And ten or five weeks for technical details consent following permission in principle.",
+   "Crucially, article 34 permits a longer period agreed in writing between applicant and authority. That single provision has quietly reshaped practice. Rather than let an application fall to non-determination, applicant and authority routinely agree an extension of time — so the statutory period has become a starting point for negotiation rather than a hard deadline. The period is a maximum, not a target to be exhausted; the authority may decide sooner. But it mustn't decide too soon either. Article 18 forbids determination until the consultation period has run, and the publicity period must expire before its representations have had their chance. So the authority is boxed between a floor — don't decide before consultation and publicity have run — and a ceiling — decide within the period, or an agreed extension. And an extension agreed in writing counts as in time for the national performance measures."
+  ]
+ },
+ {
+  "id": "dp13",
+  "title": "Extensions, PPAs and the planning guarantee",
+  "paras": [
+   "Next: extensions, P-P-As, and the planning guarantee. Three related mechanisms sit around the statutory period. The extension of time agreement simply substitutes an agreed longer period for the statutory one. A planning performance agreement — a P-P-A — is a more structured project-management contract between applicant and authority for larger schemes, setting out milestones, resourcing and timescales. It's not a way to buy a decision — it's a framework for delivering one predictably.",
+   "The planning guarantee provides a backstop. An application — including any appeal — is expected to be concluded within twenty-six weeks, and where an authority fails to determine within that overall period, the fee is to be refunded, subject to the Fees Regulations. And authorities that persistently fail to determine applications in time, or whose decisions are too often overturned on appeal, risk designation by the Secretary of State under sections 62A to 62B of the 1990 Act. That allows applicants in a designated area to apply directly to the Secretary of State — a reputational and practical sanction that gives the time limits teeth."
+  ]
+ },
+ {
+  "id": "dp14",
+  "title": "Delegation, committee and the officer’s report",
+  "paras": [
+   "Now, delegation, committee, and the officer's report. The Order fixes the procedure, but not the locus of the decision within the authority — that's a matter of the authority's scheme of delegation. In practice, the great majority of applications — commonly cited at around nine in ten — are decided by officers under delegated powers, with only the larger, more contentious or departure applications going to planning committee.",
+   "For delegated decisions, the officer's report effectively is the decision. It records the analysis, the consultation responses, the planning balance and the recommendation, and it's the document a court will scrutinise if the decision is challenged. For committee decisions, the officer's report advises the members, who decide. Where members depart from the officer recommendation, the reasons must be recorded, and the common-law duty to give reasons can bite. Either way, the quality of the written reasoning is what makes a decision defensible. The Order requires the notice — but it's the report behind it that carries the load."
+  ]
+ },
+ {
+  "id": "dp15",
+  "title": "The decision notice and reasons (article 35)",
+  "paras": [
+   "That brings us to the decision notice and reasons — article 35. Article 35 governs the written notice of the decision. Where permission is granted subject to conditions, the notice must state clearly and precisely the full reasons for each condition — and, for any pre-commencement condition, why it's imposed as one that must be discharged before development begins. Where permission is refused, the notice must state clearly and precisely the full reasons for the refusal, specifying all the development-plan policies and proposals relevant to the decision.",
+   "The notice must also carry a statement of whether and how the authority worked with the applicant in a positive and proactive manner, and the notification of the applicant's appeal rights in the prescribed form. And since 2024, the notice must also address the biodiversity gain condition where permission is granted. One point of history explains a common misconception. Authorities are no longer required to give full reasons for a grant of permission — that requirement was removed in 2013, leaving the duty to give full reasons attached to conditions and to refusals. That doesn't mean a grant needs no reasoning. The officer's report supplies it, and a common-law duty to give reasons for a grant still arises in some circumstances. But the notice itself, for an unconditional or lightly conditioned grant, is a spare document. The reasons that matter for defending the decision are in the report, not the notice."
+  ]
+ },
+ {
+  "id": "dp16",
+  "title": "Approving details reserved by condition",
+  "paras": [
+   "Next, approving details reserved by condition. Once permission is granted, the Order provides the procedure for approving the details that conditions have reserved. Article 27 governs applications for approval of any matter required by a condition — the everyday discharge-of-conditions application — which the authority must determine within eight weeks, or sixteen for E-I-A development.",
+   "Articles 28 to 30, with Schedule 6, provide the deemed discharge regime. Under it, an applicant who has applied for approval and been met with delay may, after serving the prescribed notice, treat the condition as discharged — unless it falls within the Schedule 6 exceptions. These mechanisms are analysed in full in the Planning Conditions and their Discharge guide, and they're noted here only to complete the procedural picture. The Order doesn't stop at the grant of permission — it continues to regulate the working-out of the permission through its conditions."
+  ]
+ },
+ {
+  "id": "dp17",
+  "title": "Non-determination and appeals",
+  "paras": [
+   "Now, non-determination and appeals. If the authority doesn't determine an application within the article 34 period — as extended by any written agreement — the applicant may treat the application as refused for the purpose of appealing. Section 78, subsection 2 of the 1990 Act confers a right of appeal against non-determination.",
+   "The Order and the associated procedure rules govern the appeal machinery — the time within which an appeal must be lodged, and the written-representations, hearing and inquiry procedures operated by the Planning Inspectorate. A non-determination appeal is a tactical instrument. It wrests the decision from a dilatory authority — but it also removes the local decision and the opportunity to negotiate, and it starts a process the applicant can't easily stop. For a refusal, the ordinary section 78 appeal applies, with the decision notice carrying the notification of appeal rights that starts the applicant's time running. Appeals against the refusal or non-determination of an approval-of-details application, and against the imposition of conditions, run through the same section 78 gateway. The Order's time limits are what make an appeal available — the right to go to the Secretary of State is triggered either by a decision, or by the expiry of time without one."
+  ]
+ },
+ {
+  "id": "dp18",
+  "title": "The register, and life after the decision",
+  "paras": [
+   "Next, the register — and life after the decision. Article 40 requires each authority to keep a register of applications — since 2024, formally the register of applications and biodiversity gain plans — open to public inspection. It's kept in two parts. Part 1 holds applications not yet finally disposed of, with the application, the plans and any planning obligations. Part 2 is the enduring record of every application — its decision and conditions, any appeal and its outcome, obligations and section 278 highways agreements, and now biodiversity gain plans.",
+   "The register is the public memory of the system, and it matters well beyond the individual application. It's how planning history is established, how a fallback or an extant permission is evidenced, and how a lawful-development analysis is grounded. An entry is generally to be made promptly — within fourteen days of receipt for a new application. Beyond the register, the standard duration of a permission — the three-year default under section 91 of the 1990 Act — and the routes for varying a permission — sections 73, 73A and 96A — sit outside the Order proper, but they complete the life-cycle it begins."
+  ]
+ },
+ {
+  "id": "dp19",
+  "title": "Mandatory, directory, and the reluctance to quash",
+  "paras": [
+   "Now a more reflective topic: mandatory, directory, and the reluctance to quash. The recurring interpretive question the Order throws up is whether a requirement is mandatory — so a breach invalidates what follows — or merely directory, so substantial compliance suffices. Modern courts have largely moved away from that rigid dichotomy, towards asking what consequence Parliament intended for the particular failure — and, in practice, whether the breach caused substantial prejudice.",
+   "What results is a system that takes procedure seriously but isn't enslaved to it. A failure that deprives a person of a fair opportunity to participate, or defeats the purpose of a mandatory assessment, will bite. A failure that harmed no one usually will not. Three themes run through the case law. First, purpose governs: the more fundamental the procedure to fairness or to an E-I-A obligation — that's Berkeley — the less willing the court is to excuse a breach. Second, prejudice governs relief: even a real breach may not lead to a quashing where no one has been prejudiced, and the courts increasingly ask whether the outcome would realistically have been different. And third, promptness governs standing to complain: as Gerber shows, a claimant who delays while a developer builds in good faith may find that even a good point yields no remedy. The Order is enforced through a lens of fairness and proportionality, not mechanical compliance — which is why the best procedural practice is not to generate points to take, but to remove them by getting the process right."
+  ]
+ },
+ {
+  "id": "dp20",
+  "title": "The moving parts: reform and currency",
+  "paras": [
+   "Finally, the moving parts — reform and currency. The Order is being reworked around its edges, and several changes are live enough to flag. None displaces the architecture this guide describes: an application is made and validated; publicised and consulted upon; determined within a period that can be extended; the decision notified, with reasons for conditions and refusals; and the whole recorded on a public register, with appeal available on a decision or on the expiry of time.",
+   "First, biodiversity net gain. The 2024 amendments have already threaded net-gain requirements through the form-and-content provision in article 7, the decision-notice provision in article 35, and the register provision in article 40 — but the thresholds and exemptions are themselves still settling, and should be checked on the file. Second, statutory consultee reform. From March 2025, the Government consulted on a substantial reduction in the statutory consultee system — including removing statutory consultee status from bodies such as Sport England, the Theatres Trust and the Gardens Trust — on the footing that consultee requirements were slowing decisions. The precise outcome, and which Schedule 4 entries survive, should be confirmed against the current Order. Third, the Planning and Infrastructure Act 2025, which received Royal Assent on the 18th of December 2025, carries a range of measures whose commencement, and detailed procedural effect, were still being worked through secondary legislation at the time of writing. And the continuing push towards digital planning data, and a restructured N-P-P-F, will change the environment in which the Order operates — even where its own text is unaffected. The task for the practitioner is to hold the stable structure, and the moving detail, in the same view."
+  ]
+ }
+]
