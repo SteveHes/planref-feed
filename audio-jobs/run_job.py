@@ -42,8 +42,36 @@ def write_result():
 if not KEY:
     fail("env", "XI_KEY secret is missing or empty")
 
+# ---- excerpt mode: pull 60s samples of produced guides from R2 ----
+def excerpts(request):
+    import boto3
+    s3 = boto3.client("s3", endpoint_url=os.environ["R2_ENDPOINT"],
+                      aws_access_key_id=os.environ["R2_ACCESS_KEY_ID"],
+                      aws_secret_access_key=os.environ["R2_SECRET_ACCESS_KEY"], region_name="auto")
+    for slug in request.get("slugs", []):
+        try:
+            local = os.path.join(OUT, slug + "-full.mp3")
+            s3.download_file("planref-audio", f"guides/{slug}.mp3", local)
+            ex = os.path.join(OUT, slug + "-excerpt.mp3")
+            subprocess.run(["ffmpeg", "-y", "-ss", request.get("start", "600"), "-t", "60",
+                            "-i", local, "-codec:a", "libmp3lame", "-b:a", "128k", ex],
+                           check=True, capture_output=True)
+            os.remove(local)
+            result["steps"].append(f"excerpt {slug} ok")
+        except Exception as e:
+            result["steps"].append(f"excerpt {slug} FAILED: {str(e)[:300]}")
+    result["status"] = "ok"
+    write_result()
+
 req_path = os.path.join(os.path.dirname(__file__), "request.json")
 request = json.load(open(req_path))
+
+if request.get("mode") == "excerpts":
+    try:
+        excerpts(request)
+    except Exception as e:
+        fail("excerpts", e)
+    sys.exit(0)
 
 # 1. Subscription / credits
 try:
