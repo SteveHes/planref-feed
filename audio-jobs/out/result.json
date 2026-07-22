@@ -2,5 +2,5 @@
  "status": "error",
  "guides": {},
  "log": [],
- "error": "R2_ACCESS_KEY_ID is not set \u2014 add the GitHub secret before running"
+ "error": "Failed to upload /home/runner/work/planref-feed/planref-feed/audio-jobs/work/probe.txt to planref-audio/probe.txt: An error occurred (SignatureDoesNotMatch) when calling the PutObject operation: The request signature we calculated does not match the signature you provided. Check your secret access key and signing method."
 }
