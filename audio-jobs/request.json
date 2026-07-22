@@ -1,12 +1,39 @@
 {
- "mode": "excerpts",
- "start": "600",
- "slugs": [
-  "class-q",
-  "rural-workers-dwellings",
-  "heritage",
-  "enforcement",
-  "class-ma",
-  "interviews"
+ "mode": "guides",
+ "voice_name": "Steve H",
+ "public_base": "https://audio.planref.co.uk",
+ "guides": [
+  {
+   "slug": "decision-making",
+   "title": "Decision-Making and Material Considerations"
+  },
+  {
+   "slug": "conditions",
+   "title": "Planning Conditions and Discharge"
+  },
+  {
+   "slug": "ldc",
+   "title": "Lawful Development Certificates"
+  },
+  {
+   "slug": "varying-permissions",
+   "title": "Varying Permissions \u2014 section 73, section 73A, and phased schemes"
+  },
+  {
+   "slug": "householder-pd",
+   "title": "Householder Permitted Development"
+  },
+  {
+   "slug": "caravans",
+   "title": "Caravans and Mobile Homes"
+  },
+  {
+   "slug": "adverts",
+   "title": "Advertisement Control"
+  },
+  {
+   "slug": "reputation",
+   "title": "The Reputation That Gets You Hired"
+  }
  ]
 }
