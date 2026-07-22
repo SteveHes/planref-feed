@@ -54,6 +54,78 @@
    "free": false,
    "url": "https://audio.planref.co.uk/guides/interviews.mp3",
    "duration": 1476
+  },
+  {
+   "id": "decision-making-full",
+   "page": "gdm",
+   "title": "Decision-Making & Material Considerations \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/decision-making.mp3",
+   "duration": 2746
+  },
+  {
+   "id": "conditions-full",
+   "page": "gcnd",
+   "title": "Planning Conditions & Discharge \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/conditions.mp3",
+   "duration": 1852
+  },
+  {
+   "id": "ldc-full",
+   "page": "gldc",
+   "title": "Lawful Development Certificates \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/ldc.mp3",
+   "duration": 1630
+  },
+  {
+   "id": "varying-permissions-full",
+   "page": "gvry",
+   "title": "Varying Permissions: s73 & s73A \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/varying-permissions.mp3",
+   "duration": 1611
+  },
+  {
+   "id": "householder-pd-full",
+   "page": "ghpd",
+   "title": "Householder Permitted Development \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/householder-pd.mp3",
+   "duration": 1173
+  },
+  {
+   "id": "caravans-full",
+   "page": "gcar",
+   "title": "Caravans & Mobile Homes \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/caravans.mp3",
+   "duration": 1356
+  },
+  {
+   "id": "adverts-full",
+   "page": "gads",
+   "title": "Advertisement Control \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/adverts.mp3",
+   "duration": 1420
+  },
+  {
+   "id": "reputation-full",
+   "page": "repute",
+   "title": "The Reputation That Gets You Hired \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/reputation.mp3",
+   "duration": 2528
   }
  ]
 }
