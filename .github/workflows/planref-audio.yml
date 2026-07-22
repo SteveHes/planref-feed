@@ -21,10 +21,19 @@ jobs:
       - name: Install ffmpeg
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
 
+      - name: Install boto3
+        run: pip install --quiet boto3
+
       - name: Run audio job
         env:
           XI_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
-        run: python3 audio-jobs/run_job.py
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_ENDPOINT: https://ea3b71f07c50da0e882b7a6b07135a82.r2.cloudflarestorage.com
+        run: |
+          MODE=$(python3 -c "import json; print(json.load(open('audio-jobs/request.json')).get('mode','clips'))")
+          if [ "$MODE" = "guides" ]; then python3 audio-jobs/run_guides.py; else python3 audio-jobs/run_job.py; fi
+        timeout-minutes: 120
 
       - name: Commit results
         run: |

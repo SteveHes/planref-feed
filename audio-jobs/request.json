@@ -1,45 +1,31 @@
 {
+ "mode": "guides",
  "voice_name": "Steve H",
- "run": 12,
- "items": [
+ "public_base": "https://audio.planref.co.uk",
+ "guides": [
   {
-   "output": "iso_A_native.mp3",
-   "model_id": "eleven_turbo_v2_5",
-   "text": "The detail lived elsewhere \u2014 and its lineage matters. D-o-E Circular 24 of 73 established the national policy for agricultural and forestry dwellings. Functional need, tied to financial viability, with the standard occupancy condition. P-P-G 7, Annex E, in 1997 \u2014 and then P-P-S 7, Annex A, in 2004 \u2014 carried the approach forward, each more or less repeating the last. Until the whole structure was swept away, in March 2012, when the first Framework replaced around a thousand pages of guidance with one short document. The detail did not survive the change. The expectations of decision-makers, in large part, did.",
-   "voice_settings": {
-    "stability": 0.48,
-    "similarity_boost": 0.65,
-    "style": 0.08,
-    "use_speaker_boost": false,
-    "speed": 1.0
-   }
+   "slug": "class-q",
+   "title": "Class Q \u2014 agricultural buildings to dwellings"
   },
   {
-   "output": "iso_B_tone.mp3",
-   "model_id": "eleven_turbo_v2_5",
-   "text": "The detail lived elsewhere \u2014 and its lineage matters. D-o-E Circular 24 of 73 established the national policy for agricultural and forestry dwellings. Functional need, tied to financial viability, with the standard occupancy condition. P-P-G 7, Annex E, in 1997 \u2014 and then P-P-S 7, Annex A, in 2004 \u2014 carried the approach forward, each more or less repeating the last. Until the whole structure was swept away, in March 2012, when the first Framework replaced around a thousand pages of guidance with one short document. The detail did not survive the change. The expectations of decision-makers, in large part, did.",
-   "voice_settings": {
-    "stability": 0.48,
-    "similarity_boost": 0.65,
-    "style": 0.08,
-    "use_speaker_boost": false,
-    "speed": 1.0
-   },
-   "post": "warm"
+   "slug": "rural-workers-dwellings",
+   "title": "Rural Workers' Dwellings"
   },
   {
-   "output": "iso_C_pitch.mp3",
-   "model_id": "eleven_turbo_v2_5",
-   "text": "The detail lived elsewhere \u2014 and its lineage matters. D-o-E Circular 24 of 73 established the national policy for agricultural and forestry dwellings. Functional need, tied to financial viability, with the standard occupancy condition. P-P-G 7, Annex E, in 1997 \u2014 and then P-P-S 7, Annex A, in 2004 \u2014 carried the approach forward, each more or less repeating the last. Until the whole structure was swept away, in March 2012, when the first Framework replaced around a thousand pages of guidance with one short document. The detail did not survive the change. The expectations of decision-makers, in large part, did.",
-   "voice_settings": {
-    "stability": 0.48,
-    "similarity_boost": 0.65,
-    "style": 0.08,
-    "use_speaker_boost": false,
-    "speed": 1.0
-   },
-   "post": "warm",
-   "pitch": 0.97
+   "slug": "heritage",
+   "title": "Heritage \u2014 significance and harm"
+  },
+  {
+   "slug": "enforcement",
+   "title": "Enforcement \u2014 a practical guide"
+  },
+  {
+   "slug": "class-ma",
+   "title": "Class M-A \u2014 commercial to residential"
+  },
+  {
+   "slug": "interviews",
+   "title": "Winning Planning Interviews"
   }
  ]
 }
