@@ -1,32 +1,12 @@
 {
- "mode": "guides",
- "voice_name": "Steve H",
- "public_base": "https://audio.planref.co.uk",
- "guides": [
-  {
-   "slug": "class-q",
-   "title": "Class Q \u2014 agricultural buildings to dwellings"
-  },
-  {
-   "slug": "rural-workers-dwellings",
-   "title": "Rural Workers' Dwellings"
-  },
-  {
-   "slug": "heritage",
-   "title": "Heritage \u2014 significance and harm"
-  },
-  {
-   "slug": "enforcement",
-   "title": "Enforcement \u2014 a practical guide"
-  },
-  {
-   "slug": "class-ma",
-   "title": "Class M-A \u2014 commercial to residential"
-  },
-  {
-   "slug": "interviews",
-   "title": "Winning Planning Interviews"
-  }
- ],
- "attempt": 3
+ "mode": "excerpts",
+ "start": "600",
+ "slugs": [
+  "class-q",
+  "rural-workers-dwellings",
+  "heritage",
+  "enforcement",
+  "class-ma",
+  "interviews"
+ ]
 }
