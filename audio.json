@@ -126,6 +126,159 @@
    "free": false,
    "url": "https://audio.planref.co.uk/guides/reputation.mp3",
    "duration": 2528
+  },
+  {
+   "id": "applications-handled-full",
+   "page": "gdp",
+   "title": "How Planning Applications Are Handled \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/applications-handled.mp3",
+   "duration": 2232
+  },
+  {
+   "id": "nutrient-neutrality-full",
+   "page": "gnn",
+   "title": "Nutrient Neutrality & the Habitats Regulations \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/nutrient-neutrality.mp3",
+   "duration": 2675
+  },
+  {
+   "id": "first-principles-full",
+   "page": "gfp",
+   "title": "First Principles \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/first-principles.mp3",
+   "duration": 2778
+  },
+  {
+   "id": "settlement-boundaries-full",
+   "page": "gsb",
+   "title": "Settlement Boundaries \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/settlement-boundaries.mp3",
+   "duration": 1732
+  },
+  {
+   "id": "changing-climate-full",
+   "page": "gclim",
+   "title": "Planning for a Changing Climate \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/changing-climate.mp3",
+   "duration": 2729
+  },
+  {
+   "id": "annexes-full",
+   "page": "gannex",
+   "title": "Annexes, Outbuildings & Curtilage \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/annexes.mp3",
+   "duration": 1216
+  },
+  {
+   "id": "future-of-planning-full",
+   "page": "tfp",
+   "title": "The Future of Planning \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/future-of-planning.mp3",
+   "duration": 1720
+  },
+  {
+   "id": "ai-in-planning-full",
+   "page": "tai",
+   "title": "Artificial Intelligence in Planning \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/ai-in-planning.mp3",
+   "duration": 1494
+  },
+  {
+   "id": "planning-data-full",
+   "page": "tds",
+   "title": "Planning Data & Spatial Intelligence \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/planning-data.mp3",
+   "duration": 1728
+  },
+  {
+   "id": "submit-application-full",
+   "page": "ghap",
+   "title": "How to Submit a Planning Application \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/submit-application.mp3",
+   "duration": 1332
+  },
+  {
+   "id": "become-chartered-full",
+   "page": "ghbc",
+   "title": "How to Become a Chartered Town Planner \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/become-chartered.mp3",
+   "duration": 1393
+  },
+  {
+   "id": "delegated-reports-full",
+   "page": "ghdr",
+   "title": "How to Write a Delegated Officer Report \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/delegated-reports.mp3",
+   "duration": 1420
+  },
+  {
+   "id": "under-pressure-full",
+   "page": "wup",
+   "title": "Under Pressure \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/under-pressure.mp3",
+   "duration": 2237
+  },
+  {
+   "id": "coping-under-pressure-full",
+   "page": "wcp",
+   "title": "Coping Under Pressure \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/coping-under-pressure.mp3",
+   "duration": 1371
+  },
+  {
+   "id": "staying-in-control-full",
+   "page": "wsc",
+   "title": "Staying in Control \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/staying-in-control.mp3",
+   "duration": 1256
+  },
+  {
+   "id": "youre-not-alone-full",
+   "page": "wna",
+   "title": "You're Not Alone \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/youre-not-alone.mp3",
+   "duration": 1132
+  },
+  {
+   "id": "bus-stop-bike-store-full",
+   "page": "gclim2",
+   "title": "The Bus Stop and the Bike Store \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/bus-stop-bike-store.mp3",
+   "duration": 1674
   }
  ]
 }
