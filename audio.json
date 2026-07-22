@@ -1,0 +1,59 @@
+{
+ "updated": "2026-07-22",
+ "items": [
+  {
+   "id": "class-q-full",
+   "page": "gclq",
+   "title": "Class Q \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/class-q.mp3",
+   "duration": 2750
+  },
+  {
+   "id": "rural-workers-dwellings-full",
+   "page": "grwd",
+   "title": "Rural Workers' Dwellings \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/rural-workers-dwellings.mp3",
+   "duration": 1894
+  },
+  {
+   "id": "heritage-full",
+   "page": "ghz",
+   "title": "Heritage: Significance & Harm \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/heritage.mp3",
+   "duration": 3029
+  },
+  {
+   "id": "enforcement-full",
+   "page": "genf",
+   "title": "Enforcement \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/enforcement.mp3",
+   "duration": 1757
+  },
+  {
+   "id": "class-ma-full",
+   "page": "gcma",
+   "title": "Class MA \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/class-ma.mp3",
+   "duration": 1729
+  },
+  {
+   "id": "interviews-full",
+   "page": "interview",
+   "title": "Winning Planning Interviews \u2014 Full Guide",
+   "kind": "full",
+   "free": false,
+   "url": "https://audio.planref.co.uk/guides/interviews.mp3",
+   "duration": 1476
+  }
+ ]
+}
