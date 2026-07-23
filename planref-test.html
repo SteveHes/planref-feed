@@ -5972,7 +5972,14 @@ function renderWhatsNew(){
   var bar=document.getElementById('wnbar');
   if(bar&&APPLOG.length){bar.hidden=false;bar.innerHTML='<span><span class="wndot">✦</span> Updated '+APPLOG[0].d+' · What’s new in PlanRef</span><span aria-hidden="true">›</span>';}
 }
-function openTool(id){setTimeout(()=>{document.getElementById(id).scrollIntoView({behavior:'smooth',block:'start'});},60);}
+function openTool(id){
+  var run=function(){
+    var el=document.getElementById(id); if(!el) return;
+    var y=el.getBoundingClientRect().top + (window.pageYOffset||document.documentElement.scrollTop||0) - 8;
+    try{ window.scrollTo(0, y); }catch(e){ try{ el.scrollIntoView(); }catch(_){} }
+  };
+  setTimeout(run,60); setTimeout(run,240);
+}
 
 /* ================= premium sheet (focus-managed) ================= */
 let sheetTrigger=null;
@@ -6908,6 +6915,15 @@ function audioSync(){
     SEL = S.filter(function(s){ return s.id===id; })[0] || null;
     jrSearch();
     jrRender();
+    // make sure the answer is visible after a tap (instant, no smooth dependency)
+    var out=el('jr-out');
+    if(out){
+      var r=out.getBoundingClientRect();
+      if(r.bottom>window.innerHeight || r.top<0){
+        var y=r.top + (window.pageYOffset||document.documentElement.scrollTop||0) - 70;
+        try{ window.scrollTo(0, y); }catch(e){}
+      }
+    }
   }
 
   function jrRender(){
