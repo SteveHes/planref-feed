@@ -1,6 +1,6 @@
 {
  "mode": "upload",
  "uploads": [
-   {"path": "article4-map.html", "key": "article4-map.html", "content_type": "text/html; charset=utf-8", "cache_control": "public, max-age=300"}
+   {"path": "planref-test.html", "key": "test/planref-test.html", "content_type": "text/html; charset=utf-8", "cache_control": "public, max-age=60"}
  ]
 }
