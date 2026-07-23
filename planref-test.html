@@ -6894,7 +6894,7 @@ function audioSync(){
   var SEL=null;
   function el(id){ return document.getElementById(id); }
   function val(id){ var e=el(id); return e?e.value:''; }
-  function wk(days){ return days%7===0 ? (days/7)+(days/7===1?' week':' weeks') : days+' days'; }
+  function wk(days){ if(days===28) return '28 days'; return days%7===0 ? (days/7)+(days/7===1?' week':' weeks') : days+' days'; }
 
   function jrSearch(){
     var q=(val('jr-q')||'').toLowerCase().trim();
