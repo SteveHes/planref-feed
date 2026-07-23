@@ -1,22 +1,6 @@
 {
  "status": "ok",
  "steps": [
-  "excerpt applications-handled ok",
-  "excerpt nutrient-neutrality ok",
-  "excerpt first-principles ok",
-  "excerpt settlement-boundaries ok",
-  "excerpt changing-climate ok",
-  "excerpt annexes ok",
-  "excerpt future-of-planning ok",
-  "excerpt ai-in-planning ok",
-  "excerpt planning-data ok",
-  "excerpt submit-application ok",
-  "excerpt become-chartered ok",
-  "excerpt delegated-reports ok",
-  "excerpt under-pressure ok",
-  "excerpt coping-under-pressure ok",
-  "excerpt staying-in-control ok",
-  "excerpt youre-not-alone ok",
-  "excerpt bus-stop-bike-store ok"
+  "uploaded article4-map.html -> article4-map.html (text/html; charset=utf-8)"
  ]
 }
