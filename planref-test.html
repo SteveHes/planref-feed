@@ -1990,7 +1990,7 @@ select.winput{appearance:none;-webkit-appearance:none;background-image:url("data
   <div class="tpanel" id="t-jr">
     <h3>Judicial Review &amp; Statutory Challenge — route &amp; deadline</h3>
     <p class="sub">How to challenge a planning decision in the High Court — judicial review or the statutory route — with the correct deadline. Different decisions take different routes, with different, mostly non-extendable time limits, and the wrong route or a missed date is usually fatal. Tap what you want to challenge to see the route, the court, whether the court’s permission is needed, and the deadline, with a date calculator. England.</p>
-    <input type="text" id="jr-q" placeholder="Filter — e.g. appeal decision, enforcement, local plan, grant of permission" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="Filter what you want to challenge">
+    <input type="text" id="jr-q" placeholder="Filter — e.g. appeal decision, enforcement, local plan, grant of permission" autocomplete="off" autocapitalize="none" spellcheck="false" oninput="jrSearch()" onfocus="jrSearch()" aria-label="Filter what you want to challenge">
     <div id="jr-list" class="nsod-list"></div>
     <div id="jr-out" class="nsod-out"></div>
     <span class="ref">A finding aid for planners — spot the route, clock the deadline, know when to instruct counsel. Not legal advice; these deadlines are mostly non-extendable, so confirm the exact date and take advice before relying on it. England · checked 23 July 2026.</span>
@@ -6900,7 +6900,7 @@ function audioSync(){
     var q=(val('jr-q')||'').toLowerCase().trim();
     var items=S.filter(function(s){ if(!q) return true; return (s.label+' '+s.aka).toLowerCase().indexOf(q)>-1; });
     el('jr-list').innerHTML = items.length
-      ? items.map(function(s){ return '<button type="button" class="'+(SEL&&SEL.id===s.id?'on':'')+'" data-jr="'+s.id+'">'+s.label+'</button>'; }).join('')
+      ? items.map(function(s){ return '<button type="button" class="'+(SEL&&SEL.id===s.id?'on':'')+'" onclick="jrPick(\''+s.id+'\')">'+s.label+'</button>'; }).join('')
       : '<span class="nsod-hint">No match — try “appeal”, “enforcement”, “local plan” or “grant”.</span>';
   }
 
@@ -6922,7 +6922,7 @@ function audioSync(){
     h+='<div class="row"><b>Deadline:</b> <span class="jr-big">'+wk(s.days)+'</span> '+s.fromText+'.</div>';
     h+='<div class="row"><b>Court:</b> '+s.court+'</div>';
     h+='<div class="row"><b>Court’s permission needed:</b> '+s.permission+'</div>';
-    h+='<div class="cta"><b>Work out the date.</b> Enter the decision date:<br><input type="date" id="jr-date"><div id="jr-dateres" style="margin-top:.45rem"></div></div>';
+    h+='<div class="cta"><b>Work out the date.</b> Enter the decision date:<br><input type="date" id="jr-date" oninput="jrDate()" onchange="jrDate()"><div id="jr-dateres" style="margin-top:.45rem"></div></div>';
     if(s.notes&&s.notes.length){ h+='<div class="nsod-note">'+s.notes.map(function(n){return '• '+n;}).join('<br>')+'</div>'; }
     h+='<div class="nsod-note"><b>These deadlines are mostly non-extendable.</b> File well before the date, confirm whether time runs from the decision date or the day after, do not rely on the last day, and take advice from a solicitor or counsel — this is a finding aid, not legal advice.</div>';
     h+='<div class="nsod-note">'+JR_LEGAL+'</div>';
@@ -6946,38 +6946,22 @@ function audioSync(){
       '<br><span style="color:var(--mute);font-size:.8rem">Basis: '+wk(SEL.days)+' from the date entered. Confirm the exact start (decision date vs the day after) and never rely on the final day — file early.</span>';
   }
 
-  // Robust wiring — a single delegated listener on the document, so clicks work
-  // regardless of when the buttons/chips were created and with no reliance on
-  // inline handlers or setAttribute('onclick') (which is unreliable on some browsers).
-  document.addEventListener('click', function(e){
-    if(!e.target||!e.target.closest) return;
-    var b=e.target.closest('#jr-list button[data-jr]');
-    if(b){ jrPick(b.getAttribute('data-jr')); return; }
-    var a=e.target.closest('#page-tools .toolidx a[data-tool]');
-    if(a && typeof openTool==='function'){ openTool(a.getAttribute('data-tool')); }
-  });
-  document.addEventListener('input', function(e){
-    if(!e.target) return;
-    if(e.target.id==='jr-q'){ jrSearch(); }
-    else if(e.target.id==='jr-date'){ jrDate(); }
-  });
-
-  /* Auto-build the "Tools on this page" index from the panels actually present,
-     so it always stays in sync — new tools appear without editing the list. */
+  /* Auto-build the "Tools on this page" index from the panels present.
+     Uses inline onclick written into the HTML — the same pattern every other
+     button in the app uses, which is reliable on mobile Safari (a bare <a>
+     wired only by delegation does not receive taps on iOS). */
   function buildToolIndex(){
     var nav=document.querySelector('#page-tools .toolidx'); if(!nav) return;
     var panels=document.querySelectorAll('#page-tools .tpanel[id]');
     if(!panels.length) return;
-    nav.innerHTML='';
+    var html='';
     [].forEach.call(panels,function(p){
       var h=p.querySelector('h3'); if(!h) return;
-      var a=document.createElement('a');
-      a.textContent=h.textContent.replace(/\s+/g,' ').trim();
-      a.setAttribute('data-tool', p.id);
-      a.setAttribute('role','link');
-      a.setAttribute('tabindex','0');
-      nav.appendChild(a);
+      var label=h.textContent.replace(/\s+/g,' ').trim()
+        .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+      html+='<a onclick="openTool(\''+p.id+'\')">'+label+'</a>';
     });
+    nav.innerHTML=html;
   }
 
   function jrInit(){ try{ jrSearch(); }catch(e){} try{ buildToolIndex(); }catch(e){} }
