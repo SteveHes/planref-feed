@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Article 4 Directions — Interactive Map (England)</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+  :root{
+    --ink:#1c2430; --mute:#5b6675; --line:#e2e6ec; --paper:#f6f8fa;
+    --brand:#0b3d5c; --a4:#e8590c; --a4dark:#b8460a; --a4fill:rgba(232,89,12,.28);
+    --hit:#1971c2; --hitfill:rgba(25,113,194,.30); --ok:#2b8a3e; --warnbg:#fff4e6; --warnbd:#ffd8a8;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink)}
+  #wrap{display:flex;flex-direction:column;height:100%}
+  header{background:var(--brand);color:#fff;padding:.6rem .9rem;flex:none}
+  header h1{margin:0;font-size:1.05rem;font-weight:700;letter-spacing:.2px}
+  header p{margin:.2rem 0 0;font-size:.78rem;line-height:1.35;color:#cfe0ec}
+  .bar{flex:none;background:#fff;border-bottom:1px solid var(--line);padding:.55rem .9rem;display:flex;gap:.5rem;align-items:center;flex-wrap:wrap}
+  .bar input{flex:1 1 240px;min-width:0;padding:.55rem .7rem;border:1px solid var(--line);border-radius:8px;font-size:.95rem}
+  .bar button{padding:.55rem .9rem;border:0;border-radius:8px;background:var(--brand);color:#fff;font-weight:600;font-size:.9rem;cursor:pointer;white-space:nowrap}
+  .bar button:disabled{opacity:.5;cursor:default}
+  #main{flex:1;position:relative;min-height:0}
+  #map{position:absolute;inset:0}
+  .panel{position:absolute;top:.6rem;right:.6rem;z-index:500;max-width:320px;background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 6px 20px rgba(0,0,0,.14);font-size:.86rem;overflow:hidden;display:none}
+  .panel .ph{background:var(--paper);padding:.5rem .7rem;font-weight:700;display:flex;justify-content:space-between;align-items:center;gap:.5rem}
+  .panel .ph button{background:none;border:0;font-size:1.1rem;line-height:1;cursor:pointer;color:var(--mute)}
+  .panel .pb{padding:.6rem .7rem;max-height:44vh;overflow:auto}
+  .panel .res{border-top:1px solid var(--line);padding:.55rem 0;margin-top:.2rem}
+  .panel .res:first-child{border-top:0;margin-top:0}
+  .panel .res b{display:block;font-size:.9rem}
+  .panel small{color:var(--mute)}
+  .hint{position:absolute;left:50%;bottom:1.1rem;transform:translateX(-50%);z-index:500;background:rgba(28,36,48,.9);color:#fff;padding:.45rem .8rem;border-radius:20px;font-size:.8rem;display:none;pointer-events:none;text-align:center;max-width:90%}
+  .legend{position:absolute;left:.6rem;bottom:.6rem;z-index:500;background:#fff;border:1px solid var(--line);border-radius:8px;padding:.45rem .6rem;font-size:.78rem;line-height:1.5;box-shadow:0 3px 10px rgba(0,0,0,.1)}
+  .legend .sw{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-1px;margin-right:.35rem}
+  .caveat{flex:none;background:var(--warnbg);border-top:1px solid var(--warnbd);color:#8a4b00;font-size:.74rem;line-height:1.4;padding:.45rem .9rem}
+  .caveat b{color:#6a3a00}
+  .lp{color:var(--mute);font-size:.8rem;padding:.3rem 0}
+  .cov{display:block;padding:.45rem .55rem;border-radius:7px;font-size:.8rem;line-height:1.4;margin:.15rem 0 .5rem}
+  .cov-yes{background:#ebfbee;border:1px solid #b2f2bb;color:#2b6a34}
+  .cov-no{background:#fff4e6;border:1px solid #ffd8a8;color:#8a4b00}
+  .cov-unk{background:#f1f3f5;border:1px solid #dee2e6;color:#495057}
+  a.doc{display:inline-block;margin-top:.35rem;padding:.35rem .6rem;background:var(--brand);color:#fff;border-radius:6px;text-decoration:none;font-size:.8rem;font-weight:600}
+  .leaflet-popup-content{margin:.6rem .7rem;font-size:.85rem;line-height:1.45}
+  .leaflet-popup-content h4{margin:0 0 .3rem;font-size:.92rem}
+  .leaflet-popup-content .kv{margin:.15rem 0}
+  .leaflet-popup-content .kv span{color:var(--mute)}
+  .err{color:#c92a2a}
+</style>
+</head>
+<body>
+<div id="wrap">
+  <header>
+    <h1>Article 4 Directions — Interactive Map</h1>
+    <p>Search a place or postcode, or zoom in, to see where permitted development rights have been withdrawn in England. An indicative finding aid — always confirm with the local planning authority.</p>
+  </header>
+
+  <div class="bar">
+    <input id="q" type="text" placeholder="Search a postcode or place — e.g. SW1A 1AA or Harrogate" autocomplete="off" spellcheck="false">
+    <button id="go">Search</button>
+    <button id="reset" title="Reset view">Reset</button>
+  </div>
+
+  <div id="main">
+    <div id="map"></div>
+    <div class="hint" id="hint">Zoom in or search a place to load Article 4 areas</div>
+    <div class="legend">
+      <span class="sw" style="background:var(--a4fill);border:1px solid var(--a4dark)"></span>Article 4 area<br>
+      <span class="sw" style="background:var(--hitfill);border:1px solid var(--hit)"></span>Your searched location
+    </div>
+    <div class="panel" id="panel">
+      <div class="ph"><span id="panel-title">Result</span><button id="panel-x" aria-label="Close">×</button></div>
+      <div class="pb" id="panel-body"></div>
+    </div>
+  </div>
+
+  <div class="caveat">
+    <b>Coverage is incomplete.</b> Areas are shown only where the authority has published data to planning.data.gov.uk — an <b>empty area does not mean there is no Article 4 direction.</b> Always confirm scope, the rights withdrawn and the exact boundary with the local planning authority. Article 4 data © Crown / LPAs under OGL v3.0 (planning.data.gov.uk). Basemap © OpenStreetMap contributors. Geocoding by postcodes.io &amp; OpenStreetMap Nominatim.
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+(function(){
+  "use strict";
+  var API = "https://www.planning.data.gov.uk/entity.geojson";
+  var DATASET = "article-4-direction-area";
+  var MINZOOM = 11;          // below this, don't bulk-load polygons
+  var LIMIT = 500;           // API page cap
+  var ORG = {};              // organisation-entity id -> name
+
+  var map = L.map('map', {minZoom:5, maxZoom:19}).setView([53.0, -1.5], 6);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom:19, attribution:'&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  var areaLayer = L.geoJSON(null, {style:areaStyle, onEachFeature:onArea}).addTo(map);
+  var hitLayer  = L.layerGroup().addTo(map);
+
+  function areaStyle(){ return {color:'#b8460a', weight:1.5, fillColor:'#e8590c', fillOpacity:.28}; }
+
+  function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+
+  function authorityName(p){
+    var id = p['organisation-entity'];
+    if(id!=null && ORG[id]) return ORG[id];
+    return '';
+  }
+
+  function popupHTML(p){
+    var title = p.description || p.name || p.reference || 'Article 4 area';
+    var auth = authorityName(p);
+    var rights = p['permitted-development-rights'];
+    var html = '<h4>'+esc(title)+'</h4>';
+    if(auth) html += '<div class="kv"><span>Authority:</span> '+esc(auth)+'</div>';
+    if(rights) html += '<div class="kv"><span>Rights withdrawn (ref):</span> '+esc(rights)+'</div>';
+    if(p.reference) html += '<div class="kv"><span>Reference:</span> '+esc(p.reference)+'</div>';
+    if(p['start-date']) html += '<div class="kv"><span>Start date:</span> '+esc(p['start-date'])+'</div>';
+    if(p['documentation-url']) html += '<a class="doc" target="_blank" rel="noopener" href="'+esc(p['documentation-url'])+'">Direction document ↗</a>';
+    html += '<div class="kv" style="margin-top:.4rem"><small>Indicative — confirm exact scope and boundary with the LPA.</small></div>';
+    return html;
+  }
+
+  function onArea(f, layer){ layer.bindPopup(popupHTML(f.properties||{})); }
+
+  // ---- viewport polygon loading -------------------------------------------
+  var reqId = 0;
+  function bboxWKT(){
+    var b = map.getBounds();
+    var w=b.getWest(), s=b.getSouth(), e=b.getEast(), n=b.getNorth();
+    return 'POLYGON(('+w+' '+s+','+e+' '+s+','+e+' '+n+','+w+' '+n+','+w+' '+s+'))';
+  }
+
+  function showHint(t){ var h=document.getElementById('hint'); if(t){h.textContent=t; h.style.display='block';} else {h.style.display='none';} }
+
+  function loadViewport(){
+    if(map.getZoom() < MINZOOM){ areaLayer.clearLayers(); showHint('Zoom in or search a place to load Article 4 areas'); return; }
+    showHint('');
+    var mine = ++reqId;
+    var url = API+'?dataset='+DATASET+'&geometry_relation=intersects&limit='+LIMIT+'&geometry='+encodeURIComponent(bboxWKT());
+    fetch(url).then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+      .then(function(gj){
+        if(mine!==reqId) return; // superseded by a newer pan/zoom
+        areaLayer.clearLayers();
+        var feats = (gj && gj.features) || [];
+        areaLayer.addData(gj);
+        if(feats.length >= LIMIT) showHint('Showing the first '+LIMIT+' areas here — zoom in for the rest'); else showHint('');
+      })
+      .catch(function(err){
+        if(mine!==reqId) return;
+        showHint('Could not load areas — '+err.message);
+      });
+  }
+
+  var t;
+  map.on('moveend', function(){ clearTimeout(t); t=setTimeout(loadViewport, 250); });
+
+  // ---- search -------------------------------------------------------------
+  var POSTCODE = /^[A-Z]{1,2}\d[A-Z\d]?\s*\d[A-Z]{2}$/i;
+
+  function geocode(q){
+    q = q.trim();
+    if(POSTCODE.test(q)){
+      return fetch('https://api.postcodes.io/postcodes/'+encodeURIComponent(q.replace(/\s+/g,'')))
+        .then(function(r){ return r.ok?r.json():null; })
+        .then(function(d){ if(d && d.result) return {lat:d.result.latitude, lon:d.result.longitude, label:d.result.postcode}; return nominatim(q); });
+    }
+    return nominatim(q);
+  }
+  function nominatim(q){
+    var u='https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes=gb&q='+encodeURIComponent(q);
+    return fetch(u,{headers:{'Accept':'application/json'}})
+      .then(function(r){ return r.ok?r.json():[]; })
+      .then(function(a){ if(a && a.length) return {lat:+a[0].lat, lon:+a[0].lon, label:a[0].display_name}; return null; });
+  }
+
+  function radiusWKT(lat, lon, km){
+    var dLat = km/111.0;
+    var dLon = km/(111.0*Math.cos(lat*Math.PI/180));
+    var w=lon-dLon, e=lon+dLon, s=lat-dLat, n=lat+dLat;
+    return 'POLYGON(('+w+' '+s+','+e+' '+s+','+e+' '+n+','+w+' '+n+','+w+' '+s+'))';
+  }
+
+  function areaRow(p){
+    var auth=authorityName(p);
+    return '<div class="res"><b>'+esc(p.description||p.name||p.reference||'Article 4 area')+'</b>'
+      + (auth?'<small>'+esc(auth)+'</small><br>':'')
+      + (p['permitted-development-rights']?'<small>Rights withdrawn (ref): '+esc(p['permitted-development-rights'])+'</small><br>':'')
+      + (p['documentation-url']?'<a class="doc" target="_blank" rel="noopener" href="'+esc(p['documentation-url'])+'">Direction document ↗</a>':'')
+      + '</div>';
+  }
+
+  // Coverage check: which LPA covers the point, and has that LPA published ANY
+  // Article 4 area to planning.data.gov.uk? Distinguishes "no direction here"
+  // from "this authority hasn't published its data".
+  function lpaCoverage(lat, lon){
+    return fetch('https://www.planning.data.gov.uk/entity.json?dataset=local-planning-authority&longitude='+lon+'&latitude='+lat)
+      .then(function(r){ return r.ok?r.json():null; })
+      .then(function(d){
+        var e = d && d.entities && d.entities[0];
+        if(!e) return null;
+        return fetch('https://www.planning.data.gov.uk/entity.json?dataset=article-4-direction-area&geometry_entity='+e.entity+'&geometry_relation=intersects&limit=1')
+          .then(function(r){ return r.ok?r.json():null; })
+          .then(function(c){
+            var n = c ? (c.count!=null ? c.count : ((c.entities||[]).length)) : 0;
+            return { name:(e.name||'').replace(/\s+LPA$/,''), hasData:n>0 };
+          });
+      }).catch(function(){ return null; });
+  }
+
+  function coverageHTML(cov){
+    if(!cov || !cov.name) return '<div class="cov cov-unk">Authority coverage for this point is unknown.</div>';
+    if(cov.hasData) return '<div class="cov cov-yes"><b>'+esc(cov.name)+'</b> has published Article 4 data to planning.data.gov.uk — so a blank result here means no direction is recorded at that location.</div>';
+    return '<div class="cov cov-no"><b>'+esc(cov.name)+'</b> has <b>not</b> published its Article 4 data to planning.data.gov.uk. Absence here proves nothing — check directly with the authority.</div>';
+  }
+
+  // Scan the area around a search: point-in-polygon (is this spot inside one?)
+  // AND a radius sweep (what is nearby?), so a town search never falsely reads "empty".
+  function locationReport(loc, isPostcode){
+    hitLayer.clearLayers();
+    L.circleMarker([loc.lat,loc.lon], {radius:7, color:'#1971c2', weight:2, fillColor:'#1971c2', fillOpacity:.9}).addTo(hitLayer);
+    openPanel('Checking…', '<div class="lp">Searching published Article 4 data…</div>');
+    var km = isPostcode ? 2 : 8;
+    var areaQ  = API+'?dataset='+DATASET+'&geometry_relation=intersects&limit='+LIMIT+'&geometry='+encodeURIComponent(radiusWKT(loc.lat,loc.lon,km));
+    var pointQ = API+'?dataset='+DATASET+'&longitude='+loc.lon+'&latitude='+loc.lat;
+    Promise.all([
+      fetch(areaQ).then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); }),
+      fetch(pointQ).then(function(r){ return r.ok?r.json():{features:[]}; }),
+      lpaCoverage(loc.lat, loc.lon)
+    ]).then(function(res){
+      var areaGj=res[0], ptGj=res[1], cov=res[2];
+      var areas=(areaGj&&areaGj.features)||[];
+      var here=(ptGj&&ptGj.features)||[];
+      var layer=L.geoJSON(areaGj, {style:{color:'#1971c2', weight:2, fillColor:'#1971c2', fillOpacity:.28}}).addTo(hitLayer);
+      if(!isPostcode && areas.length){ try{ map.fitBounds(layer.getBounds().pad(0.15), {maxZoom:14}); }catch(e){} }
+      var head, body='';
+      if(loc.label) body += '<div class="lp">'+esc(loc.label)+'</div>';
+      body += coverageHTML(cov);
+      function list(){ areas.slice(0,8).forEach(function(f){ body+=areaRow(f.properties||{}); }); if(areas.length>8) body+='<div class="res"><small>…and '+(areas.length-8)+' more — see the map.</small></div>'; }
+      if(isPostcode){
+        if(here.length){
+          head='Inside an Article 4 area';
+          body += '<div class="res"><b style="color:#2b8a3e">✓ This location is inside a mapped Article 4 area:</b></div>';
+          here.forEach(function(f){ body+=areaRow(f.properties||{}); });
+        } else if(areas.length){
+          head=areas.length+' Article 4 area'+(areas.length>1?'s':'')+' nearby';
+          body += '<div class="res"><b>This exact point is not inside a mapped area, but '+areas.length+' '+(areas.length>1?'are':'is')+' within ~2 km:</b></div>';
+          list();
+        } else {
+          head='No Article 4 areas nearby';
+          body += '<div class="res"><b style="color:#8a4b00">Nothing in the published data near this postcode.</b><small>This does <b>not</b> confirm the site is free of an Article 4 direction — coverage is incomplete. Confirm with the local planning authority.</small></div>';
+        }
+      } else {
+        if(areas.length){
+          head=areas.length+' Article 4 area'+(areas.length>1?'s':'')+' here';
+          body += '<div class="res"><b>'+areas.length+' Article 4 area'+(areas.length>1?'s':'')+' in this area — shown in blue. Click one for detail.</b></div>';
+          list();
+        } else {
+          head='No Article 4 areas found here';
+          body += '<div class="res"><b style="color:#8a4b00">Nothing in the published data around this place.</b><small>This does <b>not</b> mean there are none — coverage is incomplete (many authorities have not yet published). Confirm with the local planning authority.</small></div>';
+        }
+      }
+      openPanel(head, body);
+    }).catch(function(err){ openPanel('Search error', '<div class="lp err">Could not reach the Article 4 data service ('+esc(err.message)+'). Try again shortly.</div>'); });
+  }
+
+  function doSearch(){
+    var q=document.getElementById('q').value;
+    if(!q.trim()) return;
+    var isPostcode = POSTCODE.test(q.trim());
+    var btn=document.getElementById('go'); btn.disabled=true; btn.textContent='…';
+    geocode(q).then(function(loc){
+      btn.disabled=false; btn.textContent='Search';
+      if(!loc){ openPanel('Not found', '<div class="lp">Could not locate “'+esc(q)+'”. Try a full postcode or a town name.</div>'); return; }
+      map.setView([loc.lat, loc.lon], isPostcode?16:12);
+      locationReport(loc, isPostcode);
+    }).catch(function(){ btn.disabled=false; btn.textContent='Search'; openPanel('Search error','<div class="lp err">Geocoding failed. Try again.</div>'); });
+  }
+
+  function openPanel(title, body){
+    document.getElementById('panel-title').textContent=title;
+    document.getElementById('panel-body').innerHTML=body;
+    document.getElementById('panel').style.display='block';
+  }
+
+  document.getElementById('go').addEventListener('click', doSearch);
+  document.getElementById('q').addEventListener('keydown', function(e){ if(e.key==='Enter') doSearch(); });
+  document.getElementById('panel-x').addEventListener('click', function(){ document.getElementById('panel').style.display='none'; hitLayer.clearLayers(); });
+  document.getElementById('reset').addEventListener('click', function(){ map.setView([53.0,-1.5],6); hitLayer.clearLayers(); document.getElementById('panel').style.display='none'; });
+
+  // ---- organisation lookup, then initial load -----------------------------
+  fetch('https://www.planning.data.gov.uk/organisation.json')
+    .then(function(r){ return r.ok?r.json():null; })
+    .then(function(d){
+      if(!d) return;
+      Object.keys(d).forEach(function(group){
+        var list = d[group];
+        if(Array.isArray(list)) list.forEach(function(o){ if(o && o.entity!=null) ORG[o.entity]=o.name; });
+      });
+    })
+    .catch(function(){ /* names are optional */ })
+    .finally(function(){ loadViewport(); });
+})();
+</script>
+</body>
+</html>

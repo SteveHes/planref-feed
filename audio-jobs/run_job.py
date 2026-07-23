@@ -66,6 +66,29 @@ def excerpts(request):
 req_path = os.path.join(os.path.dirname(__file__), "request.json")
 request = json.load(open(req_path))
 
+# ---- upload mode: push static files from the repo to R2 (served at audio.planref.co.uk) ----
+def upload_files(request):
+    import boto3
+    s3 = boto3.client("s3", endpoint_url=os.environ["R2_ENDPOINT"],
+                      aws_access_key_id=os.environ["R2_ACCESS_KEY_ID"],
+                      aws_secret_access_key=os.environ["R2_SECRET_ACCESS_KEY"], region_name="auto")
+    repo = os.path.dirname(os.path.dirname(__file__))
+    for u in request.get("uploads", []):
+        src = os.path.join(repo, u["path"])
+        s3.upload_file(src, "planref-audio", u["key"],
+                       ExtraArgs={"ContentType": u.get("content_type", "application/octet-stream"),
+                                  "CacheControl": u.get("cache_control", "public, max-age=300")})
+        result["steps"].append(f"uploaded {u['path']} -> {u['key']} ({u.get('content_type')})")
+    result["status"] = "ok"
+    write_result()
+
+if request.get("mode") == "upload":
+    try:
+        upload_files(request)
+    except Exception as e:
+        fail("upload", e)
+    sys.exit(0)
+
 if request.get("mode") == "excerpts":
     try:
         excerpts(request)

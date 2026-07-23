@@ -1,23 +1,6 @@
 {
- "mode": "excerpts",
- "start": "480",
- "slugs": [
-  "applications-handled",
-  "nutrient-neutrality",
-  "first-principles",
-  "settlement-boundaries",
-  "changing-climate",
-  "annexes",
-  "future-of-planning",
-  "ai-in-planning",
-  "planning-data",
-  "submit-application",
-  "become-chartered",
-  "delegated-reports",
-  "under-pressure",
-  "coping-under-pressure",
-  "staying-in-control",
-  "youre-not-alone",
-  "bus-stop-bike-store"
+ "mode": "upload",
+ "uploads": [
+   {"path": "article4-map.html", "key": "article4-map.html", "content_type": "text/html; charset=utf-8", "cache_control": "public, max-age=300"}
  ]
 }
