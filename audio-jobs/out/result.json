@@ -1,132 +1,157 @@
 {
  "status": "ok",
- "steps": [
-  "subscription ok",
-  "voices ok",
-  "generated q4_proposed_raw.mp3 (3003080 bytes, model eleven_multilingual_v2, 2424 chars)"
- ],
- "subscription": {
-  "tier": "pro",
-  "character_count": 444283,
-  "character_limit": 604083,
-  "next_character_count_reset_unix": 1787652898
- },
- "voices": [
-  {
-   "id": "CwhRBWXzGAHq8TQ4Fs17",
-   "name": "Roger - Laid-Back, Casual, Resonant",
-   "category": "premade"
+ "guides": {
+  "adverts": {
+   "title": "Advertisement Control",
+   "url": "https://audio.planref.co.uk/guides/adverts.mp3",
+   "duration": 811,
+   "bytes": 12982692,
+   "chars": 11791
   },
-  {
-   "id": "EXAVITQu4vr4xnSDxMaL",
-   "name": "Sarah - Mature, Reassuring, Confident",
-   "category": "premade"
+  "ai-in-planning": {
+   "title": "Artificial Intelligence in Planning",
+   "url": "https://audio.planref.co.uk/guides/ai-in-planning.mp3",
+   "duration": 750,
+   "bytes": 12005921,
+   "chars": 10685
   },
-  {
-   "id": "FGY2WhTYpPnrIDTdsKH5",
-   "name": "Laura - Enthusiast, Quirky Attitude",
-   "category": "premade"
+  "class-ma": {
+   "title": "Class MA",
+   "url": "https://audio.planref.co.uk/guides/class-ma.mp3",
+   "duration": 1054,
+   "bytes": 16865533,
+   "chars": 15558
   },
-  {
-   "id": "IKne3meq5aSn9XLyUdCD",
-   "name": "Charlie - Deep, Confident, Energetic",
-   "category": "premade"
+  "decision-making": {
+   "title": "Decision-Making & Material Considerations",
+   "url": "https://audio.planref.co.uk/guides/decision-making.mp3",
+   "duration": 1767,
+   "bytes": 28269549,
+   "chars": 25662
   },
-  {
-   "id": "JBFqnCBsd6RMkjVDRZzb",
-   "name": "George - Warm, Captivating Storyteller",
-   "category": "premade"
+  "enforcement": {
+   "title": "Enforcement",
+   "url": "https://audio.planref.co.uk/guides/enforcement.mp3",
+   "duration": 1024,
+   "bytes": 16376520,
+   "chars": 14772
   },
-  {
-   "id": "N2lVS1w4EtoT3dr4eOWO",
-   "name": "Callum - Husky Trickster",
-   "category": "premade"
+  "interviews": {
+   "title": "Winning Planning Interviews",
+   "url": "https://audio.planref.co.uk/guides/interviews.mp3",
+   "duration": 987,
+   "bytes": 15799737,
+   "chars": 13869
   },
-  {
-   "id": "SAz9YHcvj6GT2YYXdXww",
-   "name": "River - Relaxed, Neutral, Informative",
-   "category": "premade"
+  "under-pressure": {
+   "title": "Under Pressure",
+   "url": "https://audio.planref.co.uk/guides/under-pressure.mp3",
+   "duration": 1355,
+   "bytes": 21685856,
+   "chars": 19316
   },
-  {
-   "id": "SOYHLrjzK2X1ezoPC6cr",
-   "name": "Harry - Fierce Warrior",
-   "category": "premade"
-  },
-  {
-   "id": "TX3LPaxmHKxFdv7VOQHJ",
-   "name": "Liam - Energetic, Social Media Creator",
-   "category": "premade"
-  },
-  {
-   "id": "Xb7hH8MSUJpSbSDYk0k2",
-   "name": "Alice - Clear, Engaging Educator",
-   "category": "premade"
-  },
-  {
-   "id": "XrExE9yKIg1WjnnlVkGX",
-   "name": "Matilda - Knowledgable, Professional",
-   "category": "premade"
-  },
-  {
-   "id": "bIHbv24MWmeRgasZH58o",
-   "name": "Will - Relaxed Optimist",
-   "category": "premade"
-  },
-  {
-   "id": "cgSgspJ2msm6clMCkdW9",
-   "name": "Jessica - Playful, Bright, Warm",
-   "category": "premade"
-  },
-  {
-   "id": "cjVigY5qzO86Huf0OWal",
-   "name": "Eric - Smooth, Trustworthy",
-   "category": "premade"
-  },
-  {
-   "id": "hpp4J3VqNfWAUOO0d1Us",
-   "name": "Bella - Professional, Bright, Warm",
-   "category": "premade"
-  },
-  {
-   "id": "iP95p4xoKVk53GoZ742B",
-   "name": "Chris - Charming, Down-to-Earth",
-   "category": "premade"
-  },
-  {
-   "id": "nPczCjzI2devNBz1zQrb",
-   "name": "Brian - Deep, Resonant and Comforting",
-   "category": "premade"
-  },
-  {
-   "id": "onwK4e9ZLuTAKqWW03F9",
-   "name": "Daniel - Steady Broadcaster",
-   "category": "premade"
-  },
-  {
-   "id": "pFZP5JQG7iQjIQuC4Bku",
-   "name": "Lily - Velvety Actress",
-   "category": "premade"
-  },
-  {
-   "id": "pNInz6obpgDQGcFmaJgB",
-   "name": "Adam - Dominant, Firm",
-   "category": "premade"
-  },
-  {
-   "id": "pqHfZKP75CvOlQylNhV4",
-   "name": "Bill - Wise, Mature, Balanced",
-   "category": "premade"
-  },
-  {
-   "id": "gvwF323vg5NhP8NbkrNo",
-   "name": "Steve H",
-   "category": "professional"
+  "youre-not-alone": {
+   "title": "You're Not Alone",
+   "url": "https://audio.planref.co.uk/guides/youre-not-alone.mp3",
+   "duration": 620,
+   "bytes": 9921977,
+   "chars": 9305
   }
- ],
- "voice_used": {
-  "id": "gvwF323vg5NhP8NbkrNo",
-  "name": "Steve H"
  },
- "credits_after": 444283,
- "credits_spent_this_run": 0
+ "log": [
+  "R2 probe upload ok",
+  "adverts: 6 chunks, 11791 chars",
+  "adverts: chunk 1/6 done (2012517 bytes)",
+  "adverts: chunk 2/6 done (2108230 bytes)",
+  "adverts: chunk 3/6 done (2098617 bytes)",
+  "adverts: chunk 4/6 done (2421699 bytes)",
+  "adverts: chunk 5/6 done (2676654 bytes)",
+  "adverts: chunk 6/6 done (2904024 bytes)",
+  "adverts: uploaded guides/adverts.mp3 (12982692 bytes, 811s)",
+  "ai-in-planning: 8 chunks, 10685 chars",
+  "ai-in-planning: chunk 1/8 done (1243472 bytes)",
+  "ai-in-planning: chunk 2/8 done (2244902 bytes)",
+  "ai-in-planning: chunk 3/8 done (3479136 bytes)",
+  "ai-in-planning: chunk 4/8 done (1232187 bytes)",
+  "ai-in-planning: chunk 5/8 done (1442003 bytes)",
+  "ai-in-planning: chunk 6/8 done (639521 bytes)",
+  "ai-in-planning: chunk 7/8 done (1768011 bytes)",
+  "ai-in-planning: chunk 8/8 done (1074617 bytes)",
+  "ai-in-planning: uploaded guides/ai-in-planning.mp3 (12005921 bytes, 750s)",
+  "class-ma: 6 chunks, 15558 chars",
+  "class-ma: chunk 1/6 done (2016279 bytes)",
+  "class-ma: chunk 2/6 done (2851361 bytes)",
+  "class-ma: chunk 3/6 done (3208716 bytes)",
+  "class-ma: chunk 4/6 done (3688951 bytes)",
+  "class-ma: chunk 5/6 done (3411426 bytes)",
+  "class-ma: chunk 6/6 done (3316550 bytes)",
+  "class-ma: uploaded guides/class-ma.mp3 (16865533 bytes, 1054s)",
+  "decision-making: 16 chunks, 25662 chars",
+  "decision-making: chunk 1/16 done (2258277 bytes)",
+  "decision-making: chunk 2/16 done (1799776 bytes)",
+  "decision-making: chunk 3/16 done (2927012 bytes)",
+  "decision-making: chunk 4/16 done (2426297 bytes)",
+  "decision-making: chunk 5/16 done (2105304 bytes)",
+  "decision-making: chunk 6/16 done (1659342 bytes)",
+  "decision-making: chunk 7/16 done (2779472 bytes)",
+  "decision-making: chunk 8/16 done (1108889 bytes)",
+  "decision-making: chunk 9/16 done (1631338 bytes)",
+  "decision-making: chunk 10/16 done (1811897 bytes)",
+  "decision-making: chunk 11/16 done (1785147 bytes)",
+  "decision-making: chunk 12/16 done (1517653 bytes)",
+  "decision-making: chunk 13/16 done (1540641 bytes)",
+  "decision-making: chunk 14/16 done (1636354 bytes)",
+  "decision-making: chunk 15/16 done (1277745 bytes)",
+  "decision-making: chunk 16/16 done (2654502 bytes)",
+  "decision-making: uploaded guides/decision-making.mp3 (28269549 bytes, 1767s)",
+  "enforcement: 6 chunks, 14772 chars",
+  "enforcement: chunk 1/6 done (2325151 bytes)",
+  "enforcement: chunk 2/6 done (3390111 bytes)",
+  "enforcement: chunk 3/6 done (2170924 bytes)",
+  "enforcement: chunk 4/6 done (3196177 bytes)",
+  "enforcement: chunk 5/6 done (3447371 bytes)",
+  "enforcement: chunk 6/6 done (3425637 bytes)",
+  "enforcement: uploaded guides/enforcement.mp3 (16376520 bytes, 1024s)",
+  "interviews: 14 chunks, 13869 chars",
+  "interviews: chunk 1/14 done (1201258 bytes)",
+  "interviews: chunk 2/14 done (1241800 bytes)",
+  "interviews: chunk 3/14 done (1452034 bytes)",
+  "interviews: chunk 4/14 done (944631 bytes)",
+  "interviews: chunk 5/14 done (536703 bytes)",
+  "interviews: chunk 6/14 done (644537 bytes)",
+  "interviews: chunk 7/14 done (1892145 bytes)",
+  "interviews: chunk 8/14 done (1406894 bytes)",
+  "interviews: chunk 9/14 done (1292373 bytes)",
+  "interviews: chunk 10/14 done (1094261 bytes)",
+  "interviews: chunk 11/14 done (931257 bytes)",
+  "interviews: chunk 12/14 done (2257859 bytes)",
+  "interviews: chunk 13/14 done (239534 bytes)",
+  "interviews: chunk 14/14 done (2091093 bytes)",
+  "interviews: uploaded guides/interviews.mp3 (15799737 bytes, 987s)",
+  "under-pressure: 10 chunks, 19316 chars",
+  "under-pressure: chunk 1/10 done (3171518 bytes)",
+  "under-pressure: chunk 2/10 done (1675224 bytes)",
+  "under-pressure: chunk 3/10 done (3488749 bytes)",
+  "under-pressure: chunk 4/10 done (3411008 bytes)",
+  "under-pressure: chunk 5/10 done (3676831 bytes)",
+  "under-pressure: chunk 6/10 done (1355067 bytes)",
+  "under-pressure: chunk 7/10 done (2306760 bytes)",
+  "under-pressure: chunk 8/10 done (1674388 bytes)",
+  "under-pressure: chunk 9/10 done (2170088 bytes)",
+  "under-pressure: chunk 10/10 done (819244 bytes)",
+  "under-pressure: uploaded guides/under-pressure.mp3 (21685856 bytes, 1355s)",
+  "youre-not-alone: 8 chunks, 9305 chars",
+  "youre-not-alone: chunk 1/8 done (1776370 bytes)",
+  "youre-not-alone: chunk 2/8 done (1117666 bytes)",
+  "youre-not-alone: chunk 3/8 done (1060824 bytes)",
+  "youre-not-alone: chunk 4/8 done (1085066 bytes)",
+  "youre-not-alone: chunk 5/8 done (1281506 bytes)",
+  "youre-not-alone: chunk 6/8 done (1298225 bytes)",
+  "youre-not-alone: chunk 7/8 done (1365098 bytes)",
+  "youre-not-alone: chunk 8/8 done (1846587 bytes)",
+  "youre-not-alone: uploaded guides/youre-not-alone.mp3 (9921977 bytes, 620s)"
+ ],
+ "credits_before": 445752,
+ "credits_after": 517428,
+ "credits_spent": 71676
 }
