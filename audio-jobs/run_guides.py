@@ -31,6 +31,7 @@ MODEL = "eleven_multilingual_v2"
 CHUNK_LIMIT = 7000          # multilingual_v2 allows 10k; larger chunks = fewer seams
 SECTION_GAP_S = 0.8
 PITCH = None               # no pitch shift on the quality model
+TEMPO = 1.10               # speed 1.1 approved 25 Jul 2026 — tempo-only, pitch preserved
 
 result = {"status": "started", "guides": {}, "log": []}
 
@@ -95,7 +96,8 @@ def master(src, dst):
             pre = f"rubberband=pitch={PITCH},"
         else:
             pre = f"asetrate=44100*{PITCH},aresample=44100,atempo={1/PITCH:.6f},"
-    af = (pre + "highpass=f=70,"
+    tempo = f"atempo={TEMPO:.4f}," if TEMPO and TEMPO != 1.0 else ""
+    af = (pre + tempo + "highpass=f=70,"
           "equalizer=f=170:t=q:w=1.0:g=2,"
           "equalizer=f=1000:t=q:w=1.2:g=-3.5,"
           "equalizer=f=1700:t=q:w=1.6:g=-2,"
