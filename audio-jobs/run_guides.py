@@ -23,12 +23,14 @@ WORK = os.path.join(HERE, "work")
 os.makedirs(OUT, exist_ok=True)
 os.makedirs(WORK, exist_ok=True)
 
-VOICE_SETTINGS = {"stability": 0.48, "similarity_boost": 0.65, "style": 0.08,
-                  "use_speaker_boost": False, "speed": 1.0}
-MODEL = "eleven_turbo_v2_5"
-CHUNK_LIMIT = 4200
+# Locked recipe (voice B, approved 25 Jul 2026): quality model, expressive
+# settings, no pitch shift, de-nasal master.
+VOICE_SETTINGS = {"stability": 0.38, "similarity_boost": 0.75, "style": 0.60,
+                  "use_speaker_boost": True, "speed": 1.0}
+MODEL = "eleven_multilingual_v2"
+CHUNK_LIMIT = 7000          # multilingual_v2 allows 10k; larger chunks = fewer seams
 SECTION_GAP_S = 0.8
-PITCH = 0.97
+PITCH = None               # no pitch shift on the quality model
 
 result = {"status": "started", "guides": {}, "log": []}
 
@@ -86,14 +88,18 @@ def chunk_guide(sections, intro, outro):
     return chunks
 
 def master(src, dst):
-    probe = subprocess.run(["ffmpeg", "-hide_banner", "-filters"], capture_output=True, text=True)
-    if "rubberband" in probe.stdout:
-        pre = f"rubberband=pitch={PITCH},"
-    else:
-        pre = f"asetrate=44100*{PITCH},aresample=44100,atempo={1/PITCH:.6f},"
+    pre = ""
+    if PITCH and PITCH != 1.0:
+        probe = subprocess.run(["ffmpeg", "-hide_banner", "-filters"], capture_output=True, text=True)
+        if "rubberband" in probe.stdout:
+            pre = f"rubberband=pitch={PITCH},"
+        else:
+            pre = f"asetrate=44100*{PITCH},aresample=44100,atempo={1/PITCH:.6f},"
     af = (pre + "highpass=f=70,"
-          "equalizer=f=180:t=q:w=1.0:g=3,"
-          "equalizer=f=3300:t=q:w=1.3:g=-3,"
+          "equalizer=f=170:t=q:w=1.0:g=2,"
+          "equalizer=f=1000:t=q:w=1.2:g=-3.5,"
+          "equalizer=f=1700:t=q:w=1.6:g=-2,"
+          "equalizer=f=3300:t=q:w=1.3:g=-2,"
           "treble=g=-1.5:f=7500,"
           "loudnorm=I=-16:TP=-1.5:LRA=11")
     subprocess.run(["ffmpeg", "-y", "-i", src, "-af", af, "-ar", "44100",
