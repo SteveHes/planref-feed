@@ -3,11 +3,11 @@
  "steps": [
   "subscription ok",
   "voices ok",
-  "generated q1_proposed_raw.mp3 (2275413 bytes, model eleven_multilingual_v2, 1864 chars)"
+  "generated q4_proposed_raw.mp3 (3003080 bytes, model eleven_multilingual_v2, 2424 chars)"
  ],
  "subscription": {
   "tier": "pro",
-  "character_count": 443153,
+  "character_count": 444283,
   "character_limit": 604083,
   "next_character_count_reset_unix": 1787652898
  },
@@ -127,6 +127,6 @@
   "id": "gvwF323vg5NhP8NbkrNo",
   "name": "Steve H"
  },
- "credits_after": 443153,
+ "credits_after": 444283,
  "credits_spent_this_run": 0
 }
