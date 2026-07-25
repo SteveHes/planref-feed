@@ -2,39 +2,35 @@
  "mode": "guides",
  "voice_name": "Steve H",
  "public_base": "https://audio.planref.co.uk",
- "nonce": "batch1-2026-07-25",
+ "nonce": "batch2-2026-07-25",
  "guides": [
   {
-   "slug": "annexes",
-   "title": "Annexes, Outbuildings & Curtilage"
+   "slug": "adverts",
+   "title": "Advertisement Control"
   },
   {
-   "slug": "applications-handled",
-   "title": "How Planning Applications Are Handled"
+   "slug": "bus-stop-bike-store",
+   "title": "The Bus Stop and the Bike Store"
   },
   {
-   "slug": "become-chartered",
-   "title": "How to Become a Chartered Town Planner"
+   "slug": "delegated-reports",
+   "title": "How to Write a Delegated Officer Report"
   },
   {
-   "slug": "heritage",
-   "title": "Heritage: Significance & Harm"
+   "slug": "first-principles",
+   "title": "First Principles"
   },
   {
-   "slug": "interviews",
-   "title": "Winning Planning Interviews"
+   "slug": "planning-data",
+   "title": "Planning Data & Spatial Intelligence"
   },
   {
-   "slug": "ldc",
-   "title": "Lawful Development Certificates"
+   "slug": "reputation",
+   "title": "The Reputation That Gets You Hired"
   },
   {
-   "slug": "staying-in-control",
-   "title": "Staying in Control"
-  },
-  {
-   "slug": "under-pressure",
-   "title": "Under Pressure"
+   "slug": "rural-workers-dwellings",
+   "title": "Rural Workers' Dwellings"
   }
  ]
 }
