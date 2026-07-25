@@ -1,27 +1,6 @@
 {
  "status": "ok",
- "guides": {
-  "class-q": {
-   "title": "Class Q, agricultural buildings to dwellings",
-   "url": "https://audio.planref.co.uk/guides/class-q.mp3",
-   "duration": 2571,
-   "bytes": 41133079,
-   "chars": 33409
-  }
- },
- "log": [
-  "R2 probe upload ok",
-  "class-q: 7 chunks, 33409 chars",
-  "class-q: chunk 1/7 done (5867355 bytes)",
-  "class-q: chunk 2/7 done (6409030 bytes)",
-  "class-q: chunk 3/7 done (4306277 bytes)",
-  "class-q: chunk 4/7 done (5836008 bytes)",
-  "class-q: chunk 5/7 done (6527312 bytes)",
-  "class-q: chunk 6/7 done (5561826 bytes)",
-  "class-q: chunk 7/7 done (6554479 bytes)",
-  "class-q: uploaded guides/class-q.mp3 (41133079 bytes, 2571s)"
- ],
- "credits_before": 0,
- "credits_after": 20247,
- "credits_spent": 20247
+ "steps": [
+  "fetched guides/class-q.mp3 -> out/class-q.mp3 (41133079 bytes)"
+ ]
 }
