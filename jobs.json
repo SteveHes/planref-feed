@@ -1,5 +1,5 @@
 {
- "updated": "Friday 24 July 2026, 07:21 (UK)",
+ "updated": "Saturday 25 July 2026, 07:29 (UK)",
  "jobs": [
   {
    "t": "Associate Director",
@@ -1314,20 +1314,36 @@
    "sector": "private"
   },
   {
-   "t": "Planning Enforcement Officer",
-   "emp": "Bradford Council",
-   "loc": "Bradford",
+   "t": "Planning Officer",
+   "emp": "Buckinghamshire Council",
+   "loc": "High Wycombe",
    "country": "UK",
-   "sal": "£26,403 - £40,777 plus £3,000 market supplement",
+   "sal": "£36,317 - £42,037",
    "type": "Permanent",
-   "disc": "Enforcement",
+   "disc": "Development Management",
    "lvl": "Officer",
-   "url": "https://jobs.bradford.gov.uk/jobs/job/Planning-Enforcement-Officer/139",
-   "posted": "2026-07-09",
-   "closing": "2026-07-24",
-   "summary": "Permanent planning enforcement officer post at Bradford Council, based at Britannia House, with a market supplement on top of the grade salary.",
-   "src": "Bradford Council",
+   "url": "https://jobs.buckinghamshire.gov.uk/job_detail/342793/",
+   "posted": "2026-07-13",
+   "closing": "2026-08-24",
+   "summary": "Development management planning officer role at Buckinghamshire Council, based in High Wycombe; two permanent full-time posts, driving licence required.",
+   "src": "Buckinghamshire Council",
    "sector": "public"
+  },
+  {
+   "t": "Senior/Associate Planner",
+   "emp": "Savills",
+   "loc": "Glasgow",
+   "country": "UK",
+   "sal": "Competitive",
+   "type": "Permanent",
+   "disc": "Infrastructure",
+   "lvl": "Senior",
+   "url": "https://careers.savills.com/jobs/8087641-senior-associate-planner",
+   "posted": "2026-07-17",
+   "closing": "",
+   "summary": "Planning & Development Consultancy role at Savills in Glasgow with an infrastructure and renewable energy focus; MRTPI and/or RICS required, hybrid working.",
+   "src": "Savills",
+   "sector": "private"
   }
  ]
 }
