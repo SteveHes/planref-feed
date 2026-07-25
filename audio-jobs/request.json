@@ -2,39 +2,35 @@
  "mode": "guides",
  "voice_name": "Steve H",
  "public_base": "https://audio.planref.co.uk",
- "nonce": "v2batch1-2026-07-25",
+ "nonce": "v2batch2-2026-07-25",
  "guides": [
   {
-   "slug": "adverts",
-   "title": "Advertisement Control"
+   "slug": "become-chartered",
+   "title": "How to Become a Chartered Town Planner"
   },
   {
-   "slug": "ai-in-planning",
-   "title": "Artificial Intelligence in Planning"
+   "slug": "class-q",
+   "title": "Class Q"
   },
   {
-   "slug": "class-ma",
-   "title": "Class MA"
+   "slug": "coping-under-pressure",
+   "title": "Coping Under Pressure"
   },
   {
-   "slug": "decision-making",
-   "title": "Decision-Making & Material Considerations"
+   "slug": "heritage",
+   "title": "Heritage: Significance & Harm"
   },
   {
-   "slug": "enforcement",
-   "title": "Enforcement"
+   "slug": "planning-data",
+   "title": "Planning Data & Spatial Intelligence"
   },
   {
-   "slug": "interviews",
-   "title": "Winning Planning Interviews"
+   "slug": "rural-workers-dwellings",
+   "title": "Rural Workers' Dwellings"
   },
   {
-   "slug": "under-pressure",
-   "title": "Under Pressure"
-  },
-  {
-   "slug": "youre-not-alone",
-   "title": "You're Not Alone"
+   "slug": "varying-permissions",
+   "title": "Varying Permissions: s73 & s73A"
   }
  ]
 }
