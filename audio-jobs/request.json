@@ -1,5 +1,19 @@
 {
- "mode": "fetch",
- "nonce": "verify-final-2026-07-25",
- "slugs": ["class-q", "decision-making"]
+ "mode": "clips",
+ "voice_name": "Steve H",
+ "nonce": "q1-proposed-sample-2026-07-25",
+ "items": [
+  {
+   "output": "q1_proposed_raw.mp3",
+   "model_id": "eleven_multilingual_v2",
+   "voice_settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.75,
+    "style": 0.6,
+    "use_speaker_boost": true,
+    "speed": 1.0
+   },
+   "text": "Right — Class Q. This is the one that lets you turn an agricultural building into housing without ever having to argue the planning merits of a home in the countryside. That's why everyone wants it, and it's exactly why it's the most fought-over permitted development right there is. More appeals, more refusals, more technical argument than anything else round here. And it rewards preparation like nothing else, because whether you qualify comes down to the history and the fabric of the building — and you have to prove all of it, not just assert it.\n\nThe one thing to know before you touch a Class Q case today: the whole right was rewritten in 2024. Not amended — replaced, wholesale. New eligibility, new numbers, a whole new category of building let in. So anything you remember from the old days, and a lot of the older appeal decisions, you treat with real caution. The precise references — the order, the dates, the paragraph numbers — are all in the written guide; I'll stay out of the citations here and keep us on the ideas.\n\nThe single most useful thing to carry through the whole topic is this. Class Q is a two-stage test, and blurring the two is the commonest mistake on either side of the desk. Stage one is eligibility — is this even within the Class at all? That's hard-edged: facts about the building, its history, the size caps, the works you're allowed. No discretion, and fail any one of them and you're out. Stage two only matters if you're through stage one, and it asks something completely different — is it acceptable on a short, closed list of things like flooding, highways and noise? That's judgement. Two things sit over all of it: the development plan barely gets a look in, and the burden's entirely on you. No benefit of the doubt — and the whole scheme has to fit, because one element outside the Class and nothing's permitted."
+  }
+ ]
 }
