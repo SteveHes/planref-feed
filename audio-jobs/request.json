@@ -1,40 +1,5 @@
 {
- "mode": "guides",
- "voice_name": "Steve H",
- "public_base": "https://audio.planref.co.uk",
- "nonce": "batch4-2026-07-25",
- "guides": [
-  {
-   "slug": "caravans",
-   "title": "Caravans & Mobile Homes"
-  },
-  {
-   "slug": "changing-climate",
-   "title": "Planning for a Changing Climate"
-  },
-  {
-   "slug": "coping-under-pressure",
-   "title": "Coping Under Pressure"
-  },
-  {
-   "slug": "decision-making",
-   "title": "Decision-Making & Material Considerations"
-  },
-  {
-   "slug": "enforcement",
-   "title": "Enforcement"
-  },
-  {
-   "slug": "future-of-planning",
-   "title": "The Future of Planning"
-  },
-  {
-   "slug": "householder-pd",
-   "title": "Householder Permitted Development"
-  },
-  {
-   "slug": "settlement-boundaries",
-   "title": "Settlement Boundaries"
-  }
- ]
+ "mode": "fetch",
+ "nonce": "verify-final-2026-07-25",
+ "slugs": ["class-q", "decision-making"]
 }
