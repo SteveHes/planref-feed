@@ -2,35 +2,39 @@
  "mode": "guides",
  "voice_name": "Steve H",
  "public_base": "https://audio.planref.co.uk",
- "nonce": "v2batch2-2026-07-25",
+ "nonce": "v2batch3-2026-07-25",
  "guides": [
   {
-   "slug": "become-chartered",
-   "title": "How to Become a Chartered Town Planner"
+   "slug": "bus-stop-bike-store",
+   "title": "The Bus Stop and the Bike Store"
   },
   {
-   "slug": "class-q",
-   "title": "Class Q"
+   "slug": "conditions",
+   "title": "Planning Conditions & Discharge"
   },
   {
-   "slug": "coping-under-pressure",
-   "title": "Coping Under Pressure"
+   "slug": "first-principles",
+   "title": "First Principles"
   },
   {
-   "slug": "heritage",
-   "title": "Heritage: Significance & Harm"
+   "slug": "future-of-planning",
+   "title": "The Future of Planning"
   },
   {
-   "slug": "planning-data",
-   "title": "Planning Data & Spatial Intelligence"
+   "slug": "householder-pd",
+   "title": "Householder Permitted Development"
   },
   {
-   "slug": "rural-workers-dwellings",
-   "title": "Rural Workers' Dwellings"
+   "slug": "reputation",
+   "title": "The Reputation That Gets You Hired"
   },
   {
-   "slug": "varying-permissions",
-   "title": "Varying Permissions: s73 & s73A"
+   "slug": "settlement-boundaries",
+   "title": "Settlement Boundaries"
+  },
+  {
+   "slug": "staying-in-control",
+   "title": "Staying in Control"
   }
  ]
 }
