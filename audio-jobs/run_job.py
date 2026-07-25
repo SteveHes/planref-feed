@@ -147,8 +147,10 @@ def master(path, pitch=None):
         else:
             pre = f"asetrate=44100*{pitch},aresample=44100,atempo={1/pitch:.6f},"
     af = (pre + "highpass=f=70,"
-          "equalizer=f=180:t=q:w=1.0:g=3,"
-          "equalizer=f=3300:t=q:w=1.3:g=-3,"
+          "equalizer=f=170:t=q:w=1.0:g=2,"
+          "equalizer=f=1000:t=q:w=1.2:g=-3.5,"
+          "equalizer=f=1700:t=q:w=1.6:g=-2,"
+          "equalizer=f=3300:t=q:w=1.3:g=-2,"
           "treble=g=-1.5:f=7500,"
           "loudnorm=I=-16:TP=-1.5:LRA=11")
     subprocess.run(["ffmpeg", "-y", "-i", path, "-af", af, "-ar", "44100",
