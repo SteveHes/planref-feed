@@ -1,7 +1,19 @@
 {
- "verified": "22 July 2026, 06:48 (UK)",
- "checked": "24 July 2026, 06:41 (UK)",
+ "verified": "25 July 2026, 06:33 (UK)",
+ "checked": "25 July 2026, 06:33 (UK)",
  "items": [
+  {
+   "d": "24 Jul 2026",
+   "t": "NSIP pre-application consultation requirement removed from 24 July",
+   "b": "From 24 July 2026 the statutory requirement for mandatory pre-application consultation on Nationally Significant Infrastructure Projects is removed in England under the Planning and Infrastructure Act 2025. MHCLG says applicants will instead receive earlier technical advice from the Planning Inspectorate, with new pre-application guidance replacing the statutory consultation stage; the government estimates the change could cut up to 12 months from NSIP timelines.",
+   "u": "https://www.gov.uk/government/news/fastest-infrastructure-building-in-a-generation-as-planning-rules-overhauled"
+  },
+  {
+   "d": "22 Jul 2026",
+   "t": "Case law — challenge to West Suffolk Local Plan dismissed",
+   "b": "In Lochailort Kentford Ltd v West Suffolk Council [2026] EWHC 1870 (Admin) the Planning Court dismissed a challenge to adoption of the West Suffolk Local Plan. The claimant argued that adding part of its promoted site to the Brownfield Land Register after the examination closed showed the site was suitable, contradicting the council's case for rejecting it; the court found no inconsistency or irrationality and indicated it would in any event have withheld relief under the Simplex principle.",
+   "u": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/1870"
+  },
   {
    "d": "21 Jul 2026",
    "t": "National scheme of delegation for planning decisions (SI 2026/854)",
