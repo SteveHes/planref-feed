@@ -2,35 +2,39 @@
  "mode": "guides",
  "voice_name": "Steve H",
  "public_base": "https://audio.planref.co.uk",
- "nonce": "batch2-2026-07-25",
+ "nonce": "batch3-2026-07-25",
  "guides": [
   {
-   "slug": "adverts",
-   "title": "Advertisement Control"
+   "slug": "ai-in-planning",
+   "title": "Artificial Intelligence in Planning"
   },
   {
-   "slug": "bus-stop-bike-store",
-   "title": "The Bus Stop and the Bike Store"
+   "slug": "class-ma",
+   "title": "Class MA"
   },
   {
-   "slug": "delegated-reports",
-   "title": "How to Write a Delegated Officer Report"
+   "slug": "class-q",
+   "title": "Class Q"
   },
   {
-   "slug": "first-principles",
-   "title": "First Principles"
+   "slug": "conditions",
+   "title": "Planning Conditions & Discharge"
   },
   {
-   "slug": "planning-data",
-   "title": "Planning Data & Spatial Intelligence"
+   "slug": "nutrient-neutrality",
+   "title": "Nutrient Neutrality & the Habitats Regulations"
   },
   {
-   "slug": "reputation",
-   "title": "The Reputation That Gets You Hired"
+   "slug": "submit-application",
+   "title": "How to Submit a Planning Application"
   },
   {
-   "slug": "rural-workers-dwellings",
-   "title": "Rural Workers' Dwellings"
+   "slug": "varying-permissions",
+   "title": "Varying Permissions: s73 & s73A"
+  },
+  {
+   "slug": "youre-not-alone",
+   "title": "You're Not Alone"
   }
  ]
 }
