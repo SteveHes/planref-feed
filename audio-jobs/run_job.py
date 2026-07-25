@@ -96,6 +96,26 @@ if request.get("mode") == "excerpts":
         fail("excerpts", e)
     sys.exit(0)
 
+# ---- fetch mode: pull full guide mp3s from R2 into out/ so they ride back via git ----
+def fetch_full(request):
+    import boto3
+    s3 = boto3.client("s3", endpoint_url=os.environ["R2_ENDPOINT"],
+                      aws_access_key_id=os.environ["R2_ACCESS_KEY_ID"],
+                      aws_secret_access_key=os.environ["R2_SECRET_ACCESS_KEY"], region_name="auto")
+    for slug in request.get("slugs", []):
+        local = os.path.join(OUT, slug + ".mp3")
+        s3.download_file("planref-audio", f"guides/{slug}.mp3", local)
+        result["steps"].append(f"fetched guides/{slug}.mp3 -> out/{slug}.mp3 ({os.path.getsize(local)} bytes)")
+    result["status"] = "ok"
+    write_result()
+
+if request.get("mode") == "fetch":
+    try:
+        fetch_full(request)
+    except Exception as e:
+        fail("fetch", e)
+    sys.exit(0)
+
 # 1. Subscription / credits
 try:
     sub = api("/v1/user/subscription")

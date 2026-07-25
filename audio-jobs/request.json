@@ -1,12 +1,5 @@
 {
- "mode": "guides",
- "voice_name": "Steve H",
- "public_base": "https://audio.planref.co.uk",
- "nonce": "classq-proof-2026-07-25",
- "guides": [
-  {
-   "slug": "class-q",
-   "title": "Class Q, agricultural buildings to dwellings"
-  }
- ]
+ "mode": "fetch",
+ "nonce": "fetch-classq-2026-07-25",
+ "slugs": ["class-q"]
 }
