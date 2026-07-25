@@ -1,5 +1,40 @@
 {
- "mode": "fetch",
- "nonce": "fetch-classq-2026-07-25",
- "slugs": ["class-q"]
+ "mode": "guides",
+ "voice_name": "Steve H",
+ "public_base": "https://audio.planref.co.uk",
+ "nonce": "batch1-2026-07-25",
+ "guides": [
+  {
+   "slug": "annexes",
+   "title": "Annexes, Outbuildings & Curtilage"
+  },
+  {
+   "slug": "applications-handled",
+   "title": "How Planning Applications Are Handled"
+  },
+  {
+   "slug": "become-chartered",
+   "title": "How to Become a Chartered Town Planner"
+  },
+  {
+   "slug": "heritage",
+   "title": "Heritage: Significance & Harm"
+  },
+  {
+   "slug": "interviews",
+   "title": "Winning Planning Interviews"
+  },
+  {
+   "slug": "ldc",
+   "title": "Lawful Development Certificates"
+  },
+  {
+   "slug": "staying-in-control",
+   "title": "Staying in Control"
+  },
+  {
+   "slug": "under-pressure",
+   "title": "Under Pressure"
+  }
+ ]
 }
