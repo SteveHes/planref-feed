@@ -2,39 +2,39 @@
  "mode": "guides",
  "voice_name": "Steve H",
  "public_base": "https://audio.planref.co.uk",
- "nonce": "batch3-2026-07-25",
+ "nonce": "batch4-2026-07-25",
  "guides": [
   {
-   "slug": "ai-in-planning",
-   "title": "Artificial Intelligence in Planning"
+   "slug": "caravans",
+   "title": "Caravans & Mobile Homes"
   },
   {
-   "slug": "class-ma",
-   "title": "Class MA"
+   "slug": "changing-climate",
+   "title": "Planning for a Changing Climate"
   },
   {
-   "slug": "class-q",
-   "title": "Class Q"
+   "slug": "coping-under-pressure",
+   "title": "Coping Under Pressure"
   },
   {
-   "slug": "conditions",
-   "title": "Planning Conditions & Discharge"
+   "slug": "decision-making",
+   "title": "Decision-Making & Material Considerations"
   },
   {
-   "slug": "nutrient-neutrality",
-   "title": "Nutrient Neutrality & the Habitats Regulations"
+   "slug": "enforcement",
+   "title": "Enforcement"
   },
   {
-   "slug": "submit-application",
-   "title": "How to Submit a Planning Application"
+   "slug": "future-of-planning",
+   "title": "The Future of Planning"
   },
   {
-   "slug": "varying-permissions",
-   "title": "Varying Permissions: s73 & s73A"
+   "slug": "householder-pd",
+   "title": "Householder Permitted Development"
   },
   {
-   "slug": "youre-not-alone",
-   "title": "You're Not Alone"
+   "slug": "settlement-boundaries",
+   "title": "Settlement Boundaries"
   }
  ]
 }
