@@ -1,133 +1,27 @@
 {
  "status": "ok",
- "steps": [
-  "subscription ok",
-  "voices ok",
-  "generated+mastered denasal_v2_a.mp3 (model eleven_multilingual_v2, 752 chars)",
-  "generated+mastered denasal_v2_b.mp3 (model eleven_multilingual_v2, 752 chars)"
- ],
- "subscription": {
-  "tier": "creator",
-  "character_count": 230572,
-  "character_limit": 235483,
-  "next_character_count_reset_unix": 1787242547
- },
- "voices": [
-  {
-   "id": "CwhRBWXzGAHq8TQ4Fs17",
-   "name": "Roger - Laid-Back, Casual, Resonant",
-   "category": "premade"
-  },
-  {
-   "id": "EXAVITQu4vr4xnSDxMaL",
-   "name": "Sarah - Mature, Reassuring, Confident",
-   "category": "premade"
-  },
-  {
-   "id": "FGY2WhTYpPnrIDTdsKH5",
-   "name": "Laura - Enthusiast, Quirky Attitude",
-   "category": "premade"
-  },
-  {
-   "id": "IKne3meq5aSn9XLyUdCD",
-   "name": "Charlie - Deep, Confident, Energetic",
-   "category": "premade"
-  },
-  {
-   "id": "JBFqnCBsd6RMkjVDRZzb",
-   "name": "George - Warm, Captivating Storyteller",
-   "category": "premade"
-  },
-  {
-   "id": "N2lVS1w4EtoT3dr4eOWO",
-   "name": "Callum - Husky Trickster",
-   "category": "premade"
-  },
-  {
-   "id": "SAz9YHcvj6GT2YYXdXww",
-   "name": "River - Relaxed, Neutral, Informative",
-   "category": "premade"
-  },
-  {
-   "id": "SOYHLrjzK2X1ezoPC6cr",
-   "name": "Harry - Fierce Warrior",
-   "category": "premade"
-  },
-  {
-   "id": "TX3LPaxmHKxFdv7VOQHJ",
-   "name": "Liam - Energetic, Social Media Creator",
-   "category": "premade"
-  },
-  {
-   "id": "Xb7hH8MSUJpSbSDYk0k2",
-   "name": "Alice - Clear, Engaging Educator",
-   "category": "premade"
-  },
-  {
-   "id": "XrExE9yKIg1WjnnlVkGX",
-   "name": "Matilda - Knowledgable, Professional",
-   "category": "premade"
-  },
-  {
-   "id": "bIHbv24MWmeRgasZH58o",
-   "name": "Will - Relaxed Optimist",
-   "category": "premade"
-  },
-  {
-   "id": "cgSgspJ2msm6clMCkdW9",
-   "name": "Jessica - Playful, Bright, Warm",
-   "category": "premade"
-  },
-  {
-   "id": "cjVigY5qzO86Huf0OWal",
-   "name": "Eric - Smooth, Trustworthy",
-   "category": "premade"
-  },
-  {
-   "id": "hpp4J3VqNfWAUOO0d1Us",
-   "name": "Bella - Professional, Bright, Warm",
-   "category": "premade"
-  },
-  {
-   "id": "iP95p4xoKVk53GoZ742B",
-   "name": "Chris - Charming, Down-to-Earth",
-   "category": "premade"
-  },
-  {
-   "id": "nPczCjzI2devNBz1zQrb",
-   "name": "Brian - Deep, Resonant and Comforting",
-   "category": "premade"
-  },
-  {
-   "id": "onwK4e9ZLuTAKqWW03F9",
-   "name": "Daniel - Steady Broadcaster",
-   "category": "premade"
-  },
-  {
-   "id": "pFZP5JQG7iQjIQuC4Bku",
-   "name": "Lily - Velvety Actress",
-   "category": "premade"
-  },
-  {
-   "id": "pNInz6obpgDQGcFmaJgB",
-   "name": "Adam - Dominant, Firm",
-   "category": "premade"
-  },
-  {
-   "id": "pqHfZKP75CvOlQylNhV4",
-   "name": "Bill - Wise, Mature, Balanced",
-   "category": "premade"
-  },
-  {
-   "id": "gvwF323vg5NhP8NbkrNo",
-   "name": "Steve H",
-   "category": "professional"
+ "guides": {
+  "class-q": {
+   "title": "Class Q, agricultural buildings to dwellings",
+   "url": "https://audio.planref.co.uk/guides/class-q.mp3",
+   "duration": 2571,
+   "bytes": 41133079,
+   "chars": 33409
   }
- ],
- "voice_used": {
-  "id": "gvwF323vg5NhP8NbkrNo",
-  "name": "Steve H"
  },
- "credits_after": 230572,
- "credits_spent_this_run": 0
+ "log": [
+  "R2 probe upload ok",
+  "class-q: 7 chunks, 33409 chars",
+  "class-q: chunk 1/7 done (5867355 bytes)",
+  "class-q: chunk 2/7 done (6409030 bytes)",
+  "class-q: chunk 3/7 done (4306277 bytes)",
+  "class-q: chunk 4/7 done (5836008 bytes)",
+  "class-q: chunk 5/7 done (6527312 bytes)",
+  "class-q: chunk 6/7 done (5561826 bytes)",
+  "class-q: chunk 7/7 done (6554479 bytes)",
+  "class-q: uploaded guides/class-q.mp3 (41133079 bytes, 2571s)"
+ ],
+ "credits_before": 0,
+ "credits_after": 20247,
+ "credits_spent": 20247
 }
