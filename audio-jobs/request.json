@@ -1,36 +1,7 @@
 {
- "mode": "guides",
+ "mode": "clips",
  "voice_name": "Steve H",
- "public_base": "https://audio.planref.co.uk",
- "nonce": "v2rem1-2026-07-25",
- "guides": [
-  {
-   "slug": "caravans",
-   "title": "Caravans & Mobile Homes"
-  },
-  {
-   "slug": "delegated-reports",
-   "title": "How to Write a Delegated Officer Report"
-  },
-  {
-   "slug": "first-principles",
-   "title": "First Principles"
-  },
-  {
-   "slug": "householder-pd",
-   "title": "Householder Permitted Development"
-  },
-  {
-   "slug": "ldc",
-   "title": "Lawful Development Certificates"
-  },
-  {
-   "slug": "reputation",
-   "title": "The Reputation That Gets You Hired"
-  },
-  {
-   "slug": "settlement-boundaries",
-   "title": "Settlement Boundaries"
-  }
- ]
+ "nonce": "subcheck-2026-07-25",
+ "list_models": false,
+ "items": []
 }
