@@ -2,27 +2,27 @@
  "mode": "guides",
  "voice_name": "Steve H",
  "public_base": "https://audio.planref.co.uk",
- "nonce": "v2batch3-2026-07-25",
+ "nonce": "v2rem1-2026-07-25",
  "guides": [
   {
-   "slug": "bus-stop-bike-store",
-   "title": "The Bus Stop and the Bike Store"
+   "slug": "caravans",
+   "title": "Caravans & Mobile Homes"
   },
   {
-   "slug": "conditions",
-   "title": "Planning Conditions & Discharge"
+   "slug": "delegated-reports",
+   "title": "How to Write a Delegated Officer Report"
   },
   {
    "slug": "first-principles",
    "title": "First Principles"
   },
   {
-   "slug": "future-of-planning",
-   "title": "The Future of Planning"
-  },
-  {
    "slug": "householder-pd",
    "title": "Householder Permitted Development"
+  },
+  {
+   "slug": "ldc",
+   "title": "Lawful Development Certificates"
   },
   {
    "slug": "reputation",
@@ -31,10 +31,6 @@
   {
    "slug": "settlement-boundaries",
    "title": "Settlement Boundaries"
-  },
-  {
-   "slug": "staying-in-control",
-   "title": "Staying in Control"
   }
  ]
 }
