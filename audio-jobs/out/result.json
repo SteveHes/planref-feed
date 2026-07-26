@@ -1,90 +1,60 @@
 {
  "status": "partial",
  "guides": {
-  "bus-stop-bike-store": {
-   "title": "The Bus Stop and the Bike Store",
-   "url": "https://audio.planref.co.uk/guides/bus-stop-bike-store.mp3",
-   "duration": 827,
-   "bytes": 13235139,
-   "chars": 11677
+  "caravans": {
+   "error": "HTTP Error 401: Unauthorized | {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your quota of 604083. You have 192 credits remaining, while 1058 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"f2874008a14263886de75094a51cedf7\"}}"
   },
-  "conditions": {
-   "title": "Planning Conditions & Discharge",
-   "url": "https://audio.planref.co.uk/guides/conditions.mp3",
-   "duration": 1108,
-   "bytes": 17724021,
-   "chars": 16275
+  "delegated-reports": {
+   "error": "HTTP Error 401: Unauthorized | {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your quota of 604083. You have 192 credits remaining, while 1119 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"f52b034fbe264f893c90f753e16c47d0\"}}"
   },
   "first-principles": {
-   "error": "HTTP Error 401: Unauthorized | {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your quota of 604083. You have 192 credits remaining, while 822 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"5e8cef83032cd8183657aecda3abc5e6\"}}"
-  },
-  "future-of-planning": {
-   "error": "HTTP Error 401: Unauthorized | {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your quota of 604083. You have 192 credits remaining, while 833 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"90f93163ddf56bb0a8499c6f5a4385aa\"}}"
+   "error": "HTTP Error 401: Unauthorized | {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your quota of 604083. You have 192 credits remaining, while 822 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"b95faec5951de3cd5013073942dd4978\"}}"
   },
   "householder-pd": {
-   "error": "HTTP Error 401: Unauthorized | {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your quota of 604083. You have 192 credits remaining, while 1113 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"d2e6478650d79ba906d527ff757f41da\"}}"
+   "error": "HTTP Error 401: Unauthorized | {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your quota of 604083. You have 192 credits remaining, while 1113 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"96a80ed1d9576de5f29ac3e18e883d57\"}}"
+  },
+  "ldc": {
+   "error": "HTTP Error 401: Unauthorized | {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your quota of 604083. You have 192 credits remaining, while 982 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"4c8a266346ef8bfca6b04aa8f28209ed\"}}"
   },
   "reputation": {
-   "error": "HTTP Error 401: Unauthorized | {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your quota of 604083. You have 192 credits remaining, while 654 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"16ba44f63b30d8574063aac83fa09f67\"}}"
+   "error": "HTTP Error 401: Unauthorized | {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your quota of 604083. You have 192 credits remaining, while 654 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"014d222b9d7f09c63443a72f63549fc7\"}}"
   },
   "settlement-boundaries": {
-   "error": "HTTP Error 401: Unauthorized | {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your quota of 604083. You have 192 credits remaining, while 1318 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"df960fc21dbefbc22c8c07c37450568a\"}}"
-  },
-  "staying-in-control": {
-   "error": "HTTP Error 401: Unauthorized | {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your quota of 604083. You have 192 credits remaining, while 1018 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"0f1bca1ffcecbaed65a42591c06d8512\"}}"
+   "error": "HTTP Error 401: Unauthorized | {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your quota of 604083. You have 192 credits remaining, while 1318 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"93f3df49fd6f083450a256028c6961b9\"}}"
   }
  },
  "log": [
   "R2 probe upload ok",
-  "bus-stop-bike-store: 11 chunks, 11677 chars",
-  "bus-stop-bike-store: chunk 1/11 done (1362173 bytes)",
-  "bus-stop-bike-store: chunk 2/11 done (1785983 bytes)",
-  "bus-stop-bike-store: chunk 3/11 done (1348380 bytes)",
-  "bus-stop-bike-store: chunk 4/11 done (1174927 bytes)",
-  "bus-stop-bike-store: chunk 5/11 done (1228008 bytes)",
-  "bus-stop-bike-store: chunk 6/11 done (990189 bytes)",
-  "bus-stop-bike-store: chunk 7/11 done (1382235 bytes)",
-  "bus-stop-bike-store: chunk 8/11 done (1024044 bytes)",
-  "bus-stop-bike-store: chunk 9/11 done (558437 bytes)",
-  "bus-stop-bike-store: chunk 10/11 done (2407071 bytes)",
-  "bus-stop-bike-store: chunk 11/11 done (1179524 bytes)",
-  "bus-stop-bike-store: uploaded guides/bus-stop-bike-store.mp3 (13235139 bytes, 827s)",
-  "conditions: 8 chunks, 16275 chars",
-  "conditions: chunk 1/8 done (2257023 bytes)",
-  "conditions: chunk 2/8 done (2042192 bytes)",
-  "conditions: chunk 3/8 done (2014607 bytes)",
-  "conditions: chunk 4/8 done (2478542 bytes)",
-  "conditions: chunk 5/8 done (2400383 bytes)",
-  "conditions: chunk 6/8 done (2271652 bytes)",
-  "conditions: chunk 7/8 done (2555446 bytes)",
-  "conditions: chunk 8/8 done (3393872 bytes)",
-  "conditions: uploaded guides/conditions.mp3 (17724021 bytes, 1108s)",
+  "caravans: 6 chunks, 10909 chars",
+  "retry 1 after error: HTTP Error 401: Unauthorized",
+  "retry 2 after error: HTTP Error 401: Unauthorized",
+  "caravans: FAILED HTTP Error 401: Unauthorized | {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your quota of 604083. You have 192 credits remaining, while 1058 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"f2874008a14263886de75094a51cedf7\"}}",
+  "delegated-reports: 8 chunks, 12471 chars",
+  "retry 1 after error: HTTP Error 401: Unauthorized",
+  "retry 2 after error: HTTP Error 401: Unauthorized",
+  "delegated-reports: FAILED HTTP Error 401: Unauthorized | {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your quota of 604083. You have 192 credits remaining, while 1119 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"f52b034fbe264f893c90f753e16c47d0\"}}",
   "first-principles: 12 chunks, 21851 chars",
   "retry 1 after error: HTTP Error 401: Unauthorized",
   "retry 2 after error: HTTP Error 401: Unauthorized",
-  "first-principles: FAILED HTTP Error 401: Unauthorized | {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your quota of 604083. You have 192 credits remaining, while 822 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"5e8cef83032cd8183657aecda3abc5e6\"}}",
-  "future-of-planning: 9 chunks, 13968 chars",
-  "retry 1 after error: HTTP Error 401: Unauthorized",
-  "retry 2 after error: HTTP Error 401: Unauthorized",
-  "future-of-planning: FAILED HTTP Error 401: Unauthorized | {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your quota of 604083. You have 192 credits remaining, while 833 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"90f93163ddf56bb0a8499c6f5a4385aa\"}}",
+  "first-principles: FAILED HTTP Error 401: Unauthorized | {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your quota of 604083. You have 192 credits remaining, while 822 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"b95faec5951de3cd5013073942dd4978\"}}",
   "householder-pd: 7 chunks, 10313 chars",
   "retry 1 after error: HTTP Error 401: Unauthorized",
   "retry 2 after error: HTTP Error 401: Unauthorized",
-  "householder-pd: FAILED HTTP Error 401: Unauthorized | {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your quota of 604083. You have 192 credits remaining, while 1113 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"d2e6478650d79ba906d527ff757f41da\"}}",
+  "householder-pd: FAILED HTTP Error 401: Unauthorized | {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your quota of 604083. You have 192 credits remaining, while 1113 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"96a80ed1d9576de5f29ac3e18e883d57\"}}",
+  "ldc: 6 chunks, 14460 chars",
+  "retry 1 after error: HTTP Error 401: Unauthorized",
+  "retry 2 after error: HTTP Error 401: Unauthorized",
+  "ldc: FAILED HTTP Error 401: Unauthorized | {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your quota of 604083. You have 192 credits remaining, while 982 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"4c8a266346ef8bfca6b04aa8f28209ed\"}}",
   "reputation: 18 chunks, 22405 chars",
   "retry 1 after error: HTTP Error 401: Unauthorized",
   "retry 2 after error: HTTP Error 401: Unauthorized",
-  "reputation: FAILED HTTP Error 401: Unauthorized | {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your quota of 604083. You have 192 credits remaining, while 654 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"16ba44f63b30d8574063aac83fa09f67\"}}",
+  "reputation: FAILED HTTP Error 401: Unauthorized | {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your quota of 604083. You have 192 credits remaining, while 654 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"014d222b9d7f09c63443a72f63549fc7\"}}",
   "settlement-boundaries: 6 chunks, 14791 chars",
   "retry 1 after error: HTTP Error 401: Unauthorized",
   "retry 2 after error: HTTP Error 401: Unauthorized",
-  "settlement-boundaries: FAILED HTTP Error 401: Unauthorized | {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your quota of 604083. You have 192 credits remaining, while 1318 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"df960fc21dbefbc22c8c07c37450568a\"}}",
-  "staying-in-control: 9 chunks, 10681 chars",
-  "retry 1 after error: HTTP Error 401: Unauthorized",
-  "retry 2 after error: HTTP Error 401: Unauthorized",
-  "staying-in-control: FAILED HTTP Error 401: Unauthorized | {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your quota of 604083. You have 192 credits remaining, while 1018 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"0f1bca1ffcecbaed65a42591c06d8512\"}}"
+  "settlement-boundaries: FAILED HTTP Error 401: Unauthorized | {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your quota of 604083. You have 192 credits remaining, while 1318 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"93f3df49fd6f083450a256028c6961b9\"}}"
  ],
- "credits_before": 586950,
+ "credits_before": 603891,
  "credits_after": 603891,
- "credits_spent": 16941
+ "credits_spent": 0
 }
