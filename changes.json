@@ -1,7 +1,19 @@
 {
- "verified": "31 July 2026, 06:03 (UK)",
- "checked": "2 August 2026, 06:33 (UK)",
+ "verified": "3 August 2026, 06:21 (UK)",
+ "checked": "3 August 2026, 06:21 (UK)",
  "items": [
+  {
+   "d": "31 Jul 2026",
+   "t": "Case law — inspector's dismissal quashed for not carrying the 'severe' highways finding into the planning balance (Greystoke)",
+   "b": "In Greystoke CB Ltd v Secretary of State for Housing, Communities and Local Government [2026] EWHC 1997 (Admin) the Planning Court quashed an inspector's decision dismissing an appeal for a large (about 140,000 sq m) employment development near Junction 11 of the M40 in Oxfordshire. Coppel J held that, having found the residual highway impacts would not be 'severe', the inspector erred by not applying that conclusion at the planning-balance stage, and remitted the appeal for redetermination.",
+   "u": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/1997"
+  },
+  {
+   "d": "31 Jul 2026",
+   "t": "Case law — challenge to China embassy planning permission and listed building consent dismissed (Royal Mint Court)",
+   "b": "In R (Royal Mint Court Residents' Association) v Secretary of State for Housing, Communities and Local Government [2026] EWHC 2002 (Admin) a Divisional Court dismissed a statutory challenge to the Secretary of State's grant of planning permission and listed building consent for the People's Republic of China's embassy at Royal Mint Court, London. All grounds failed, so the consents stand.",
+   "u": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/2002"
+  },
   {
    "d": "29 Jul 2026",
    "t": "GPDO amended — domestic solar equipment permitted development revised (SI 2026/896)",
@@ -61,12 +73,6 @@
    "t": "Case law — 45° daylight rule must be applied, not just cited",
    "b": "In R (Manby) v Hackney [2026] EWHC 1543 (Admin) the Planning Court quashed a householder permission because the officer's report recited the council's 45-degree daylight rule but never applied it — no assessment, calculation or site visit. The court found a failure to have regard to a material consideration, a breach of the Tameside duty and inadequate reasoning.",
    "u": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/1543"
-  },
-  {
-   "d": "9 Apr 2026",
-   "t": "GPDO amended — new Class CA and Class M change",
-   "b": "The Town and Country Planning (General Permitted Development etc.) (England) (Amendment) Order 2026 (SI 2026/313), in force 9 April 2026, adds Class CA (reverse vending machines in shop walls and curtilage, subject to size and siting limits), restricts rooftop structure heights under Class M, and updates references to the NPPF throughout the Order.",
-   "u": "https://www.legislation.gov.uk/uksi/2026/313/made"
   }
  ]
 }
