@@ -1,5 +1,5 @@
 {
- "updated": "Sunday 2 August 2026, 07:27 (UK)",
+ "updated": "Monday 3 August 2026, 05:34 (UK)",
  "jobs": [
   {
    "t": "Planning Policy Officer",
@@ -1023,22 +1023,6 @@
    "closing": "",
    "summary": "A development management role at City of Doncaster Council focused on discharging planning conditions and supporting planning-related projects.",
    "src": "City of Doncaster Council",
-   "sector": "public"
-  },
-  {
-   "t": "Planning Officer / Trainee Planning Officer",
-   "emp": "Dacorum Borough Council",
-   "loc": "Hemel Hempstead",
-   "country": "UK",
-   "sal": "£30,238 - £41,046",
-   "type": "Permanent",
-   "disc": "Development Management",
-   "lvl": "Officer",
-   "url": "https://ce0564li.webitrent.com/ce0564li_web/wrd/run/ETREC106GF.display_srch_all?WVID=1963551ZTv",
-   "posted": "2026-07-27",
-   "closing": "2026-08-02",
-   "summary": "Dacorum Borough Council is recruiting a Planning Officer or Trainee Planning Officer (ref P0775) on a permanent full-time basis, with training and possible qualification sponsorship for trainees. A UK driving licence is required.",
-   "src": "Dacorum Borough Council",
    "sector": "public"
   },
   {
@@ -2514,7 +2498,7 @@
    "sector": "public"
   },
   {
-   "t": "Planner - Development Management",
+   "t": "Planner (Development Management)",
    "emp": "Orkney Islands Council",
    "loc": "Kirkwall",
    "country": "UK",
@@ -2523,27 +2507,11 @@
    "disc": "Development Management",
    "lvl": "Officer",
    "url": "https://myjobscotland.gov.uk/councils/orkney-islands-council/jobs/planner-development-management-479289",
-   "posted": "2026-07-01",
+   "posted": "2026-08-03",
    "closing": "2026-08-09",
-   "summary": "Development management post handling a varied annual caseload of roughly 500-600 applications, including major developments, listed buildings and householder cases. Duties cover pre-application advice, determining applications and reporting to committee; open to graduates and experienced planners.",
+   "summary": "Orkney Islands Council is recruiting a permanent development management planner based in Kirkwall to determine planning applications across the islands.",
    "src": "Orkney Islands Council",
    "sector": "public"
-  },
-  {
-   "t": "Planning Manager",
-   "emp": "Taylor Wimpey",
-   "loc": "Birchwood, Warrington",
-   "country": "UK",
-   "sal": "",
-   "type": "",
-   "disc": "General",
-   "lvl": "Manager",
-   "url": "https://bebee.com/gb/jobs/planning-manager-taylor-wimpey-birchwood--theirstack-704842797",
-   "posted": "2026-06-03",
-   "closing": "2026-08-06",
-   "summary": "Housebuilder Taylor Wimpey is recruiting a Planning Manager based at its Birchwood (Warrington) office to help secure planning permissions for residential development.",
-   "src": "Taylor Wimpey",
-   "sector": "private"
   },
   {
    "t": "Principal Planner",
@@ -3040,6 +3008,102 @@
    "summary": "Community planner role with Amentum in Doha, Qatar.",
    "src": "GulfTalent",
    "sector": "private"
+  },
+  {
+   "t": "Masterplanner (Development Management)",
+   "emp": "Kirklees Council",
+   "loc": "Kirklees, West Yorkshire",
+   "country": "UK",
+   "sal": "£44,624 - £46,662 (plus £4,000 retention)",
+   "type": "",
+   "disc": "Urban Design",
+   "lvl": "Manager",
+   "url": "https://kirklees.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/4/opp/6352-Masterplanner-Project-Manager-Development-Management/en-GB",
+   "posted": "2026-08-03",
+   "closing": "",
+   "summary": "Kirklees Council is hiring a masterplanner within its development management service to lead major project and place-making work.",
+   "src": "Kirklees Council",
+   "sector": "public"
+  },
+  {
+   "t": "Conservation & Design, Trees and Ecology Team Leader (Development Management)",
+   "emp": "Kirklees Council",
+   "loc": "Kirklees, West Yorkshire",
+   "country": "UK",
+   "sal": "£44,624 - £46,662 (plus £4,000 retention)",
+   "type": "",
+   "disc": "Heritage",
+   "lvl": "Manager",
+   "url": "https://kirklees.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/4/opp/6356-Team-Leader-Conservation-Design-Trees-and-Ecology/en-GB",
+   "posted": "2026-08-03",
+   "closing": "",
+   "summary": "Kirklees Council seeks a team leader to head its conservation, design, trees and ecology function within development management.",
+   "src": "Kirklees Council",
+   "sector": "public"
+  },
+  {
+   "t": "Senior Planning Officer (Development Management)",
+   "emp": "Kirklees Council",
+   "loc": "Kirklees, West Yorkshire",
+   "country": "UK",
+   "sal": "£38,553 - £40,578 (plus £3,000 retention)",
+   "type": "",
+   "disc": "Development Management",
+   "lvl": "Senior",
+   "url": "https://kirklees.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/4/opp/6355-Senior-Planner-Majors-and-Minerals/en-GB",
+   "posted": "2026-08-03",
+   "closing": "",
+   "summary": "Kirklees Council has two senior planning officer posts handling major and minerals development management applications.",
+   "src": "Kirklees Council",
+   "sector": "public"
+  },
+  {
+   "t": "Planning Officer (Development Management)",
+   "emp": "Kirklees Council",
+   "loc": "Kirklees, West Yorkshire",
+   "country": "UK",
+   "sal": "£20,444 - £34,373 (plus £2,000 retention)",
+   "type": "",
+   "disc": "Development Management",
+   "lvl": "Officer",
+   "url": "https://kirklees.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/4/opp/6340-Assistant-Planner-Planning-Officer-Development-Management/en-GB",
+   "posted": "2026-08-03",
+   "closing": "",
+   "summary": "Kirklees Council is recruiting assistant/planning officers (two posts) in development management across a career-graded scale.",
+   "src": "Kirklees Council",
+   "sector": "public"
+  },
+  {
+   "t": "Senior Planning Officer (Planning Policy)",
+   "emp": "Kirklees Council",
+   "loc": "Kirklees, West Yorkshire",
+   "country": "UK",
+   "sal": "£38,553 - £40,578 (plus £3,000 retention)",
+   "type": "",
+   "disc": "Policy",
+   "lvl": "Senior",
+   "url": "https://kirklees.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/4/opp/6347-Senior-Planner-Planning-Policy/en-GB",
+   "posted": "2026-08-03",
+   "closing": "",
+   "summary": "Kirklees Council seeks a senior planning officer to work on local plan and planning policy matters.",
+   "src": "Kirklees Council",
+   "sector": "public"
+  },
+  {
+   "t": "Planning Officer (Planning Policy)",
+   "emp": "Kirklees Council",
+   "loc": "Kirklees, West Yorkshire",
+   "country": "UK",
+   "sal": "£20,444 - £34,373 (plus £2,000 retention)",
+   "type": "",
+   "disc": "Policy",
+   "lvl": "Officer",
+   "url": "https://kirklees.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/4/opp/6344-Assistant-Planner-Planning-Officer-Planning-Policy/en-GB",
+   "posted": "2026-08-03",
+   "closing": "",
+   "summary": "Kirklees Council is recruiting an assistant/planning officer in its planning policy team on a career-graded scale.",
+   "src": "Kirklees Council",
+   "sector": "public"
   }
  ]
 }
