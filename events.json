@@ -1,45 +1,6 @@
 {
-  "updated": "27 July 2026",
+  "updated": "3 August 2026",
   "events": [
-    {
-      "t": "UK-Ireland Planning Research Conference 2026",
-      "org": "Cardiff University",
-      "date": "2026-09-07",
-      "dtext": "7–9 Sep 2026",
-      "mode": "In person",
-      "where": "Cardiff",
-      "cost": "",
-      "cpd": "",
-      "region": "National",
-      "url": "https://research-sites.cardiff.ac.uk/planning-research-conference-2026/",
-      "checked": "2026-07-27"
-    },
-    {
-      "t": "Planning and Development Conference 2026",
-      "org": "RICS",
-      "date": "2026-09-09",
-      "dtext": "9–10 Sep 2026",
-      "mode": "Online",
-      "where": "",
-      "cost": "£135 + VAT (members)",
-      "cpd": "6 hrs",
-      "region": "Online",
-      "url": "https://academy.rics.org/uki-planning-and-development-conference-2026",
-      "checked": "2026-07-27"
-    },
-    {
-      "t": "A year on – Digital planning innovation, AI and consultation",
-      "org": "RTPI",
-      "date": "2026-09-10",
-      "dtext": "10 Sep 2026",
-      "mode": "In person",
-      "where": "Newcastle upon Tyne",
-      "cost": "From £85",
-      "cpd": "Up to 5 hrs",
-      "region": "North East",
-      "url": "https://www.rtpi.org.uk/events/a-year-on-digital-planning-innovation-ai-and-consultation/",
-      "checked": "2026-07-27"
-    },
     {
       "t": "Next steps for developing new towns in England",
       "org": "Westminster Forum",
@@ -49,12 +10,12 @@
       "where": "",
       "cost": "",
       "cpd": "",
-      "region": "National",
-      "url": "https://www.westminsterforumprojects.co.uk/book/New-Towns-26",
-      "checked": "2026-07-27"
+      "region": "Online",
+      "url": "https://www.westminsterforumprojects.co.uk/conference/New-Towns-26",
+      "checked": "2026-08-03"
     },
     {
-      "t": "RTPI APC webinar: L-APC September 2026",
+      "t": "RTPI APC Webinar: L-APC September 2026",
       "org": "RTPI",
       "date": "2026-09-22",
       "dtext": "22 Sep 2026",
@@ -64,59 +25,46 @@
       "cpd": "",
       "region": "Online",
       "url": "https://www.rtpi.org.uk/events/rtpi-apc-webinar-l-apc-september-2026/",
-      "checked": "2026-07-27"
+      "checked": "2026-08-03"
     },
     {
-      "t": "Planning for a greener environment (Preston)",
-      "org": "RTPI",
-      "date": "2026-09-30",
-      "dtext": "30 Sep 2026",
+      "t": "Planning Law Updates 2026",
+      "org": "Holmes & Hills",
+      "date": "2026-10-05",
+      "dtext": "5-8 Oct 2026",
       "mode": "In person",
-      "where": "Preston",
-      "cost": "From £85",
-      "cpd": "Up to 5 hrs",
-      "region": "North West",
-      "url": "https://www.rtpi.org.uk/events/planning-for-a-greener-environment-preston/",
-      "checked": "2026-07-27"
-    },
-    {
-      "t": "RTPI APC webinar: EP-APC October 2026",
-      "org": "RTPI",
-      "date": "2026-10-01",
-      "dtext": "1 Oct 2026",
-      "mode": "Online",
-      "where": "",
-      "cost": "Free",
+      "where": "Essex & Suffolk",
+      "cost": "",
       "cpd": "",
-      "region": "Online",
-      "url": "https://www.rtpi.org.uk/events/rtpi-apc-webinar-ep-apc-october-2026/",
-      "checked": "2026-07-27"
+      "region": "East of England",
+      "url": "https://www.holmes-hills.co.uk/event/planning-law-updates-2026-save-the-date/",
+      "checked": "2026-08-03"
     },
     {
-      "t": "Land Use Conference 2026 – From Promise to Delivery",
+      "t": "Land Use Conference 2026 - From Promise to Delivery",
       "org": "Landmark Chambers",
       "date": "2026-10-14",
       "dtext": "14 Oct 2026",
       "mode": "In person",
-      "where": "London",
-      "cost": "£249 + VAT",
+      "where": "IET London, Savoy Place",
+      "cost": "£249",
       "cpd": "",
       "region": "London",
       "url": "https://www.eventbrite.co.uk/e/land-use-conference-2026-from-promise-to-delivery-land-use-reform-tickets-1986970815196",
-      "checked": "2026-07-27"
+      "checked": "2026-08-03"
     },
     {
-      "t": "Next steps for the planning system and housebuilding in England",
-      "org": "Westminster Forum",
+      "t": "Young Planners' Conference 2026: Planning the future we want",
+      "org": "RTPI",
       "date": "2026-10-16",
-      "dtext": "16 Oct 2026",
-      "mode": "Online",
-      "where": "",
-      "cost": "",
-      "cpd": "",
-      "region": "National",
-      "url": "https://www.westminsterforumprojects.co.uk/book/Housebuilding-26",
-      "checked": "2026-07-27"
+      "dtext": "16-17 Oct 2026",
+      "mode": "In person",
+      "where": "Royal Armouries, Leeds",
+      "cost": "From £95",
+      "cpd": "12 hrs",
+      "region": "Yorkshire and the Humber",
+      "url": "https://www.rtpi.org.uk/events/young-planners-conference-2026-planning-the-future-we-want/",
+      "checked": "2026-08-03"
     },
     {
       "t": "Autumn planning law update 2026",
@@ -126,49 +74,49 @@
       "mode": "In person",
       "where": "Newcastle upon Tyne",
       "cost": "From £47",
-      "cpd": "Up to 5 hrs",
+      "cpd": "5 hrs",
       "region": "North East",
       "url": "https://www.rtpi.org.uk/events/autumn-planning-law-update-2026/",
-      "checked": "2026-07-27"
+      "checked": "2026-08-03"
     },
     {
-      "t": "Development management update (Warrington)",
+      "t": "Planning policy at pace (part two) - Policy exchange",
       "org": "RTPI",
-      "date": "2026-10-22",
-      "dtext": "22 Oct 2026",
+      "date": "2026-11-04",
+      "dtext": "4 Nov 2026",
       "mode": "In person",
-      "where": "Warrington",
-      "cost": "From £85",
-      "cpd": "Up to 5 hrs",
-      "region": "North West",
-      "url": "https://www.rtpi.org.uk/events/development-management-update-warrington/",
-      "checked": "2026-07-27"
+      "where": "Newcastle upon Tyne",
+      "cost": "From £47",
+      "cpd": "3 hrs",
+      "region": "North East",
+      "url": "https://www.rtpi.org.uk/events/planning-policy-at-pace-part-two-policy-exchange/",
+      "checked": "2026-08-03"
     },
     {
-      "t": "Planning law update hybrid seminar (Bristol and online)",
-      "org": "RTPI",
-      "date": "2026-11-10",
-      "dtext": "10 Nov 2026",
-      "mode": "In person",
-      "where": "Bristol (& online)",
-      "cost": "From £60",
-      "cpd": "Up to 5 hrs",
-      "region": "South West",
-      "url": "https://www.rtpi.org.uk/events/planning-law-update-hybrid-seminar-bristol-and-online/",
-      "checked": "2026-07-27"
+      "t": "Planning High Court Challenges 2026 Webinar Series - Session 1",
+      "org": "Landmark Chambers",
+      "date": "2026-11-09",
+      "dtext": "9 Nov 2026",
+      "mode": "Online",
+      "where": "",
+      "cost": "Free",
+      "cpd": "",
+      "region": "Online",
+      "url": "https://www.landmarkchambers.co.uk/events/planning-high-court-challenges-2026-webinar-series-session-1-planning-and-environmental-issues",
+      "checked": "2026-08-03"
     },
     {
-      "t": "Technicalities of planning 2026",
+      "t": "Technicalities of Planning 2026",
       "org": "RTPI",
       "date": "2026-11-25",
       "dtext": "25 Nov 2026",
       "mode": "In person",
       "where": "Newcastle upon Tyne",
       "cost": "From £85",
-      "cpd": "Up to 5 hrs",
+      "cpd": "5 hrs",
       "region": "North East",
       "url": "https://www.rtpi.org.uk/events/technicalities-of-planning-2026/",
-      "checked": "2026-07-27"
+      "checked": "2026-08-03"
     }
   ]
 }
