@@ -1,0 +1,84 @@
+{
+ "updated": "3 August 2026",
+ "log": [
+  {
+   "d": "3 August 2026",
+   "items": [
+    "Fixed: tapping <b>Upgrade</b> could lock the screen on some phones. The Premium panel now opens reliably, including access-code entry.",
+    "In the document templates, the <b>Close</b> button now sits clear of the phone’s clock — and a second Close button has been added at the end of every template.",
+    "PlanRef’s legal and intellectual property notice now appears at the foot of the app."
+   ]
+  },
+  {
+   "d": "1 August 2026",
+   "items": [
+    "The <b>Appeal Finder</b> no longer downloads the full 185,000-decision record on start-up — it asks first, and once downloaded the record now survives app updates instead of being fetched again.",
+    "Appeal results link straight to the case on the Planning Inspectorate portal where a modern reference allows it, and you can paste a full <b>APP/…</b> reference into the search box.",
+    "The <b>local planning authority finder</b> now recognises abolished districts — Harrogate, Aylesbury Vale, Taunton Deane, Wear Valley and the rest — and names the successor authority and the year of the change.",
+    "Search now finds the <b>Householder PD Navigator</b>, <b>Setting Up Your Planning Consultancy</b>, the jobs board, salaries, the Career Pathway Assessment, the Bookshelf, Listen, What’s On and the Site Appraisal Tool. Several were unreachable from search before.",
+    "The Bookshelf, jobs board, What’s On, Listen and Salaries pages now appear at once from the copy on your device and refresh in the background, instead of waiting on the network.",
+    "The <b>Site Intelligence Overlay</b> and <b>Heritage &amp; Archaeology screening</b> now work offline and no longer depend on an outside service to load their maps.",
+    "This log is now published as a feed, so it can be updated without a new release."
+   ]
+  },
+  {
+   "d": "26 July 2026",
+   "items": [
+    "New: the <b>Site Appraisal Tool</b> (premium) — build a site record across eight sections and generate a branded appraisal PDF to save to your phone or desktop, or email.",
+    "New: the <b>Setting Up Your Planning Consultancy</b> guide, with a nine-template client &amp; business pack."
+   ]
+  },
+  {
+   "d": "25 July 2026",
+   "items": [
+    "The <b>Recent Changes</b> card now shows the five most recent items.",
+    "Tidy-up: the Article 4 map moved out to its own site, and the incomplete pre-application fee finder was withdrawn."
+   ]
+  },
+  {
+   "d": "23 July 2026",
+   "items": [
+    "Fixed: the first five topics of <b>Decision-Making &amp; Material Considerations</b> would not open — an internal naming clash with the Development Plan Journey. All 16 topics now open.",
+    "The jobs board now shows the day and time it was last refreshed at the top of the list."
+   ]
+  },
+  {
+   "d": "22 July 2026",
+   "items": [
+    "Founding member prices corrected — <b>£15.99/month and £159.99/year</b>.",
+    "Home screen reordered — the Practitioner Library and Site Intelligence Overlay now lead the content sections.",
+    "The Appeal Finder now asks before downloading the full ~23MB decision index — best on Wi-Fi; the quick index works as before.",
+    "What’s On and the jobs board now show when listings were last refreshed — and say so plainly if a refresh has been missed.",
+    "Your profile does more: ‘For you’ guides now sit at the top of Home, practitioner roles default to Practitioner Notes (premium), and the Recent Changes card shows each morning’s 6am source check — including on no-change days.",
+    "Unwritten article listings removed from Technology &amp; Climate — articles appear here when they are written, not before.",
+    "The pre-application fee finder has been withdrawn — its coverage was incomplete, and an incomplete fee finder is worse than none."
+   ]
+  },
+  {
+   "d": "21 July 2026",
+   "items": [
+    "<b>Listen</b> — the PlanRef library as audio, narrated by the author: 31 recordings covering every specialist guide, the career flagships, the technology and climate articles and the wellbeing series. Premium; find them on the new Listen page or at the top of each guide.",
+    "One player across the app — resume where you stopped, seek, and 1×/1.25×/1.5× speeds. Audio streams on demand rather than downloading, so it never fills your phone."
+   ]
+  },
+  {
+   "d": "20 July 2026",
+   "items": [
+    "New <b>Planning Technology &amp; Innovation</b> section (free) — three articles: The Future of Planning, Artificial Intelligence in Planning, and Planning Data &amp; Spatial Intelligence.",
+    "Copyright and intellectual property updated to <b>PlanRef Limited</b>, with a dedicated Copyright &amp; IP page.",
+    "This “What’s New” log added, so you can see at a glance when the app was last improved."
+   ]
+  },
+  {
+   "d": "19 July 2026",
+   "items": [
+    "<b>Nutrient neutrality</b> — catchment-specific calculators for all 27 official Natural England catchments, reproducing each one’s treatment-works concentrations, post-2025/2030 permit dates and Farmscoper land-use coefficients.",
+    "New premium <b>Ecological survey calendar</b> — searchable by species, by month and by English region.",
+    "New premium <b>Heritage &amp; Archaeology screening</b> tool — designated heritage within a chosen radius, with National Heritage List links and HER signposting.",
+    "New free How To guides: <b>How to Become a Chartered Town Planner</b> and <b>How to Write a Delegated Officer Report</b>.",
+    "Enforcement guide corrected — the £20,000 magistrates’ fine cap is removed; non-compliance now carries an unlimited fine.",
+    "Larger, bolder top banner; an in-app back button; and the Recent Changes feed now sorted newest-first."
+   ]
+  }
+ ]
+}
