@@ -1,5 +1,5 @@
 {
- "updated": "24 August 2026",
+ "updated": "Tuesday 25 August 2026, 12:36 (UK)",
  "jobs": [
   {
    "t": "Planner (Strategy)",
@@ -4306,22 +4306,6 @@
    "sector": "private"
   },
   {
-   "t": "Marine Planning Officer",
-   "emp": "Comhairle nan Eilean Siar",
-   "loc": "Stornoway, Western Isles",
-   "country": "UK",
-   "sal": "£48,622 - £52,635 (incl. Distant Islands Allowance)",
-   "type": "Permanent",
-   "disc": "Environmental",
-   "lvl": "Officer",
-   "url": "https://myjobscotland.gov.uk/councils/comhairle-nan-eilean-siar/jobs/marine-planning-officer-stornowaybalivanich-481846",
-   "posted": "2026-07-23",
-   "closing": "2026-08-24",
-   "summary": "Spatial planning post processing and assessing applications for development in the marine environment, advising the public, reporting to committee and representing the council at appeals and inquiries. Requires a marine planning qualification and/or RTPI membership with development management experience.",
-   "src": "Comhairle nan Eilean Siar",
-   "sector": "public"
-  },
-  {
    "t": "Senior Town Planner",
    "emp": "WSP",
    "loc": "Newcastle upon Tyne",
@@ -5631,6 +5615,54 @@
    "closing": "",
    "summary": "One-year temporary post within the council's multi-disciplinary planning policy team, contributing to development plan and planning policy work in Neath Port Talbot.",
    "src": "Neath Port Talbot Council",
+   "sector": "public"
+  },
+  {
+   "t": "Town Planner/Senior Planner",
+   "emp": "Carter Jonas",
+   "loc": "Bristol",
+   "country": "UK",
+   "sal": "",
+   "type": "Permanent",
+   "disc": "Development Management",
+   "lvl": "Senior",
+   "url": "https://jobs.carterjonas.co.uk/job",
+   "posted": "2026-08-25",
+   "closing": "",
+   "summary": "Town Planner/Senior Planner role in Carter Jonas' Planning & Development team, based in Bristol.",
+   "src": "Carter Jonas",
+   "sector": "private"
+  },
+  {
+   "t": "Planner (Conservation)",
+   "emp": "Aberdeen City Council",
+   "loc": "Aberdeen",
+   "country": "UK",
+   "sal": "£30,030–£46,829",
+   "type": "Permanent",
+   "disc": "Heritage",
+   "lvl": "Officer",
+   "url": "https://myjobscotland.gov.uk/councils/aberdeen-city-council/jobs/planner-conservation-485661",
+   "posted": "2026-08-25",
+   "closing": "2026-09-15",
+   "summary": "Conservation planner role at Aberdeen City Council dealing with heritage and conservation matters within the planning service.",
+   "src": "Aberdeen City Council",
+   "sector": "public"
+  },
+  {
+   "t": "Area Development Manager",
+   "emp": "Braintree District Council",
+   "loc": "Braintree",
+   "country": "UK",
+   "sal": "",
+   "type": "Permanent",
+   "disc": "Development Management",
+   "lvl": "Manager",
+   "url": "https://jobs.theplanner.co.uk/job/47126/area-development-manager/",
+   "posted": "2026-08-25",
+   "closing": "",
+   "summary": "Area development management manager role at Braintree District Council, Essex, overseeing a planning applications team.",
+   "src": "The Planner Jobs",
    "sector": "public"
   }
  ]
