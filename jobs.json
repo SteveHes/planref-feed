@@ -1,6 +1,22 @@
 {
- "updated": "Sunday 6 September 2026, 12:48 (UK)",
+ "updated": "Monday 7 September 2026, 12:29 (UK)",
  "jobs": [
+  {
+   "t": "Planning Officer",
+   "emp": "Wentworth Shire Council",
+   "loc": "Wentworth, New South Wales",
+   "country": "Australia",
+   "sal": "AU$87,344 + 12% super",
+   "type": "Permanent",
+   "disc": "General",
+   "lvl": "Officer",
+   "url": "https://www.wentworth.nsw.gov.au/r2026-42-planning-officer/",
+   "posted": "2026-09-07",
+   "closing": "2026-09-21",
+   "summary": "Permanent town planning role providing professional planning guidance to ensure compliance with the relevant planning instruments, codes and policy, and assisting with strategic planning documents.",
+   "src": "Wentworth Shire Council",
+   "sector": "public"
+  },
   {
    "t": "Senior Town Planner",
    "emp": "Private consultancy (via Planning Jobs)",
@@ -416,38 +432,6 @@
    "summary": "Permanent full-time planning consultancy role for an RTPI-qualified planner or senior planner in Savills' Bristol Planning & Development team.",
    "src": "Savills",
    "sector": "private"
-  },
-  {
-   "t": "Development Management Team Manager",
-   "emp": "North Yorkshire Council",
-   "loc": "Northallerton",
-   "country": "UK",
-   "sal": "£53,051 - £57,372",
-   "type": "Permanent",
-   "disc": "Development Management",
-   "lvl": "Manager",
-   "url": "https://nycjobs.engageats.co.uk/Vacancies/W/5320/0/472762/19552/development-management-team-manager",
-   "posted": "2026-09-05",
-   "closing": "2026-09-06",
-   "summary": "Development management team manager post for North Yorkshire Council based in Northallerton, with a relocation allowance and a one-off recruitment payment of up to 10 per cent.",
-   "src": "North Yorkshire Council",
-   "sector": "public"
-  },
-  {
-   "t": "Development Management Team Manager",
-   "emp": "North Yorkshire Council",
-   "loc": "Selby",
-   "country": "UK",
-   "sal": "£53,051 - £57,372",
-   "type": "Permanent",
-   "disc": "Development Management",
-   "lvl": "Manager",
-   "url": "https://nycjobs.engageats.co.uk/Vacancies/W/3913/0/472759/19832/development-management-team-manager",
-   "posted": "2026-09-05",
-   "closing": "2026-09-06",
-   "summary": "Development management team manager post for North Yorkshire Council based in Selby, with a relocation allowance and a one-off recruitment payment of up to 10 per cent.",
-   "src": "North Yorkshire Council",
-   "sector": "public"
   },
   {
    "t": "Associate Director",
@@ -1826,22 +1810,6 @@
    "sector": "public"
   },
   {
-   "t": "Development Management Team Manager",
-   "emp": "North Yorkshire Council",
-   "loc": "Northallerton / Selby, North Yorkshire",
-   "country": "UK",
-   "sal": "£51,356–£55,539",
-   "type": "Permanent",
-   "disc": "Development Management",
-   "lvl": "Manager",
-   "url": "https://www.northyorks.gov.uk/jobs-and-careers/featured-jobs/planning-service-career-opportunities",
-   "posted": "2026-08-21",
-   "closing": "2026-09-06",
-   "summary": "Development management team manager roles with North Yorkshire Council at its Northallerton and Selby offices, with relocation and recruitment incentives offered.",
-   "src": "North Yorkshire Council",
-   "sector": "public"
-  },
-  {
    "t": "Director of Town Planning",
    "emp": "Consultancy (via Planning Jobs)",
    "loc": "Cardiff",
@@ -2048,38 +2016,6 @@
    "summary": "Senior town planner role in Manchester with a private consultancy.",
    "src": "Planning Jobs",
    "sector": "private"
-  },
-  {
-   "t": "Principal Planner (Strategic Spatial Strategy)",
-   "emp": "Glasgow City Council",
-   "loc": "Glasgow",
-   "country": "UK",
-   "sal": "£55,388.20 - £64,300.11 per year",
-   "type": "Permanent",
-   "disc": "Policy",
-   "lvl": "Principal",
-   "url": "https://myjobscotland.gov.uk/councils/glasgow/jobs/principal-planner-strategic-spatial-strategy-485132",
-   "posted": "2026-08-20",
-   "closing": "2026-09-06",
-   "summary": "Senior post in Glasgow's GCR Place team leading development of the Regional Spatial Strategy and other strategic spatial plans. Involves place-based planning and spatial analysis (GIS, mapping, data).",
-   "src": "Glasgow City Council",
-   "sector": "public"
-  },
-  {
-   "t": "Project Officer (Spatial Strategy Delivery)",
-   "emp": "Glasgow City Council",
-   "loc": "Glasgow",
-   "country": "UK",
-   "sal": "£45,495.39 - £52,944.70 per year",
-   "type": "Fixed-term",
-   "disc": "Regeneration",
-   "lvl": "Officer",
-   "url": "https://myjobscotland.gov.uk/councils/glasgow/jobs/project-officer-spatial-strategy-deliveryfixed-term-485115",
-   "posted": "2026-08-20",
-   "closing": "2026-09-06",
-   "summary": "Two-year fixed-term post supporting place-based regeneration projects and delivery of spatial strategy initiatives aligned with Glasgow's City Development Plan. Sits within the Neighbourhoods, Regeneration and Sustainability service.",
-   "src": "Glasgow City Council",
-   "sector": "public"
   },
   {
    "t": "Senior Planning Officer",
@@ -2351,22 +2287,6 @@
    "closing": "2026-09-15",
    "summary": "Contract team leader line-managing DM staff and determining applications for a Midlands local authority; flexible/home working.",
    "src": "PlanningJobs / Carrington West",
-   "sector": "public"
-  },
-  {
-   "t": "Fixed-term Planning Officer",
-   "emp": "Teignbridge District Council",
-   "loc": "Newton Abbot, Devon",
-   "country": "UK",
-   "sal": "£31,022–£38,220",
-   "type": "Fixed-term",
-   "disc": "Development Management",
-   "lvl": "Officer",
-   "url": "https://jp.planningjobs.co.uk/jobdetail/29797/fixed-term-planning-officer",
-   "posted": "2026-08-19",
-   "closing": "2026-09-06",
-   "summary": "24-month fixed-term planning officer post at Teignbridge District Council, full-time in Newton Abbot.",
-   "src": "PlanningJobs / Teignbridge DC",
    "sector": "public"
   },
   {
@@ -3234,22 +3154,6 @@
    "src": "Fingal County Council"
   },
   {
-   "t": "Development Management Team Manager",
-   "emp": "North Yorkshire Council",
-   "loc": "Northallerton or Selby, North Yorkshire",
-   "country": "UK",
-   "sal": "£51,356-£55,539",
-   "type": "Permanent",
-   "disc": "Development Management",
-   "lvl": "Manager",
-   "url": "https://jp.planningjobs.co.uk/jobdetail/29732",
-   "posted": "2026-08-12",
-   "closing": "2026-09-06",
-   "summary": "Permanent leadership post managing a development management team at North Yorkshire Council, overseeing complex and high-profile applications and appeals. RTPI chartered membership required.",
-   "src": "PlanningJobs",
-   "sector": "public"
-  },
-  {
    "t": "Senior Town Planner",
    "emp": "Penguin Recruitment",
    "loc": "Tunbridge Wells, Kent",
@@ -3506,22 +3410,6 @@
    "sector": "public"
   },
   {
-   "t": "Planning Conditions Officer",
-   "emp": "Carrington West",
-   "loc": "East Yorkshire",
-   "country": "UK",
-   "sal": "£50-£55 per hour",
-   "type": "Contract",
-   "disc": "Development Management",
-   "lvl": "Officer",
-   "url": "https://jp.planningjobs.co.uk/jobdetail/29718/planning-conditions-officer",
-   "posted": "2026-08-09",
-   "closing": "2026-09-06",
-   "summary": "Interim planning conditions officer role via Carrington West, an initial six-to-nine month contract in East Yorkshire. Hourly rate quoted.",
-   "src": "Carrington West",
-   "sector": "public"
-  },
-  {
    "t": "Senior Planning Officer",
    "emp": "Carrington West",
    "loc": "West Midlands",
@@ -3570,22 +3458,6 @@
    "sector": "public"
   },
   {
-   "t": "Senior Planning Officer",
-   "emp": "Carrington West",
-   "loc": "South East England",
-   "country": "UK",
-   "sal": "£45-£52 per hour",
-   "type": "Contract",
-   "disc": "Development Management",
-   "lvl": "Senior",
-   "url": "https://jp.planningjobs.co.uk/jobdetail/29711/senior-planning-officer",
-   "posted": "2026-08-09",
-   "closing": "2026-09-06",
-   "summary": "Interim senior planning officer contract (inside IR35) via Carrington West with a South East England local authority. Hourly rate quoted.",
-   "src": "Carrington West",
-   "sector": "public"
-  },
-  {
    "t": "Principal Planning Officer",
    "emp": "Carrington West",
    "loc": "England",
@@ -3598,22 +3470,6 @@
    "posted": "2026-08-09",
    "closing": "",
    "summary": "Interim principal planning officer role via Carrington West with a local planning authority in England. Hourly contract rate quoted.",
-   "src": "Carrington West",
-   "sector": "public"
-  },
-  {
-   "t": "Senior/Principal Planning Policy Officer",
-   "emp": "Carrington West",
-   "loc": "England (Home Counties)",
-   "country": "UK",
-   "sal": "£45-£60 per hour",
-   "type": "Contract",
-   "disc": "Policy",
-   "lvl": "Principal",
-   "url": "https://jp.planningjobs.co.uk/jobdetail/29709/seniorprincipal-planning-policy-officer",
-   "posted": "2026-08-09",
-   "closing": "2026-09-06",
-   "summary": "Interim senior/principal planning policy contract (three-month rolling) via Carrington West with a Home Counties authority. Hourly rate quoted.",
    "src": "Carrington West",
    "sector": "public"
   },
@@ -4352,22 +4208,6 @@
    "summary": "Town planner role at consultancy Stantec in Birmingham, working across residential, mixed-use, commercial and employment schemes. Chartered or working towards chartership.",
    "src": "Stantec",
    "sector": "private"
-  },
-  {
-   "t": "Senior Planning Enforcement Officer",
-   "emp": "Folkestone & Hythe District Council",
-   "loc": "Folkestone",
-   "country": "UK",
-   "sal": "£38,704 - £51,393",
-   "type": "Permanent",
-   "disc": "Enforcement",
-   "lvl": "Senior",
-   "url": "https://www.lgjobs.com/job/senior-planning-enforcement-officer-75175",
-   "posted": "2026-07-30",
-   "closing": "2026-09-06",
-   "summary": "Senior enforcement post in Folkestone & Hythe's Development Management team, dealing with planning breaches and CIL. Hybrid working offered.",
-   "src": "LG Jobs",
-   "sector": "public"
   },
   {
    "t": "Senior Development Management Officer",
