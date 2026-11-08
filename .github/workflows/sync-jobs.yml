@@ -1,0 +1,37 @@
+name: Sync jobs feed
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch jobs from PlanRef Careers
+        run: |
+          curl -fsSL "https://planref-careers-api.steve-a3b.workers.dev/jobs.json?t=$(date +%s)" -o new.json
+          n=$(jq '.jobs | length' new.json)
+          echo "Jobs received: $n"
+          if [ "$n" -lt 20 ]; then echo "Too few jobs, leaving the feed alone"; exit 1; fi
+          jq . new.json > jobs.json
+          rm new.json
+
+      - name: Save if changed
+        run: |
+          git config user.name "PlanRef Feed Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add jobs.json
+          if git diff --cached --quiet; then
+            echo "No change"
+          else
+            git commit -m "Jobs feed sync"
+            git pull --rebase
+            git push
+          fi
