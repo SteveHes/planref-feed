@@ -2530,22 +2530,6 @@
       "sector": "public"
     },
     {
-      "t": "Planning Officer - Trees (EE11026)",
-      "emp": "Walsall Metropolitan Borough Council",
-      "loc": "Walsall (hybrid)",
-      "country": "United Kingdom",
-      "sal": "£40,444 - £43,149 per year",
-      "type": "",
-      "disc": "Environmental",
-      "lvl": "Officer",
-      "url": "https://www.lgjobs.com/job/planning-officer-trees-ref-ee11026-106204",
-      "posted": "2026-11-01",
-      "closing": "2026-11-14",
-      "summary": "Council lead on trees and hedgerows in the planning process, including Tree Preservation Orders.",
-      "src": "LG Jobs",
-      "sector": "public"
-    },
-    {
       "t": "Planning Officer",
       "emp": "North Northamptonshire Council",
       "loc": "Thrapston (hybrid)",
@@ -4674,22 +4658,6 @@
       "sector": "private"
     },
     {
-      "t": "Town Planner",
-      "emp": "Foxes Rural Ltd",
-      "loc": "Eight Ash Green, Colchester (or remote)",
-      "country": "United Kingdom",
-      "sal": "Competitive",
-      "type": "Permanent",
-      "disc": "Rural",
-      "lvl": "Officer",
-      "url": "https://jp.planningjobs.co.uk/jobdetail/31715/town-planner",
-      "posted": "2026-10-15",
-      "closing": "2026-11-14",
-      "summary": "Rural planning consultancy role advising farmers and landowners on agricultural permitted development and countryside applications.",
-      "src": "Planning Jobs",
-      "sector": "private"
-    },
-    {
       "t": "Associate Town Planner",
       "emp": "Private consultancy (via Planning Jobs)",
       "loc": "Bristol",
@@ -4720,54 +4688,6 @@
       "summary": "Senior consultancy town planning post in York.",
       "src": "Planning Jobs",
       "sector": "private"
-    },
-    {
-      "t": "Minerals and Waste Principal Planning Officer",
-      "emp": "Wiltshire Council",
-      "loc": "Wiltshire",
-      "country": "United Kingdom",
-      "sal": "£47,665 - £49,817",
-      "type": "Fixed-term",
-      "disc": "Policy",
-      "lvl": "Principal",
-      "url": "https://jp.planningjobs.co.uk/jobdetail/31720/minerals-and-waste-principal-planning-officer",
-      "posted": "2026-10-15",
-      "closing": "2026-11-14",
-      "summary": "Twelve-month maternity cover working on minerals and waste plan-making. Rolling advert that may close early.",
-      "src": "Planning Jobs",
-      "sector": "public"
-    },
-    {
-      "t": "Principal Planning Officer (Minerals and Waste DM)",
-      "emp": "Wiltshire Council",
-      "loc": "Wiltshire",
-      "country": "United Kingdom",
-      "sal": "£47,665 - £49,817",
-      "type": "Permanent",
-      "disc": "Development Management",
-      "lvl": "Principal",
-      "url": "https://jp.planningjobs.co.uk/jobdetail/31721/principal-planning-officer",
-      "posted": "2026-10-15",
-      "closing": "2026-11-14",
-      "summary": "Manages a portfolio of strategic minerals and waste planning applications, including EIA and pre-application work. Rolling advert that may close early.",
-      "src": "Planning Jobs",
-      "sector": "public"
-    },
-    {
-      "t": "Planning Development Manager",
-      "emp": "Braintree District Council",
-      "loc": "Braintree, Essex",
-      "country": "United Kingdom",
-      "sal": "£67,593 - £73,794",
-      "type": "Permanent",
-      "disc": "Development Management",
-      "lvl": "Manager",
-      "url": "https://jp.planningjobs.co.uk/jobdetail/31727/planning-development-manager",
-      "posted": "2026-10-15",
-      "closing": "2026-11-14",
-      "summary": "Leads the council's development management service, including area managers and principal planners. Oversees S106 negotiations and viability work on major applications.",
-      "src": "Planning Jobs",
-      "sector": "public"
     }
   ]
 }
